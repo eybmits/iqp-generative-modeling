@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software or reproducibility package, please cite it using this metadata."
+type: software
+title: "IQP Generative Benchmark"
+authors:
+  - family-names: "Baumann"
+    given-names: "Markus"
+repository-code: "https://github.com/eybmits/iqp-generative-modeling"
+keywords:
+  - "IQP circuits"
+  - "quantum generative modeling"
+  - "reproducibility"
