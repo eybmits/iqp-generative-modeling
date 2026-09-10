@@ -1,0 +1,1194 @@
+{
+  "selection_tier": "paper",
+  "selected": {
+    "beta": 0.9,
+    "parity": {
+      "beta": 0.9,
+      "architecture": "ring3",
+      "objective": "parity",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "family": "parity",
+      "parameters": 36,
+      "key": "b0.9_ring3_parity_sigma0.75_lr0.1",
+      "fits": 10,
+      "failures": 0,
+      "nonfinite_validation_nll": 0,
+      "mean_validation_nll": 6.003607212623593,
+      "mean_kl": 0.3420059772353582,
+      "mean_recovery_1000": 0.43585083029595334
+    },
+    "mse": {
+      "mse_matched": {
+        "beta": 0.9,
+        "architecture": "ring3",
+        "objective": "mse",
+        "sigma": 1.0,
+        "lr": 0.1,
+        "family": "mse",
+        "parameters": 36,
+        "key": "b0.9_ring3_mse_sigma1_lr0.1",
+        "fits": 10,
+        "failures": 0,
+        "nonfinite_validation_nll": 0,
+        "mean_validation_nll": 6.052739452830345,
+        "mean_kl": 0.39594576152119987,
+        "mean_recovery_1000": 0.4127197996541936
+      },
+      "mse_same": {
+        "beta": 0.9,
+        "architecture": "ring3",
+        "objective": "mse",
+        "sigma": 1.0,
+        "lr": 0.2,
+        "family": "mse",
+        "parameters": 36,
+        "key": "b0.9_ring3_mse_sigma1_lr0.2",
+        "fits": 10,
+        "failures": 0,
+        "nonfinite_validation_nll": 0,
+        "mean_validation_nll": 6.032993392662511,
+        "mean_kl": 0.37746560121119294,
+        "mean_recovery_1000": 0.4175829138361786
+      },
+      "mse_global": {
+        "beta": 0.9,
+        "architecture": "ring3",
+        "objective": "mse",
+        "sigma": 1.0,
+        "lr": 0.2,
+        "family": "mse",
+        "parameters": 36,
+        "key": "b0.9_ring3_mse_sigma1_lr0.2",
+        "fits": 10,
+        "failures": 0,
+        "nonfinite_validation_nll": 0,
+        "mean_validation_nll": 6.032993392662511,
+        "mean_kl": 0.37746560121119294,
+        "mean_recovery_1000": 0.4175829138361786
+      }
+    },
+    "classical": {
+      "ising-parity_paper": {
+        "beta": 0.9,
+        "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+        "config": {
+          "model": "ising-parity",
+          "architecture": "ring",
+          "sigma": 1.0,
+          "lr": 0.05,
+          "steps": 600,
+          "support_aware": false,
+          "l2": 0.0
+        },
+        "runs": 10,
+        "mean_validation_nll": 6.7487412781401614,
+        "mean_kl": 1.0822861324446955,
+        "failures": 0,
+        "nonfinite_validation_nll": 0
+      },
+      "ising-parity_support": {
+        "beta": 0.9,
+        "key": "ising-parity_ring3_s2_lr0.02_t600_support",
+        "config": {
+          "model": "ising-parity",
+          "architecture": "ring3",
+          "sigma": 2.0,
+          "lr": 0.02,
+          "steps": 600,
+          "support_aware": true,
+          "l2": 0.0
+        },
+        "runs": 10,
+        "mean_validation_nll": 6.011377995983778,
+        "mean_kl": 0.35438485417515764,
+        "failures": 0,
+        "nonfinite_validation_nll": 0
+      },
+      "ising-nll_paper": {
+        "beta": 0.9,
+        "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+        "config": {
+          "model": "ising-nll",
+          "architecture": "dense",
+          "sigma": 1.0,
+          "lr": 0.05,
+          "steps": 600,
+          "support_aware": false,
+          "l2": 0.0
+        },
+        "runs": 10,
+        "mean_validation_nll": 6.7447805444057725,
+        "mean_kl": 1.088202126659809,
+        "failures": 0,
+        "nonfinite_validation_nll": 0
+      },
+      "ising-nll_support": {
+        "beta": 0.9,
+        "key": "ising-nll_dense_s1_lr0.005_t100_support",
+        "config": {
+          "model": "ising-nll",
+          "architecture": "dense",
+          "sigma": 1.0,
+          "lr": 0.005,
+          "steps": 100,
+          "support_aware": true,
+          "l2": 0.0
+        },
+        "runs": 10,
+        "mean_validation_nll": 5.982414241328732,
+        "mean_kl": 0.327022328808748,
+        "failures": 0,
+        "nonfinite_validation_nll": 0
+      },
+      "maxent_paper": {
+        "beta": 0.9,
+        "key": "maxent_features_s1_lr0.05_t600_paper",
+        "config": {
+          "model": "maxent",
+          "architecture": "features",
+          "sigma": 1.0,
+          "lr": 0.05,
+          "steps": 600,
+          "support_aware": false,
+          "l2": 0.0
+        },
+        "runs": 10,
+        "mean_validation_nll": 7.91896896916793,
+        "mean_kl": 2.2481314999573163,
+        "failures": 0,
+        "nonfinite_validation_nll": 0
+      },
+      "maxent_support": {
+        "beta": 0.9,
+        "key": "maxent_features_s2_lr0.005_t50_support",
+        "config": {
+          "model": "maxent",
+          "architecture": "features",
+          "sigma": 2.0,
+          "lr": 0.005,
+          "steps": 50,
+          "support_aware": true,
+          "l2": 0.0
+        },
+        "runs": 10,
+        "mean_validation_nll": 6.037503886185595,
+        "mean_kl": 0.3819218259173998,
+        "failures": 0,
+        "nonfinite_validation_nll": 0
+      },
+      "transformer_paper": {
+        "beta": 0.9,
+        "key": "transformer_full_s1_lr0.001_t600_paper",
+        "config": {
+          "model": "transformer",
+          "architecture": "full",
+          "sigma": 1.0,
+          "lr": 0.001,
+          "steps": 600,
+          "support_aware": false,
+          "l2": 0.0
+        },
+        "runs": 10,
+        "mean_validation_nll": 6.503674730764852,
+        "mean_kl": 0.8323017077799493,
+        "failures": 0,
+        "nonfinite_validation_nll": 0
+      },
+      "transformer_support": {
+        "beta": 0.9,
+        "key": "transformer_prefix_s1_lr0.003_t100_support",
+        "config": {
+          "model": "transformer",
+          "architecture": "prefix",
+          "sigma": 1.0,
+          "lr": 0.003,
+          "steps": 100,
+          "support_aware": true,
+          "l2": 0.0
+        },
+        "runs": 10,
+        "mean_validation_nll": 5.870056411927315,
+        "mean_kl": 0.2123854825676849,
+        "failures": 0,
+        "nonfinite_validation_nll": 0
+      }
+    },
+    "validation_gaps": {
+      "mse_matched": -0.049132240206751554,
+      "mse_same": -0.029386180038917686,
+      "mse_global": -0.029386180038917686,
+      "ising-parity_paper": -0.7451340655165684,
+      "ising-parity_support": -0.007770783360184552,
+      "ising-nll_paper": -0.7411733317821794,
+      "ising-nll_support": 0.02119297129486153,
+      "maxent_paper": -1.9153617565443373,
+      "maxent_support": -0.0338966735620021,
+      "transformer_paper": -0.5000675181412593,
+      "transformer_support": 0.13355080069627778
+    },
+    "support_worst_gap": 0.13355080069627778,
+    "paper_worst_gap": -0.029386180038917686
+  },
+  "candidates": [
+    {
+      "beta": 0.9,
+      "parity": {
+        "beta": 0.9,
+        "architecture": "ring3",
+        "objective": "parity",
+        "sigma": 0.75,
+        "lr": 0.1,
+        "family": "parity",
+        "parameters": 36,
+        "key": "b0.9_ring3_parity_sigma0.75_lr0.1",
+        "fits": 10,
+        "failures": 0,
+        "nonfinite_validation_nll": 0,
+        "mean_validation_nll": 6.003607212623593,
+        "mean_kl": 0.3420059772353582,
+        "mean_recovery_1000": 0.43585083029595334
+      },
+      "mse": {
+        "mse_matched": {
+          "beta": 0.9,
+          "architecture": "ring3",
+          "objective": "mse",
+          "sigma": 1.0,
+          "lr": 0.1,
+          "family": "mse",
+          "parameters": 36,
+          "key": "b0.9_ring3_mse_sigma1_lr0.1",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 6.052739452830345,
+          "mean_kl": 0.39594576152119987,
+          "mean_recovery_1000": 0.4127197996541936
+        },
+        "mse_same": {
+          "beta": 0.9,
+          "architecture": "ring3",
+          "objective": "mse",
+          "sigma": 1.0,
+          "lr": 0.2,
+          "family": "mse",
+          "parameters": 36,
+          "key": "b0.9_ring3_mse_sigma1_lr0.2",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 6.032993392662511,
+          "mean_kl": 0.37746560121119294,
+          "mean_recovery_1000": 0.4175829138361786
+        },
+        "mse_global": {
+          "beta": 0.9,
+          "architecture": "ring3",
+          "objective": "mse",
+          "sigma": 1.0,
+          "lr": 0.2,
+          "family": "mse",
+          "parameters": 36,
+          "key": "b0.9_ring3_mse_sigma1_lr0.2",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 6.032993392662511,
+          "mean_kl": 0.37746560121119294,
+          "mean_recovery_1000": 0.4175829138361786
+        }
+      },
+      "classical": {
+        "ising-parity_paper": {
+          "beta": 0.9,
+          "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "ising-parity",
+            "architecture": "ring",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 6.7487412781401614,
+          "mean_kl": 1.0822861324446955,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-parity_support": {
+          "beta": 0.9,
+          "key": "ising-parity_ring3_s2_lr0.02_t600_support",
+          "config": {
+            "model": "ising-parity",
+            "architecture": "ring3",
+            "sigma": 2.0,
+            "lr": 0.02,
+            "steps": 600,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 6.011377995983778,
+          "mean_kl": 0.35438485417515764,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-nll_paper": {
+          "beta": 0.9,
+          "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "ising-nll",
+            "architecture": "dense",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 6.7447805444057725,
+          "mean_kl": 1.088202126659809,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-nll_support": {
+          "beta": 0.9,
+          "key": "ising-nll_dense_s1_lr0.005_t100_support",
+          "config": {
+            "model": "ising-nll",
+            "architecture": "dense",
+            "sigma": 1.0,
+            "lr": 0.005,
+            "steps": 100,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 5.982414241328732,
+          "mean_kl": 0.327022328808748,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "maxent_paper": {
+          "beta": 0.9,
+          "key": "maxent_features_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "maxent",
+            "architecture": "features",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 7.91896896916793,
+          "mean_kl": 2.2481314999573163,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "maxent_support": {
+          "beta": 0.9,
+          "key": "maxent_features_s2_lr0.005_t50_support",
+          "config": {
+            "model": "maxent",
+            "architecture": "features",
+            "sigma": 2.0,
+            "lr": 0.005,
+            "steps": 50,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 6.037503886185595,
+          "mean_kl": 0.3819218259173998,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "transformer_paper": {
+          "beta": 0.9,
+          "key": "transformer_full_s1_lr0.001_t600_paper",
+          "config": {
+            "model": "transformer",
+            "architecture": "full",
+            "sigma": 1.0,
+            "lr": 0.001,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 6.503674730764852,
+          "mean_kl": 0.8323017077799493,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "transformer_support": {
+          "beta": 0.9,
+          "key": "transformer_prefix_s1_lr0.003_t100_support",
+          "config": {
+            "model": "transformer",
+            "architecture": "prefix",
+            "sigma": 1.0,
+            "lr": 0.003,
+            "steps": 100,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 5.870056411927315,
+          "mean_kl": 0.2123854825676849,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        }
+      },
+      "validation_gaps": {
+        "mse_matched": -0.049132240206751554,
+        "mse_same": -0.029386180038917686,
+        "mse_global": -0.029386180038917686,
+        "ising-parity_paper": -0.7451340655165684,
+        "ising-parity_support": -0.007770783360184552,
+        "ising-nll_paper": -0.7411733317821794,
+        "ising-nll_support": 0.02119297129486153,
+        "maxent_paper": -1.9153617565443373,
+        "maxent_support": -0.0338966735620021,
+        "transformer_paper": -0.5000675181412593,
+        "transformer_support": 0.13355080069627778
+      },
+      "support_worst_gap": 0.13355080069627778,
+      "paper_worst_gap": -0.029386180038917686
+    },
+    {
+      "beta": 1.2,
+      "parity": {
+        "beta": 1.2,
+        "architecture": "dense",
+        "objective": "parity",
+        "sigma": 1.0,
+        "lr": 0.1,
+        "family": "parity",
+        "parameters": 66,
+        "key": "b1.2_dense_parity_sigma1_lr0.1",
+        "fits": 10,
+        "failures": 0,
+        "nonfinite_validation_nll": 0,
+        "mean_validation_nll": 4.145244553886391,
+        "mean_kl": 0.22396996391420906,
+        "mean_recovery_1000": 0.2917700442832133
+      },
+      "mse": {
+        "mse_matched": {
+          "beta": 1.2,
+          "architecture": "dense",
+          "objective": "mse",
+          "sigma": 1.0,
+          "lr": 0.1,
+          "family": "mse",
+          "parameters": 66,
+          "key": "b1.2_dense_mse_sigma1_lr0.1",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 7.076730467327309,
+          "mean_kl": 3.1296942624296995,
+          "mean_recovery_1000": 0.08755393879349611
+        },
+        "mse_same": {
+          "beta": 1.2,
+          "architecture": "dense",
+          "objective": "scaled-mse",
+          "sigma": 1.0,
+          "lr": 0.05,
+          "family": "mse",
+          "parameters": 66,
+          "key": "b1.2_dense_scaled-mse_sigma1_lr0.05",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 4.2135296582084125,
+          "mean_kl": 0.29914338180482264,
+          "mean_recovery_1000": 0.24854813182956598
+        },
+        "mse_global": {
+          "beta": 1.2,
+          "architecture": "ring3",
+          "objective": "scaled-mse",
+          "sigma": 1.0,
+          "lr": 0.2,
+          "family": "mse",
+          "parameters": 36,
+          "key": "b1.2_ring3_scaled-mse_sigma1_lr0.2",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 4.172494226275829,
+          "mean_kl": 0.26229972421663666,
+          "mean_recovery_1000": 0.24359026757235722
+        }
+      },
+      "classical": {
+        "ising-parity_paper": {
+          "beta": 1.2,
+          "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "ising-parity",
+            "architecture": "ring",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 4.919862734461783,
+          "mean_kl": 1.019664262482395,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-parity_support": {
+          "beta": 1.2,
+          "key": "ising-parity_ring3_s2_lr0.02_t600_support",
+          "config": {
+            "model": "ising-parity",
+            "architecture": "ring3",
+            "sigma": 2.0,
+            "lr": 0.02,
+            "steps": 600,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 4.1719290250815435,
+          "mean_kl": 0.26159719015189553,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-nll_paper": {
+          "beta": 1.2,
+          "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "ising-nll",
+            "architecture": "dense",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 4.952096016883798,
+          "mean_kl": 1.0483319646606586,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-nll_support": {
+          "beta": 1.2,
+          "key": "ising-nll_dense_s1_lr0.02_t50_support",
+          "config": {
+            "model": "ising-nll",
+            "architecture": "dense",
+            "sigma": 1.0,
+            "lr": 0.02,
+            "steps": 50,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 4.179735096442029,
+          "mean_kl": 0.2682141429112296,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "maxent_paper": {
+          "beta": 1.2,
+          "key": "maxent_features_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "maxent",
+            "architecture": "features",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 6.988245042381155,
+          "mean_kl": 3.0962359218479953,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "maxent_support": {
+          "beta": 1.2,
+          "key": "maxent_features_s1_lr0.005_t50_support",
+          "config": {
+            "model": "maxent",
+            "architecture": "features",
+            "sigma": 1.0,
+            "lr": 0.005,
+            "steps": 50,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 4.153349709430502,
+          "mean_kl": 0.23833184316584957,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "transformer_paper": {
+          "beta": 1.2,
+          "key": "transformer_full_s1_lr0.001_t600_paper",
+          "config": {
+            "model": "transformer",
+            "architecture": "full",
+            "sigma": 1.0,
+            "lr": 0.001,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 4.507756897123412,
+          "mean_kl": 0.5955275180256313,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "transformer_support": {
+          "beta": 1.2,
+          "key": "transformer_prefix_s1_lr0.0002_t600_support",
+          "config": {
+            "model": "transformer",
+            "architecture": "prefix",
+            "sigma": 1.0,
+            "lr": 0.0002,
+            "steps": 600,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 4.136020537192318,
+          "mean_kl": 0.22444259741630881,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        }
+      },
+      "validation_gaps": {
+        "mse_matched": -2.931485913440918,
+        "mse_same": -0.06828510432202162,
+        "mse_global": -0.027249672389437762,
+        "ising-parity_paper": -0.7746181805753922,
+        "ising-parity_support": -0.026684471195152604,
+        "ising-nll_paper": -0.8068514629974075,
+        "ising-nll_support": -0.03449054255563766,
+        "maxent_paper": -2.8430004884947637,
+        "maxent_support": -0.008105155544111398,
+        "transformer_paper": -0.36251234323702075,
+        "transformer_support": 0.009224016694072468
+      },
+      "support_worst_gap": 0.009224016694072468,
+      "paper_worst_gap": -0.027249672389437762
+    },
+    {
+      "beta": 1.5,
+      "parity": {
+        "beta": 1.5,
+        "architecture": "dense",
+        "objective": "parity",
+        "sigma": 1.0,
+        "lr": 0.1,
+        "family": "parity",
+        "parameters": 66,
+        "key": "b1.5_dense_parity_sigma1_lr0.1",
+        "fits": 10,
+        "failures": 0,
+        "nonfinite_validation_nll": 0,
+        "mean_validation_nll": 2.683218297782834,
+        "mean_kl": 0.1624569182883222,
+        "mean_recovery_1000": 0.13537350466487869
+      },
+      "mse": {
+        "mse_matched": {
+          "beta": 1.5,
+          "architecture": "dense",
+          "objective": "mse",
+          "sigma": 1.0,
+          "lr": 0.1,
+          "family": "mse",
+          "parameters": 66,
+          "key": "b1.5_dense_mse_sigma1_lr0.1",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 7.798577978784865,
+          "mean_kl": 5.341598980553793,
+          "mean_recovery_1000": 0.08183112602471236
+        },
+        "mse_same": {
+          "beta": 1.5,
+          "architecture": "dense",
+          "objective": "scaled-mse",
+          "sigma": 1.0,
+          "lr": 0.02,
+          "family": "mse",
+          "parameters": 66,
+          "key": "b1.5_dense_scaled-mse_sigma1_lr0.02",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 2.710908355755499,
+          "mean_kl": 0.19492768527167104,
+          "mean_recovery_1000": 0.11500820795940239
+        },
+        "mse_global": {
+          "beta": 1.5,
+          "architecture": "ring3",
+          "objective": "mse",
+          "sigma": 1.0,
+          "lr": 0.05,
+          "family": "mse",
+          "parameters": 36,
+          "key": "b1.5_ring3_mse_sigma1_lr0.05",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 2.691320582525937,
+          "mean_kl": 0.17698195195619487,
+          "mean_recovery_1000": 0.11018885953220744
+        }
+      },
+      "classical": {
+        "ising-parity_paper": {
+          "beta": 1.5,
+          "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "ising-parity",
+            "architecture": "ring",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 3.256369799895494,
+          "mean_kl": 0.7444139570117428,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-parity_support": {
+          "beta": 1.5,
+          "key": "ising-parity_ring_s2_lr0.02_t600_support",
+          "config": {
+            "model": "ising-parity",
+            "architecture": "ring",
+            "sigma": 2.0,
+            "lr": 0.02,
+            "steps": 600,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 2.6825908845627926,
+          "mean_kl": 0.15980346652794497,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-nll_paper": {
+          "beta": 1.5,
+          "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "ising-nll",
+            "architecture": "dense",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 3.5757030775147194,
+          "mean_kl": 1.061091319181989,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-nll_support": {
+          "beta": 1.5,
+          "key": "ising-nll_dense_s1_lr0.02_t50_support",
+          "config": {
+            "model": "ising-nll",
+            "architecture": "dense",
+            "sigma": 1.0,
+            "lr": 0.02,
+            "steps": 50,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 2.707818656906678,
+          "mean_kl": 0.183946883095376,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "maxent_paper": {
+          "beta": 1.5,
+          "key": "maxent_features_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "maxent",
+            "architecture": "features",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 4.059609355523686,
+          "mean_kl": 1.5736938705250085,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "maxent_support": {
+          "beta": 1.5,
+          "key": "maxent_features_s1_lr0.005_t50_support",
+          "config": {
+            "model": "maxent",
+            "architecture": "features",
+            "sigma": 1.0,
+            "lr": 0.005,
+            "steps": 50,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 2.6711799351277454,
+          "mean_kl": 0.14948409459721873,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "transformer_paper": {
+          "beta": 1.5,
+          "key": "transformer_full_s1_lr0.001_t600_paper",
+          "config": {
+            "model": "transformer",
+            "architecture": "full",
+            "sigma": 1.0,
+            "lr": 0.001,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 2.922533632664393,
+          "mean_kl": 0.4096465819998113,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "transformer_support": {
+          "beta": 1.5,
+          "key": "transformer_prefix_s1_lr0.001_t200_support",
+          "config": {
+            "model": "transformer",
+            "architecture": "prefix",
+            "sigma": 1.0,
+            "lr": 0.001,
+            "steps": 200,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 2.721192205838489,
+          "mean_kl": 0.20287025427854544,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        }
+      },
+      "validation_gaps": {
+        "mse_matched": -5.1153596810020305,
+        "mse_same": -0.027690057972665105,
+        "mse_global": -0.008102284743102928,
+        "ising-parity_paper": -0.5731515021126601,
+        "ising-parity_support": 0.0006274132200414506,
+        "ising-nll_paper": -0.8924847797318853,
+        "ising-nll_support": -0.02460035912384395,
+        "maxent_paper": -1.376391057740852,
+        "maxent_support": 0.01203836265508862,
+        "transformer_paper": -0.23931533488155887,
+        "transformer_support": -0.03797390805565515
+      },
+      "support_worst_gap": 0.01203836265508862,
+      "paper_worst_gap": -0.008102284743102928
+    },
+    {
+      "beta": 1.8,
+      "parity": {
+        "beta": 1.8,
+        "architecture": "ring3",
+        "objective": "parity",
+        "sigma": 0.75,
+        "lr": 0.02,
+        "family": "parity",
+        "parameters": 36,
+        "key": "b1.8_ring3_parity_sigma0.75_lr0.02",
+        "fits": 10,
+        "failures": 0,
+        "nonfinite_validation_nll": 0,
+        "mean_validation_nll": 1.7876876253005207,
+        "mean_kl": 0.1116708350160582,
+        "mean_recovery_1000": 0.055227191751563855
+      },
+      "mse": {
+        "mse_matched": {
+          "beta": 1.8,
+          "architecture": "ring3",
+          "objective": "mse",
+          "sigma": 1.0,
+          "lr": 0.02,
+          "family": "mse",
+          "parameters": 36,
+          "key": "b1.8_ring3_mse_sigma1_lr0.02",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 1.7902176882470802,
+          "mean_kl": 0.11494381529144553,
+          "mean_recovery_1000": 0.052246580744780155
+        },
+        "mse_same": {
+          "beta": 1.8,
+          "architecture": "ring3",
+          "objective": "mse",
+          "sigma": 1.0,
+          "lr": 0.05,
+          "family": "mse",
+          "parameters": 36,
+          "key": "b1.8_ring3_mse_sigma1_lr0.05",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 1.7846638661970868,
+          "mean_kl": 0.11400810342672826,
+          "mean_recovery_1000": 0.05653990397865295
+        },
+        "mse_global": {
+          "beta": 1.8,
+          "architecture": "ring3",
+          "objective": "mse",
+          "sigma": 1.0,
+          "lr": 0.05,
+          "family": "mse",
+          "parameters": 36,
+          "key": "b1.8_ring3_mse_sigma1_lr0.05",
+          "fits": 10,
+          "failures": 0,
+          "nonfinite_validation_nll": 0,
+          "mean_validation_nll": 1.7846638661970868,
+          "mean_kl": 0.11400810342672826,
+          "mean_recovery_1000": 0.05653990397865295
+        }
+      },
+      "classical": {
+        "ising-parity_paper": {
+          "beta": 1.8,
+          "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "ising-parity",
+            "architecture": "ring",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 2.1558698142303543,
+          "mean_kl": 0.47813296398037985,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-parity_support": {
+          "beta": 1.8,
+          "key": "ising-parity_ring_s2_lr0.02_t600_support",
+          "config": {
+            "model": "ising-parity",
+            "architecture": "ring",
+            "sigma": 2.0,
+            "lr": 0.02,
+            "steps": 600,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 1.7783218509175434,
+          "mean_kl": 0.09792333902354985,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-nll_paper": {
+          "beta": 1.8,
+          "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "ising-nll",
+            "architecture": "dense",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 2.3816128245429495,
+          "mean_kl": 0.7104393877640527,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "ising-nll_support": {
+          "beta": 1.8,
+          "key": "ising-nll_dense_s1_lr0.02_t100_support",
+          "config": {
+            "model": "ising-nll",
+            "architecture": "dense",
+            "sigma": 1.0,
+            "lr": 0.02,
+            "steps": 100,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 1.7916820662153459,
+          "mean_kl": 0.11362311615993714,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "maxent_paper": {
+          "beta": 1.8,
+          "key": "maxent_features_s1_lr0.05_t600_paper",
+          "config": {
+            "model": "maxent",
+            "architecture": "features",
+            "sigma": 1.0,
+            "lr": 0.05,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 2.845134258172494,
+          "mean_kl": 1.2026631824050622,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "maxent_support": {
+          "beta": 1.8,
+          "key": "maxent_features_s1_lr0.005_t50_support",
+          "config": {
+            "model": "maxent",
+            "architecture": "features",
+            "sigma": 1.0,
+            "lr": 0.005,
+            "steps": 50,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 1.782577519698322,
+          "mean_kl": 0.10648312501869654,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "transformer_paper": {
+          "beta": 1.8,
+          "key": "transformer_full_s1_lr0.001_t600_paper",
+          "config": {
+            "model": "transformer",
+            "architecture": "full",
+            "sigma": 1.0,
+            "lr": 0.001,
+            "steps": 600,
+            "support_aware": false,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 1.9833839976490275,
+          "mean_kl": 0.3142274150480626,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        },
+        "transformer_support": {
+          "beta": 1.8,
+          "key": "transformer_prefix_s1_lr0.003_t200_support",
+          "config": {
+            "model": "transformer",
+            "architecture": "prefix",
+            "sigma": 1.0,
+            "lr": 0.003,
+            "steps": 200,
+            "support_aware": true,
+            "l2": 0.0
+          },
+          "runs": 10,
+          "mean_validation_nll": 1.8207352177408596,
+          "mean_kl": 0.14835135670343333,
+          "failures": 0,
+          "nonfinite_validation_nll": 0
+        }
+      },
+      "validation_gaps": {
+        "mse_matched": -0.0025300629465594415,
+        "mse_same": 0.0030237591034338873,
+        "mse_global": 0.0030237591034338873,
+        "ising-parity_paper": -0.36818218892983356,
+        "ising-parity_support": 0.009365774382977365,
+        "ising-nll_paper": -0.5939251992424288,
+        "ising-nll_support": -0.003994440914825148,
+        "maxent_paper": -1.0574466328719732,
+        "maxent_support": 0.005110105602198711,
+        "transformer_paper": -0.1956963723485068,
+        "transformer_support": -0.033047592440338835
+      },
+      "support_worst_gap": 0.009365774382977365,
+      "paper_worst_gap": 0.0030237591034338873
+    }
+  ],
+  "development_validation": {
+    "grids": {
+      "iqp": {
+        "configurations": 288,
+        "rows": 2880,
+        "failures": 0
+      },
+      "classical": {
+        "configurations": 400,
+        "rows": 4000,
+        "failures": 0
+      }
+    },
+    "seed_count": 10,
+    "rankings_recomputed": true,
+    "shared_hash_groups": {
+      "sample_sha256": 40,
+      "validation_sha256": 40,
+      "initial_sha256": 120,
+      "mask_sha256": 160
+    },
+    "source_locks_verified": true,
+    "run_environments": {
+      "iqp": {
+        "python": "3.13.12 (main, Mar  3 2026, 15:32:44) [Clang 21.1.4 ]",
+        "numpy": "2.3.3",
+        "torch": null,
+        "scipy": "1.16.3",
+        "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O"
+      },
+      "classical": {
+        "python": "3.13.12 (main, Mar  3 2026, 15:32:44) [Clang 21.1.4 ]",
+        "numpy": "2.3.3",
+        "torch": "2.10.0",
+        "scipy": null,
+        "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O"
+      }
+    }
+  }
+}

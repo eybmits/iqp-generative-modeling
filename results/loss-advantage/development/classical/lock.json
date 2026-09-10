@@ -1,0 +1,12 @@
+{
+  "protocol_sha256": "9762061c63b10a18bf4a465c0ab138b6ff0a8e65400827556aea687141fa506c",
+  "script_sha256": "5aea810154213074eac6481ab3cd7dcbdcc8940b854d22ccee8a9dc5bfcf3f6d",
+  "support_baselines_sha256": "9454caa23073098f2abf33b3f39200ccfe865d56086c241f6b2e4e183df7895a",
+  "classical_sha256": "572d1c2c92c05ebd5fdd4ddc197f6a4dfaaf19456e3810a4bed325afad66c5cb",
+  "metrics_source_sha256": "08b44715399401205674cb051e53da6eb82b824ba93c7aadad4f57776ddffae7",
+  "core_sha256": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe",
+  "python": "3.13.12 (main, Mar  3 2026, 15:32:44) [Clang 21.1.4 ]",
+  "numpy": "2.3.3",
+  "torch": "2.10.0",
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O"
+}

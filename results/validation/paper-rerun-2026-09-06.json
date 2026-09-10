@@ -1,0 +1,174 @@
+{
+  "verified_at_utc": "2026-09-06T15:23:03.641654+00:00",
+  "source_checkout": ".",
+  "source_base_commit": "bf43f1018f072e0611c11756021b4178aa0ffa3a",
+  "interpreter": "/Users/superposition/Documents/Codex/2026-09-06/iqp-paper-reproduction/work/venv/bin/python",
+  "scientific_implementation_sha256": "cee5d42521aa4437cb18859411b4c5971d1adaf9381596912dcfbd0095f8aa6e",
+  "tolerance_absolute": 1e-10,
+  "full_paper_iqp": {
+    "reference_comparison": {
+      "rows": 400,
+      "exact_metadata_checks": 1600,
+      "maximum_absolute_error_by_numeric_field": {
+        "n": 0.0,
+        "beta": 0.0,
+        "seed": 0.0,
+        "sigma": 0.0,
+        "k": 0.0,
+        "m": 0.0,
+        "steps": 0.0,
+        "init_seed": 0.0,
+        "sample_seed": 0.0,
+        "mask_seed": 0.0,
+        "unique_masks": 0.0,
+        "elite_size": 0.0,
+        "kl": 0.0,
+        "support_mass": 0.0,
+        "support_kl": 0.0,
+        "conditional_kl": 0.0,
+        "unseen_mass": 0.0,
+        "region_mass_kl": 0.0,
+        "within_region_kl": 0.0,
+        "coverage_1000": 0.0,
+        "recovery_1000": 0.0,
+        "conditional_coverage_1000": 0.0,
+        "coverage_2000": 0.0,
+        "recovery_2000": 0.0,
+        "conditional_coverage_2000": 0.0,
+        "coverage_5000": 0.0,
+        "recovery_5000": 0.0,
+        "conditional_coverage_5000": 0.0
+      },
+      "excluded_field": "elapsed_seconds"
+    },
+    "independent_checkpoint_verification": {
+      "checkpoints": 200,
+      "model_rows": 400,
+      "sample_and_mask_hash_checks": 800,
+      "maximum_absolute_error": {
+        "target": 3.3306690738754696e-16,
+        "born_law_from_angles": 2.220446049250313e-16,
+        "q_normalization": 4.440892098500626e-16,
+        "odd_support_mass": 0.0,
+        "kl_from_probabilities": 6.661338147750939e-16,
+        "support_mass": 0.0,
+        "support_kl": 0.0,
+        "conditional_kl": 6.661338147750939e-16,
+        "unseen_mass": 0.0,
+        "coverage_1000": 1.4641066137244252e-15,
+        "recovery_1000": 4.3576253716537394e-15,
+        "conditional_coverage_1000": 1.4502288259166107e-15,
+        "coverage_2000": 1.429412144204889e-15,
+        "recovery_2000": 8.493206138382448e-15,
+        "conditional_coverage_2000": 1.429412144204889e-15,
+        "coverage_5000": 1.3530843112619095e-15,
+        "recovery_5000": 2.0095036745715333e-14,
+        "conditional_coverage_5000": 1.3461454173580023e-15,
+        "checkpoint_rows_vs_metrics_csv": 0.0
+      }
+    },
+    "descriptive_results": {
+      "pairs": 200,
+      "seeds": 10,
+      "mean_kl": {
+        "iqp-parity": 0.38586825003492026,
+        "iqp-mse": 0.38159374419229175
+      },
+      "parity_kl_wins": 89,
+      "paired_mean_delta_kl": 0.004274505842628508,
+      "seed_clustered_95pct_t_interval": [
+        -0.00818987802853663,
+        0.01673888971379365
+      ],
+      "mean_delta_coverage_1000": 3.981313410310994e-05
+    },
+    "directory": "../validation/paper-iqp"
+  },
+  "fixed_beta_0_9": {
+    "vs_full_sweep": {
+      "rows": 20,
+      "exact_metadata_checks": 80,
+      "maximum_absolute_error_by_numeric_field": {
+        "n": 0.0,
+        "beta": 0.0,
+        "seed": 0.0,
+        "sigma": 0.0,
+        "k": 0.0,
+        "m": 0.0,
+        "steps": 0.0,
+        "init_seed": 0.0,
+        "sample_seed": 0.0,
+        "mask_seed": 0.0,
+        "unique_masks": 0.0,
+        "elite_size": 0.0,
+        "kl": 0.0,
+        "support_mass": 0.0,
+        "support_kl": 0.0,
+        "conditional_kl": 0.0,
+        "unseen_mass": 0.0,
+        "region_mass_kl": 0.0,
+        "within_region_kl": 0.0,
+        "coverage_1000": 0.0,
+        "recovery_1000": 0.0,
+        "conditional_coverage_1000": 0.0,
+        "coverage_2000": 0.0,
+        "recovery_2000": 0.0,
+        "conditional_coverage_2000": 0.0,
+        "coverage_5000": 0.0,
+        "recovery_5000": 0.0,
+        "conditional_coverage_5000": 0.0
+      },
+      "excluded_field": "elapsed_seconds"
+    },
+    "independent_checkpoint_verification": {
+      "checkpoints": 10,
+      "model_rows": 20,
+      "sample_and_mask_hash_checks": 40,
+      "maximum_absolute_error": {
+        "target": 1.3877787807814457e-17,
+        "born_law_from_angles": 8.326672684688674e-17,
+        "q_normalization": 2.220446049250313e-16,
+        "odd_support_mass": 0.0,
+        "kl_from_probabilities": 1.1102230246251565e-16,
+        "support_mass": 0.0,
+        "support_kl": 0.0,
+        "conditional_kl": 1.1102230246251565e-16,
+        "unseen_mass": 0.0,
+        "coverage_1000": 8.604228440844963e-16,
+        "recovery_1000": 2.886579864025407e-15,
+        "conditional_coverage_1000": 8.604228440844963e-16,
+        "coverage_2000": 6.661338147750939e-16,
+        "recovery_2000": 4.440892098500626e-15,
+        "conditional_coverage_2000": 6.661338147750939e-16,
+        "coverage_5000": 4.3021142204224816e-16,
+        "recovery_5000": 7.105427357601002e-15,
+        "conditional_coverage_5000": 4.3021142204224816e-16,
+        "checkpoint_rows_vs_metrics_csv": 0.0
+      }
+    },
+    "descriptive_results": {
+      "pairs": 10,
+      "seeds": 10,
+      "mean_kl": {
+        "iqp-parity": 0.4515499638180124,
+        "iqp-mse": 0.47689533637498494
+      },
+      "parity_kl_wins": 7,
+      "paired_mean_delta_kl": -0.025345372556972574,
+      "seed_clustered_95pct_t_interval": [
+        -0.07349484889594778,
+        0.022804103782002625
+      ],
+      "mean_delta_coverage_1000": 0.00325434425712572
+    },
+    "directory": "../validation/paired"
+  },
+  "limitations": [
+    "Only the two IQP models were freshly retrained; classical baselines and hardware were not rerun.",
+    "Confidence intervals describe the fixed seed cohort, with beta repetitions clustered within seed.",
+    "The fixed beta=0.9 interval includes zero.",
+    "The existing exact-version environment was reused; this is not a clean dependency installation.",
+    "Wall-clock elapsed_seconds is deliberately excluded from equality comparisons.",
+    "Matched protocol uses shared IQP initialization and support-domain MSE; original source protocol differs."
+  ]
+}

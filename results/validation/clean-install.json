@@ -1,0 +1,108 @@
+{
+  "status": "passed",
+  "python_expected": "3.13.12",
+  "environment_policy": "Credential variables and PYTHONPATH excluded; build and install offline; one process/one CPU thread for smoke",
+  "source_python_sha256": {
+    "tests/test_reference.py": "01170913961227cccec713803c2729e5be2e6df7844d9496e43e397322ca756e",
+    "tests/test_classical.py": "4ee6a4eb8376cca6a057e55f56b3cb5f5d2ca1a4f42db390036c35bfbd421e03",
+    "tests/test_core.py": "3455762e27f04bc050d88088e1b34d3d0e13c34ccedc9c8b3a1f70e13faa5a9f",
+    "tests/test_cli.py": "14bd70c53a82b66343757acc42f4027775ea254b71bf287918f23046bb60d73b",
+    "tests/test_run_figures.py": "0be9fb6cb06fac7cf7c5d7c021435b4d7a4e8c5b31bc7d2fffaa46e038891a6f",
+    "src/iqp_repro/__init__.py": "44df14f6cbc6a3d57c5740ef15fe720d852831a506a7b1da80bf09a6c38ed74a",
+    "src/iqp_repro/core.py": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe",
+    "src/iqp_repro/cli.py": "45eea5beb2c840bb8a0dfc12515ee97f89317d5dd3a972519f7dc1860202b6bb",
+    "src/iqp_repro/classical.py": "572d1c2c92c05ebd5fdd4ddc197f6a4dfaaf19456e3810a4bed325afad66c5cb",
+    "src/iqp_repro/figures.py": "46d55ba770f1e0832421e76b8551d36428eed43b6f71c3a685aad2680accc59c",
+    "src/iqp_repro/run_figures.py": "105558e1f8ecb0976c10c1ea20543f8e5fefa8a1f45fc8fd27ee3c9b2633ab52",
+    "src/iqp_repro/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279"
+  },
+  "static_portability": {
+    "imports": [
+      "__future__",
+      "argparse",
+      "ast",
+      "concurrent.futures",
+      "csv",
+      "hashlib",
+      "importlib.metadata",
+      "itertools",
+      "json",
+      "matplotlib",
+      "matplotlib.patches",
+      "matplotlib.pyplot",
+      "matplotlib.ticker",
+      "numpy",
+      "os",
+      "pathlib",
+      "platform",
+      "scipy.stats",
+      "time",
+      "torch",
+      "torch.nn"
+    ],
+    "absolute_path_literals": [],
+    "old_source_or_quantum_service_imports": []
+  },
+  "documentation_in_sdist": {
+    "README.md": true,
+    "PROTOCOL.md": true,
+    "AUDIT.md": true,
+    "CITATION.cff": true,
+    "LICENSE": true,
+    "RESULTS.md": true
+  },
+  "source_code_still_identical": true,
+  "steps": [
+    {
+      "name": "build",
+      "exit_code": 0,
+      "seconds": 0.8877254170365632
+    },
+    {
+      "name": "create_environment",
+      "exit_code": 0,
+      "seconds": 0.026691999984905124
+    },
+    {
+      "name": "install_wheel",
+      "exit_code": 0,
+      "seconds": 0.4939844999462366
+    },
+    {
+      "name": "installed_identity",
+      "exit_code": 0,
+      "seconds": 0.03963104204740375
+    },
+    {
+      "name": "pytest",
+      "exit_code": 0,
+      "seconds": 29.180278833024204
+    },
+    {
+      "name": "six_model_smoke",
+      "exit_code": 0,
+      "seconds": 2.3315686670830473
+    },
+    {
+      "name": "archived_figures",
+      "exit_code": 0,
+      "seconds": 2.0077895830618218
+    },
+    {
+      "name": "fresh_summarize",
+      "exit_code": 0,
+      "seconds": 0.674534915946424
+    },
+    {
+      "name": "fresh_ablation_plots",
+      "exit_code": 0,
+      "seconds": 1.9016401659464464
+    },
+    {
+      "name": "fresh_paper_plots",
+      "exit_code": 0,
+      "seconds": 1.277130207978189
+    }
+  ],
+  "test_count": 31
+}

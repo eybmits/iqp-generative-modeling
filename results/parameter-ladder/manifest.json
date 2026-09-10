@@ -1,0 +1,121 @@
+{
+  "predevelopment_commit": "e28d7d8eeeeed925d2c3517157d72c3e13299f4d",
+  "preconfirmation_commit": "836aebf5c07e9417512ef8701b436ebfcae29b52",
+  "development_fits": 1440,
+  "confirmation_training_executions": 2160,
+  "confirmation_distinct_configuration_dataset_pairs": 2040,
+  "confirmation_datasets": 120,
+  "raw_checkpoints": {
+    "bundled_in_source_repository": false,
+    "archive": "iqp-parameter-ladder-checkpoints.zip",
+    "checkpoint_records": 3600,
+    "note": "The source repository includes every metric, summary, protocol and checkpoint hash. Reproduction commands regenerate the checkpoints; the optional checkpoint archive contains all 3600 saved fit records."
+  },
+  "files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "bytes": 4946,
+      "sha256": "b427cd87cad6b1c0b197d10da68a837d53679afd9674380de9316584962c45d5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3868,
+      "sha256": "3e2200cc13e63dd942c098580db3e17a28d6751ca7316b5ac071cfb0b84f7a1d"
+    },
+    {
+      "path": "docs/parameter-ladder.md",
+      "bytes": 4505,
+      "sha256": "18c9c071be53da6c9047599d49eb4983e8251627f81242440abe5a91ee3986f2"
+    },
+    {
+      "path": "docs/reproduce.md",
+      "bytes": 2313,
+      "sha256": "69673dbbb8ed634e88975c958f6821d134deb73d3ca105644dae0cd44165949f"
+    },
+    {
+      "path": "protocols/parameter-ladder-confirmation.json",
+      "bytes": 22413,
+      "sha256": "0aa66bbf57cf7a58fba107a7a57e11dd0278045f6f7ccd2567b6d7d77778574e"
+    },
+    {
+      "path": "protocols/parameter-ladder-development.json",
+      "bytes": 8538,
+      "sha256": "0a666cb6d1916727f3129d66609ae6ee9709431fcbe266fc8a552520474752d4"
+    },
+    {
+      "path": "results/parameter-ladder/confirmation/independent-validation.json",
+      "bytes": 361104,
+      "sha256": "a097887dd5d404a22b512f222b68233fa15ab4af03b938cbff64d106a5835ff5"
+    },
+    {
+      "path": "results/parameter-ladder/confirmation/lock.json",
+      "bytes": 50585,
+      "sha256": "e643b50d8554def1df2dc4a82771e178a5e12f65495d20c222ce92a256e3c98e"
+    },
+    {
+      "path": "results/parameter-ladder/confirmation/metrics.csv",
+      "bytes": 919498,
+      "sha256": "539ad6afd9ca431695b0459566277b76743483fd14b7480082f8d0d51701d2fd"
+    },
+    {
+      "path": "results/parameter-ladder/confirmation/summary.json",
+      "bytes": 8044,
+      "sha256": "8536443a075c3ca85b5248bf6bb9ca0693c55b2da90ce454b71e5c2781ae217c"
+    },
+    {
+      "path": "results/parameter-ladder/development/historical-equivalence.json",
+      "bytes": 246160,
+      "sha256": "ac92618df1aefbe4a8712fecbabb1e24368620699318ef4ca6d4e907dd6998a7"
+    },
+    {
+      "path": "results/parameter-ladder/development/independent-validation.json",
+      "bytes": 305829,
+      "sha256": "f315eb8742d4d9688270f79daff04b85c1084d52b746f6b6a48c7d4dd6caab73"
+    },
+    {
+      "path": "results/parameter-ladder/development/lock.json",
+      "bytes": 9752,
+      "sha256": "bd9c84dc8225d66b2897133f51df487076e939952404ef623c82ce09cd7b49c3"
+    },
+    {
+      "path": "results/parameter-ladder/development/metrics.csv",
+      "bytes": 594658,
+      "sha256": "1563a3e5d0686ee83dd176407a364c2d34e33ad95f83b6fb14f70e68330d2289"
+    },
+    {
+      "path": "results/parameter-ladder/development/summary.json",
+      "bytes": 53331,
+      "sha256": "66b814f263d8a68a293c5a5ba452e3f8aea4e255fadaad9f1c7898fc10c3ac60"
+    },
+    {
+      "path": "results/parameter-ladder/execution.json",
+      "bytes": 978,
+      "sha256": "c35000ae2aa7c30e2d45482d1c38e479bcd49d526c064c77b18c6081fbcbbfb5"
+    },
+    {
+      "path": "scripts/audit_parameter_ladder.py",
+      "bytes": 24533,
+      "sha256": "f1d3f676f617f9306fdc10d236268b75f7eac2a58e902dd8db260a5b027a6c69"
+    },
+    {
+      "path": "src/iqp_repro/core.py",
+      "bytes": 11408,
+      "sha256": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe"
+    },
+    {
+      "path": "src/iqp_repro/parameter_ladder.py",
+      "bytes": 25715,
+      "sha256": "07cd47cbc2ec9c270b0110e6b252ff62b3a9c60c623b17a13f2ee280bc919a13"
+    },
+    {
+      "path": "src/iqp_repro/study.py",
+      "bytes": 14621,
+      "sha256": "2607074f2ff82d4ddd69d673bf575749099105e8e86f50ca058e1bc90dabe9b3"
+    },
+    {
+      "path": "tests/test_parameter_ladder.py",
+      "bytes": 20245,
+      "sha256": "4c1a7661d32b0f21431fcd89075f972c7c640d54d0ff22e602555c511ef1f91c"
+    }
+  ]
+}

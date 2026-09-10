@@ -1,0 +1,96 @@
+name: reproduce
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      OMP_NUM_THREADS: '1'
+      OPENBLAS_NUM_THREADS: '1'
+      MKL_NUM_THREADS: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - run: pip install torch==2.10.0 --index-url https://download.pytorch.org/whl/cpu
+      - run: pip install '.[test]'
+      - run: pytest -q
+      - run: iqp-repro run --preset smoke --no-plots --out runs/smoke
+      - run: iqp-repro summarize --no-plots --out runs/smoke
+      - name: Exercise tiny study development and confirmation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          protocol = json.loads(Path("protocols/parity-study-v1.json").read_text())
+          protocol.update(
+              n=6, m=30, steps=3, k=16, validation_samples=40,
+              learning_rates=[0.05], architectures=["ring", "dense"],
+              development_seeds=[111, 112], confirmation_seeds=[1001, 1002],
+          )
+          out = Path("runs/study-smoke")
+          out.mkdir(parents=True, exist_ok=True)
+          (out / "protocol.json").write_text(json.dumps(protocol, indent=2) + "\n")
+          PY
+          python -m iqp_repro.study develop --protocol runs/study-smoke/protocol.json --out runs/study-smoke --jobs 1
+          python -m iqp_repro.study confirm --protocol runs/study-smoke/protocol.json --out runs/study-smoke --jobs 1
+      - name: Exercise tiny sampled-parity replication
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          protocol = json.loads(Path("protocols/sampled-parity-replication-v2.json").read_text())
+          protocol.update(
+              n=6, m=30, steps=3, k=16, validation_samples=40,
+              confirmation_seeds=[9001, 9002],
+          )
+          out = Path("runs/replication-smoke")
+          out.mkdir(parents=True, exist_ok=True)
+          (out / "protocol.json").write_text(json.dumps(protocol, indent=2) + "\n")
+          PY
+          python scripts/replicate_sampled_parity.py --protocol runs/replication-smoke/protocol.json --out runs/replication-smoke --jobs 1
+      - name: Exercise the current loss-comparison runner
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          protocol = json.loads(Path("protocols/loss-advantage-confirmation.json").read_text())
+          protocol.update(n=6, m=30, k=16, steps=3, validation_samples=40,
+                          confirmation_seeds=[700101, 700102], study="CI smoke only")
+          for entry in protocol["configurations"].values():
+              if entry["kind"] == "classical":
+                  entry["config"]["steps"] = 3
+          out = Path("runs/loss-smoke")
+          out.mkdir(parents=True, exist_ok=True)
+          (out / "protocol.json").write_text(json.dumps(protocol, indent=2) + "\n")
+          PY
+          python scripts/confirm_loss_advantage.py --protocol runs/loss-smoke/protocol.json --out runs/loss-smoke --jobs 1
+      - name: Exercise parameter-ladder selection and confirmation
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          original = json.loads(Path("protocols/parameter-ladder-development.json").read_text())
+          keys = ("n", "beta", "m", "k", "steps", "validation_samples", "radii",
+                  "development_seeds", "confirmation_seeds", "parity_sigmas",
+                  "parity_learning_rates", "mse_objectives", "mse_learning_rates",
+                  "mse_sigma", "optimizer")
+          protocol = {key: original[key] for key in keys}
+          protocol.update(n=6, m=30, k=16, steps=3, validation_samples=40,
+                          radii=[1, 2, 3], development_seeds=[810001, 810002],
+                          confirmation_seeds=[820001, 820002, 820003],
+                          parity_sigmas=[0.75, 1.0], parity_learning_rates=[0.05],
+                          mse_learning_rates=[0.05], study="CI smoke only")
+          out = Path("runs/ladder-smoke")
+          out.mkdir(parents=True, exist_ok=True)
+          (out / "protocol.json").write_text(json.dumps(protocol, indent=2) + "\n")
+          PY
+          python -m iqp_repro.parameter_ladder develop --protocol runs/ladder-smoke/protocol.json --out runs/ladder-smoke/development --jobs 1
+          python -m iqp_repro.parameter_ladder select --protocol runs/ladder-smoke/protocol.json --development runs/ladder-smoke/development --out runs/ladder-smoke/selected.json
+          python -m iqp_repro.parameter_ladder confirm --protocol runs/ladder-smoke/selected.json --out runs/ladder-smoke/confirmation --jobs 1
+          python scripts/audit_parameter_ladder.py --protocol runs/ladder-smoke/selected.json --runs runs/ladder-smoke/confirmation --out runs/ladder-smoke/audit.json

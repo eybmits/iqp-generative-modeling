@@ -1,0 +1,181 @@
+{
+  "preconfirmation_commit": "db6d87c85a17534e6676802b584e2f884b9a9cc2",
+  "development_distinct_fits": 6880,
+  "confirmation_distinct_fits": 1320,
+  "confirmation_seeds": [
+    5001,
+    5120
+  ],
+  "files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "sha256": "b427cd87cad6b1c0b197d10da68a837d53679afd9674380de9316584962c45d5",
+      "bytes": 4946
+    },
+    {
+      "path": "README.md",
+      "sha256": "3e2200cc13e63dd942c098580db3e17a28d6751ca7316b5ac071cfb0b84f7a1d",
+      "bytes": 3868
+    },
+    {
+      "path": "docs/loss-advantage.md",
+      "sha256": "559c5312e6abaa3094ffd5ba734fd67546480a385d874c073ec08630cd815059",
+      "bytes": 3465
+    },
+    {
+      "path": "docs/protocol.md",
+      "sha256": "9a8c17111b17ab34af6fb47127f687f724a09dd9bcea2f0b4d2d84beac95034e",
+      "bytes": 3120
+    },
+    {
+      "path": "docs/reproduce.md",
+      "sha256": "69673dbbb8ed634e88975c958f6821d134deb73d3ca105644dae0cd44165949f",
+      "bytes": 2313
+    },
+    {
+      "path": "docs/supplementary-controls.md",
+      "sha256": "108afaf4407e5ea411c09735bcb60afdf986c04b282e56f21b88a81f18a6ed64",
+      "bytes": 1201
+    },
+    {
+      "path": "protocols/loss-advantage-confirmation.json",
+      "sha256": "4309d13f17a88255d28daaab08bf7e2cc69562d1064b1cc7f09160b2a19e1a6b",
+      "bytes": 9385
+    },
+    {
+      "path": "protocols/loss-advantage-development.json",
+      "sha256": "9762061c63b10a18bf4a465c0ab138b6ff0a8e65400827556aea687141fa506c",
+      "bytes": 2336
+    },
+    {
+      "path": "results/loss-advantage/confirmation/independent-validation.json",
+      "sha256": "b395e03228a71800c0d0a2840e1230f6b30c9c7df7484098f6a68edfd07e88ef",
+      "bytes": 13599
+    },
+    {
+      "path": "results/loss-advantage/confirmation/lock.json",
+      "sha256": "7e2238649251391735816b4211f5eb0e54af1172fa501ba81e9c79ae17fbc513",
+      "bytes": 11622
+    },
+    {
+      "path": "results/loss-advantage/confirmation/metrics.csv",
+      "sha256": "6aff17ea3cb5d6dd73f6e3dc2ae2ac0701ef381e9cedb46211658a64e238d4c3",
+      "bytes": 759955
+    },
+    {
+      "path": "results/loss-advantage/confirmation/summary.json",
+      "sha256": "400a7e098eab6f619f7667ee09619d131004bceb8ad612b0897009e058430ad5",
+      "bytes": 8410
+    },
+    {
+      "path": "results/loss-advantage/development/classical-development-verification.json",
+      "sha256": "3658f3c140c7f80055b290393fef33520b76834bef351410e507b6cd0a0e566c",
+      "bytes": 30068
+    },
+    {
+      "path": "results/loss-advantage/development/classical/lock.json",
+      "sha256": "ff605acf3ee2cf3df87505b052031e29d9d2e745f8d92c8186f1a44725b0ca92",
+      "bytes": 710
+    },
+    {
+      "path": "results/loss-advantage/development/classical/metrics.csv",
+      "sha256": "f3cf98240531b9b180c049671f80f24205a70cb14ee3a91b65b7be1b70129028",
+      "bytes": 1729533
+    },
+    {
+      "path": "results/loss-advantage/development/classical/ranking.json",
+      "sha256": "219cda662cb7b7708f04a2276ba62781cb1e065816d0d7cdf344cc68d1ccb4df",
+      "bytes": 145758
+    },
+    {
+      "path": "results/loss-advantage/development/classical/selection.json",
+      "sha256": "bbd67ac02edf8d9a1986d4c58c8dc5ddc80cebc90938a52d65248023200a1766",
+      "bytes": 12397
+    },
+    {
+      "path": "results/loss-advantage/development/iqp-beta09-audit.json",
+      "sha256": "4e30ebcd7a42f969c64a73ca3f7b1623f6a60e028b089d074e3de3d2bfae168b",
+      "bytes": 10243
+    },
+    {
+      "path": "results/loss-advantage/development/iqp-development-verification.json",
+      "sha256": "268bb40e1b965dfcc9c35f7965495c517a420bcc2199cc08210989082356e2e3",
+      "bytes": 8168
+    },
+    {
+      "path": "results/loss-advantage/development/iqp/execution.json",
+      "sha256": "5562bb8b93f411425ee6382e0d0239c0fc1eea3273860f307bf16100927bac4a",
+      "bytes": 186
+    },
+    {
+      "path": "results/loss-advantage/development/iqp/lock.json",
+      "sha256": "2c3100a81ce4a4b4eceba6e88929d534b5c6e9fd3d17fcaf341375ef7893ac7c",
+      "bytes": 5780
+    },
+    {
+      "path": "results/loss-advantage/development/iqp/metrics.csv",
+      "sha256": "1d7dc59d49d133858f584328706c63b70ca34ea1b50324b057db20b7c29930fd",
+      "bytes": 1244456
+    },
+    {
+      "path": "results/loss-advantage/development/iqp/summary.json",
+      "sha256": "f9a264436fe2598f409501762afc167ba8a728419c7f474a30034034ec4859f9",
+      "bytes": 145351
+    },
+    {
+      "path": "results/loss-advantage/selection.json",
+      "sha256": "095c534c1e9692c74c5ab08db03ea8f8347d24647c977ec865660581205cca16",
+      "bytes": 36172
+    },
+    {
+      "path": "scripts/check_loss_baselines.py",
+      "sha256": "5aea810154213074eac6481ab3cd7dcbdcc8940b854d22ccee8a9dc5bfcf3f6d",
+      "bytes": 9830
+    },
+    {
+      "path": "scripts/confirm_loss_advantage.py",
+      "sha256": "9e6e6edc77b7e3d6a90a0e3459716aa6444fef6d7ee3cb60d1110ec514aeaf9a",
+      "bytes": 18099
+    },
+    {
+      "path": "scripts/select_loss_advantage.py",
+      "sha256": "bf9191ea4b79fc9d3fdd926f4057803d10856378237c0b0c0a5763c41796360f",
+      "bytes": 19822
+    },
+    {
+      "path": "src/iqp_repro/loss_search.py",
+      "sha256": "9a960cd6a4f76cdc05209806073a8b0f1d95e06a969c7fabffb8198bd00ee568",
+      "bytes": 16533
+    },
+    {
+      "path": "src/iqp_repro/support_baselines.py",
+      "sha256": "9454caa23073098f2abf33b3f39200ccfe865d56086c241f6b2e4e183df7895a",
+      "bytes": 11053
+    },
+    {
+      "path": "tests/test_loss_confirmation.py",
+      "sha256": "fd4f5c2c47f8af1fcc4b7447065f524ccc91a53d0d9be794e5c918082030a4e2",
+      "bytes": 8449
+    },
+    {
+      "path": "tests/test_loss_controls.py",
+      "sha256": "6ff56527c870f12df82e8e27fdbef05ae0de00b0d931ef2ba9463a8f2634dcff",
+      "bytes": 1730
+    },
+    {
+      "path": "tests/test_loss_search.py",
+      "sha256": "11b795c2431f18d60a2296d3061428c7f52317342b7f6cf9afad06a8f4829cde",
+      "bytes": 6423
+    },
+    {
+      "path": "tests/test_loss_selection.py",
+      "sha256": "42984e5fbcdc1c618d5771eae1f0b6c79fc8d67ba7653e039cc6b7ea6651b119",
+      "bytes": 8857
+    },
+    {
+      "path": "tests/test_support_baselines.py",
+      "sha256": "446d7e12f1afaac762c695752a4bfc4123a5ba13217000347f4ee39846e80763",
+      "bytes": 5710
+    }
+  ]
+}

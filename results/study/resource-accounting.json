@@ -1,0 +1,30 @@
+{
+  "stages": {
+    "development": {
+      "training_runs": 400,
+      "updates": 240000,
+      "sum_recorded_training_and_evaluation_seconds": 137.8035927863093
+    },
+    "v1_confirmation": {
+      "training_runs": 360,
+      "updates": 216000,
+      "sum_recorded_training_and_evaluation_seconds": 124.36288574349601
+    },
+    "v2_replication": {
+      "training_runs": 360,
+      "updates": 216000,
+      "sum_recorded_training_and_evaluation_seconds": 116.01432329160161
+    },
+    "identical_development_rerun_extra": {
+      "training_runs": 400,
+      "updates": 240000,
+      "sum_recorded_training_and_evaluation_seconds": 138.85990441287868,
+      "reason": "Atomic-checkpoint serialization and failure-evidence changes; identical protocol, selection and scientific arrays; not additional observations"
+    }
+  },
+  "distinct_scientific_runs": 1120,
+  "distinct_scientific_updates": 672000,
+  "training_executions_including_duplicate_development": 1520,
+  "updates_including_duplicate_development": 912000,
+  "timing_boundary": "Sum of independently measured per-run training/evaluation times, not elapsed wall time; process overlap means these differ. Excludes packaging, audits, short smoke tests and reference equivalence validation."
+}

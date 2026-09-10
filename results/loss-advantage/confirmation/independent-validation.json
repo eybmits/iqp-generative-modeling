@@ -1,0 +1,426 @@
+{
+  "status": "pass",
+  "audited_at_utc": "2026-09-06T16:40:52.585219+00:00",
+  "auditor": "Independent artifact audit; no repository Python imports and no retraining",
+  "commit": "db6d87c85a17534e6676802b584e2f884b9a9cc2",
+  "protocol_sha256": "4309d13f17a88255d28daaab08bf7e2cc69562d1064b1cc7f09160b2a19e1a6b",
+  "audit_script_sha256": "49ac277f5096bffc2eed80c207f8774c862931cb0c3db7d2cc030d027df53c0c",
+  "input_hashes": {
+    "lock.json": "7e2238649251391735816b4211f5eb0e54af1172fa501ba81e9c79ae17fbc513",
+    "metrics.csv": "6aff17ea3cb5d6dd73f6e3dc2ae2ac0701ef381e9cedb46211658a64e238d4c3",
+    "summary.json": "400a7e098eab6f619f7667ee09619d131004bceb8ad612b0897009e058430ad5"
+  },
+  "role_count": 11,
+  "seed_count": 120,
+  "fit_count": 1320,
+  "checks": {
+    "protocol_matches_preconfirmation_commit": 1,
+    "protocol_matches_run_lock": 1,
+    "locked_protocol_hash": 1,
+    "live_source_hash": 9,
+    "source_matches_preconfirmation_commit": 9,
+    "locked_source_hashes": 1,
+    "commit_precedes_completed_checkpoint_files": 1,
+    "declared_120_fresh_seeds": 1,
+    "disjoint_from_retained_prior_cohorts": 1,
+    "complete_unique_11_role_120_seed_grid": 1,
+    "complete_unique_checkpoint_or_failure_grid": 1,
+    "checkpoint_specification": 1320,
+    "checkpoint_code_hashes": 1320,
+    "row_code_hash": 1320,
+    "successful_row_status": 1320,
+    "independent_p": 1320,
+    "independent_support": 1320,
+    "independent_samples": 1320,
+    "independent_validation": 1320,
+    "independent_elite": 1320,
+    "independent_mask_rng": 1320,
+    "array_hash_samples": 1320,
+    "array_hash_validation": 1320,
+    "array_hash_masks": 1320,
+    "probability_domain": 1320,
+    "stable_log_probability_domain": 1320,
+    "probability_normalization": 1320,
+    "log_probability_normalization": 1320,
+    "logq_q_agreement": 1320,
+    "enforced_even_support": 840,
+    "CSV_kl": 1320,
+    "checkpoint_kl": 1320,
+    "CSV_validation_nll": 1320,
+    "checkpoint_validation_nll": 1320,
+    "CSV_recovery_1000": 1320,
+    "checkpoint_recovery_1000": 1320,
+    "CSV_coverage_1000": 1320,
+    "checkpoint_coverage_1000": 1320,
+    "final_iteration_history": 1320,
+    "independent_initial_rng": 360,
+    "IQP_parameter_count": 360,
+    "initial_array_hash": 360,
+    "explicit_IQP_initial_loss": 360,
+    "explicit_IQP_final_loss": 360,
+    "explicit_gate_Born_law": 360,
+    "shared_data_across_roles": 120,
+    "shared_masks_within_sigma": 120,
+    "shared_IQP_initialization_within_graph": 120,
+    "summary_role_n": 11,
+    "summary_role_failures": 11,
+    "summary_role_mean_kl": 11,
+    "summary_role_nonfinite_kl": 11,
+    "summary_role_mean_recovery_1000": 11,
+    "ten_unique_planned_hypotheses": 1,
+    "simultaneous_individual_confidence": 1,
+    "paired_all_120_seeds": 10,
+    "summary_nominal_ci95": 20,
+    "summary_bonferroni_ci95": 20,
+    "summary_comparison_n": 10,
+    "summary_comparison_failed_pairs": 10,
+    "summary_comparison_nonfinite_pairs": 10,
+    "summary_comparison_finite_successful_pairs": 10,
+    "summary_comparison_parity_mean_kl": 10,
+    "summary_comparison_control_mean_kl": 10,
+    "summary_comparison_mean_difference": 10,
+    "summary_comparison_parity_wins": 10,
+    "summary_comparison_adjusted_confidence": 10,
+    "summary_comparison_passes": 10,
+    "independent_group_verdicts": 1,
+    "close_paper_gate": 1,
+    "supplementary_support_gate": 1
+  },
+  "maximum_absolute_errors": {
+    "independent_p": 1.3877787807814457e-17,
+    "independent_support": 0.0,
+    "independent_samples": 0.0,
+    "independent_validation": 0.0,
+    "independent_elite": 0.0,
+    "probability_normalization": 2.220446049250313e-15,
+    "log_probability_normalization": 1.6917304129147838e-15,
+    "logq_q_agreement": 2.7755575615628914e-17,
+    "enforced_even_support": 0.0,
+    "CSV_kl": 6.661338147750939e-16,
+    "checkpoint_kl": 6.661338147750939e-16,
+    "CSV_validation_nll": 0.0,
+    "checkpoint_validation_nll": 0.0,
+    "CSV_recovery_1000": 0.0,
+    "checkpoint_recovery_1000": 0.0,
+    "CSV_coverage_1000": 0.0,
+    "checkpoint_coverage_1000": 0.0,
+    "explicit_IQP_initial_loss": 2.220446049250313e-15,
+    "explicit_IQP_final_loss": 6.938893903907228e-18,
+    "explicit_gate_Born_law": 1.3877787807814457e-16,
+    "summary_role_n": 0.0,
+    "summary_role_failures": 0.0,
+    "summary_role_mean_kl": 4.440892098500626e-16,
+    "summary_role_nonfinite_kl": 0.0,
+    "summary_role_mean_recovery_1000": 5.551115123125783e-17,
+    "simultaneous_individual_confidence": 0.0,
+    "summary_nominal_ci95": 4.440892098500626e-16,
+    "summary_bonferroni_ci95": 4.440892098500626e-16,
+    "summary_comparison_n": 0.0,
+    "summary_comparison_failed_pairs": 0.0,
+    "summary_comparison_nonfinite_pairs": 0.0,
+    "summary_comparison_finite_successful_pairs": 0.0,
+    "summary_comparison_parity_mean_kl": 0.0,
+    "summary_comparison_control_mean_kl": 4.440892098500626e-16,
+    "summary_comparison_mean_difference": 1.3877787807814457e-17,
+    "summary_comparison_parity_wins": 0.0,
+    "summary_comparison_adjusted_confidence": 0.0,
+    "summary_comparison_passes": 0.0
+  },
+  "errors": [],
+  "failed_fits": [],
+  "infinite_KL_fits": [],
+  "finite_logq_underflow_fits": [],
+  "roles": {
+    "parity": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.3604051220633,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.42551626795007375
+    },
+    "mse_matched": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.3943270679730616,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.40994735606714927
+    },
+    "mse_same": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.38677146222543574,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.4127562009096257
+    },
+    "ising-parity_paper": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 1.0955505466512148,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.2838625351523857
+    },
+    "ising-parity_support": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.39785074516420543,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.4389302313798382
+    },
+    "ising-nll_paper": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 1.100496606144147,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.2818907029759605
+    },
+    "ising-nll_support": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.330254113917898,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.42894741853054313
+    },
+    "maxent_paper": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 2.4931160346845704,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.1392303220540982
+    },
+    "maxent_support": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.3930060670799364,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.43420241350972477
+    },
+    "transformer_paper": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.8900168738898564,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.267115853805912
+    },
+    "transformer_support": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.2280930278515118,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.47579251399769584
+    }
+  },
+  "comparisons": {
+    "ising-nll_paper": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 1.100496606144147,
+      "mean_difference": -0.7400914840808471,
+      "parity_wins": 120,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        -0.7525768646153692,
+        -0.7276061035463248
+      ],
+      "bonferroni_ci95": [
+        -0.7581270090934594,
+        -0.7220559590682346
+      ],
+      "passes": true
+    },
+    "ising-nll_support": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.330254113917898,
+      "mean_difference": 0.030151008145402013,
+      "parity_wins": 39,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        0.01920445933595099,
+        0.041097556954853044
+      ],
+      "bonferroni_ci95": [
+        0.01433837397628318,
+        0.04596364231452085
+      ],
+      "passes": false
+    },
+    "ising-parity_paper": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 1.0955505466512148,
+      "mean_difference": -0.7351454245879148,
+      "parity_wins": 120,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        -0.7561192394907712,
+        -0.7141716096850586
+      ],
+      "bonferroni_ci95": [
+        -0.765442760119214,
+        -0.7048480890566158
+      ],
+      "passes": true
+    },
+    "ising-parity_support": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.39785074516420543,
+      "mean_difference": -0.03744562310090543,
+      "parity_wins": 75,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        -0.055155307117917295,
+        -0.01973593908389356
+      ],
+      "bonferroni_ci95": [
+        -0.0630278188674763,
+        -0.011863427334334552
+      ],
+      "passes": true
+    },
+    "maxent_paper": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 2.4931160346845704,
+      "mean_difference": -2.132710912621271,
+      "parity_wins": 120,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        -2.258300824810068,
+        -2.007121000432473
+      ],
+      "bonferroni_ci95": [
+        -2.3141294922432447,
+        -1.9512923329992964
+      ],
+      "passes": true
+    },
+    "maxent_support": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.3930060670799364,
+      "mean_difference": -0.032600945016636414,
+      "parity_wins": 80,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        -0.04493902980826621,
+        -0.020262860225006618
+      ],
+      "bonferroni_ci95": [
+        -0.05042369669423981,
+        -0.014778193339033019
+      ],
+      "passes": true
+    },
+    "mse_matched": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.3943270679730616,
+      "mean_difference": -0.033921945909761615,
+      "parity_wins": 84,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        -0.047788277377719846,
+        -0.02005561444180338
+      ],
+      "bonferroni_ci95": [
+        -0.05395229799490983,
+        -0.013891593824613399
+      ],
+      "passes": true
+    },
+    "mse_same": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.38677146222543574,
+      "mean_difference": -0.026366340162135727,
+      "parity_wins": 75,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        -0.03778788126004788,
+        -0.014944799064223569
+      ],
+      "bonferroni_ci95": [
+        -0.04286511563673191,
+        -0.009867564687539531
+      ],
+      "passes": true
+    },
+    "transformer_paper": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.8900168738898564,
+      "mean_difference": -0.5296117518265564,
+      "parity_wins": 120,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        -0.5507328649413142,
+        -0.5084906387117986
+      ],
+      "bonferroni_ci95": [
+        -0.5601218642594258,
+        -0.499101639393687
+      ],
+      "passes": true
+    },
+    "transformer_support": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.2280930278515118,
+      "mean_difference": 0.1323120942117882,
+      "parity_wins": 0,
+      "adjusted_confidence": 0.995,
+      "nominal_ci95": [
+        0.12190299873597128,
+        0.1427211896876051
+      ],
+      "bonferroni_ci95": [
+        0.11727582829312581,
+        0.14734836013045058
+      ],
+      "passes": false
+    }
+  },
+  "group_verdicts": {
+    "loss": true,
+    "paper": true,
+    "support": false
+  },
+  "seed_reservation_note": "Development initially reserved seeds4001-4120. Before confirmation these were replaced with5001-5120 because4001 was used in a6-qubit unit smoke. No paper-cohort results from either range were used for selection.",
+  "provenance_notes": [
+    "The frozen seed reservation note describes a 6-qubit unit smoke; tests/test_loss_confirmation.py:28 actually uses 4 qubits. This clerical discrepancy does not affect the frozen seeds, sources, fits, or inference."
+  ],
+  "inference": "All ten frozen comparisons kept; Bonferroni 95% family-wise coverage uses 99.5% individual intervals. Paper defaults are the main classical comparison; trained support-aware controls remain supplementary.",
+  "audit_boundary": "Checks final distributions, endpoints, metadata and reported inference; does not retrain classical models or replay all 600 optimization steps.",
+  "elapsed_seconds": 3.6332921250723302
+}

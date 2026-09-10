@@ -1,0 +1,239 @@
+{
+  "protocol": {
+    "stage": "development",
+    "n": 12,
+    "betas": [
+      0.9,
+      1.2,
+      1.5,
+      1.8
+    ],
+    "m": 200,
+    "development_seeds": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "steps": 600,
+    "k": 512,
+    "validation_samples": 2000,
+    "optimizer": {
+      "name": "PennyLane-style Adam",
+      "beta1": 0.9,
+      "beta2": 0.99,
+      "epsilon": 1e-08,
+      "epsilon_placement": "before second-moment bias correction"
+    },
+    "architectures": [
+      "ring",
+      "ring3",
+      "dense"
+    ],
+    "parity_sigmas": [
+      0.75,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "parity_learning_rates": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "mse_objectives": [
+      "mse",
+      "scaled-mse"
+    ],
+    "mse_learning_rates": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "mse_sigma": 1.0,
+    "data_rng": "default_rng(seed+7); m IID draws with replacement",
+    "mask_rng": "default_rng(seed+222); nonzero Bernoulli masks, duplicates retained",
+    "initialization": ".01*default_rng(seed+10000+7*k).standard_normal(parameter_count)",
+    "validation_rng": "default_rng(seed+50000); independent IID target draws",
+    "selection": "Mean validation NLL over all ten development seeds; target KL is diagnostic only",
+    "stopping_rule": "All 2880 specified fits once; final iterate after 600 updates; retain failures and infinite metrics",
+    "claim_boundary": "Exploratory architecture and optimizer development on historical seeds, not independent confirmation"
+  },
+  "fingerprint": {
+    "loss_search_sha256": "9a960cd6a4f76cdc05209806073a8b0f1d95e06a969c7fabffb8198bd00ee568",
+    "core_sha256": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe",
+    "study_sha256": "2607074f2ff82d4ddd69d673bf575749099105e8e86f50ca058e1bc90dabe9b3",
+    "python": "3.13.12 (main, Mar  3 2026, 15:32:44) [Clang 21.1.4 ]",
+    "numpy": "2.3.3",
+    "scipy": "1.16.3",
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+    "thread_environment": {
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "MKL_NUM_THREADS": null,
+      "VECLIB_MAXIMUM_THREADS": null
+    },
+    "canonical_protocol_sha256": "9762061c63b10a18bf4a465c0ab138b6ff0a8e65400827556aea687141fa506c"
+  },
+  "canonical_protocol": {
+    "study": "Bounded loss-advantage development, September 2026",
+    "status": "development only; confirmation requires a frozen selection",
+    "n": 12,
+    "betas": [
+      0.9,
+      1.2,
+      1.5,
+      1.8
+    ],
+    "m": 200,
+    "k": 512,
+    "steps": 600,
+    "development_seeds": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "validation_samples": 2000,
+    "sample_seed_offset": 7,
+    "validation_seed_offset": 50000,
+    "mask_seed_offset": 222,
+    "architectures": [
+      "ring",
+      "ring3",
+      "dense"
+    ],
+    "sigmas": [
+      0.75,
+      1.0,
+      1.5,
+      2.0
+    ],
+    "parity_learning_rates": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "mse_learning_rates": [
+      0.005,
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2
+    ],
+    "mse_objectives": [
+      "mse",
+      "scaled-mse"
+    ],
+    "optimizer": {
+      "beta1": 0.9,
+      "beta2": 0.99,
+      "epsilon": 1e-08
+    },
+    "classical": {
+      "ising-parity": {
+        "architectures": [
+          "ring",
+          "ring3",
+          "dense"
+        ],
+        "sigmas": [
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "learning_rates": [
+          0.02,
+          0.05,
+          0.1
+        ],
+        "steps": [
+          600
+        ]
+      },
+      "ising-nll": {
+        "architectures": [
+          "dense"
+        ],
+        "sigmas": [
+          1.0
+        ],
+        "learning_rates": [
+          0.005,
+          0.02,
+          0.05
+        ],
+        "steps": [
+          50,
+          100,
+          200,
+          600
+        ]
+      },
+      "maxent": {
+        "architectures": [
+          "features"
+        ],
+        "sigmas": [
+          0.75,
+          1.0,
+          1.5,
+          2.0
+        ],
+        "learning_rates": [
+          0.005,
+          0.02,
+          0.05
+        ],
+        "steps": [
+          50,
+          200,
+          600
+        ]
+      },
+      "transformer": {
+        "architectures": [
+          "prefix"
+        ],
+        "sigmas": [
+          1.0
+        ],
+        "learning_rates": [
+          0.0002,
+          0.001,
+          0.003
+        ],
+        "steps": [
+          50,
+          100,
+          200,
+          600
+        ]
+      }
+    },
+    "selection_metric": "mean negative log likelihood on shared independent validation draws; target KL diagnostic only",
+    "constraints": "Development seeds and beta regimes have been examined previously. No development interval is confirmatory. Keep all configurations, outcomes and prior studies. Classical models receive exact even-support knowledge. Globally selecting shorter classical training budgets is allowed; no per-confirmation-data tuning. IQP always uses the final iterate after 600 updates. No new target, label or training example is supplied to a family alone.",
+    "reserved_confirmation_seeds": {
+      "start": 4001,
+      "stop_inclusive": 4120
+    },
+    "confirmation_rule": "Freeze beta, all configurations, source hashes and comparisons before generating these 120 datasets. One cohort only, no retuning or sample expansion after observing it. Distinguish matched loss comparisons, original paper classical baselines and stronger support-aware classical comparisons. Report every planned comparison whether successful or not."
+  }
+}

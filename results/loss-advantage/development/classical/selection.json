@@ -1,0 +1,514 @@
+{
+  "0.9/ising-nll/support": {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.005_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.982414241328732,
+    "mean_kl": 0.327022328808748
+  },
+  "0.9/ising-nll/paper": {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.7447805444057725,
+    "mean_kl": 1.088202126659809
+  },
+  "0.9/ising-parity/support": {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.011377995983778,
+    "mean_kl": 0.3543848541751576
+  },
+  "0.9/ising-parity/paper": {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.7487412781401614,
+    "mean_kl": 1.0822861324446955
+  },
+  "0.9/maxent/support": {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.037503886185595,
+    "mean_kl": 0.3819218259173998
+  },
+  "0.9/maxent/paper": {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.9189689691679295,
+    "mean_kl": 2.2481314999573163
+  },
+  "0.9/transformer/support": {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.003_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.870056411927314,
+    "mean_kl": 0.2123854825676849
+  },
+  "0.9/transformer/paper": {
+    "beta": 0.9,
+    "key": "transformer_full_s1_lr0.001_t600_paper",
+    "config": {
+      "model": "transformer",
+      "architecture": "full",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.503674730764852,
+    "mean_kl": 0.8323017077799493
+  },
+  "1.2/ising-nll/support": {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.02_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.179735096442028,
+    "mean_kl": 0.2682141429112296
+  },
+  "1.2/ising-nll/paper": {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.9520960168837975,
+    "mean_kl": 1.0483319646606586
+  },
+  "1.2/ising-parity/support": {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.1719290250815435,
+    "mean_kl": 0.26159719015189553
+  },
+  "1.2/ising-parity/paper": {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.919862734461784,
+    "mean_kl": 1.0196642624823953
+  },
+  "1.2/maxent/support": {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.153349709430502,
+    "mean_kl": 0.23833184316584957
+  },
+  "1.2/maxent/paper": {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.988245042381155,
+    "mean_kl": 3.096235921847995
+  },
+  "1.2/transformer/support": {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.0002_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.1360205371923175,
+    "mean_kl": 0.22444259741630884
+  },
+  "1.2/transformer/paper": {
+    "beta": 1.2,
+    "key": "transformer_full_s1_lr0.001_t600_paper",
+    "config": {
+      "model": "transformer",
+      "architecture": "full",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.507756897123412,
+    "mean_kl": 0.5955275180256313
+  },
+  "1.5/ising-nll/support": {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.02_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7078186569066784,
+    "mean_kl": 0.18394688309537596
+  },
+  "1.5/ising-nll/paper": {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.57570307751472,
+    "mean_kl": 1.061091319181989
+  },
+  "1.5/ising-parity/support": {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.682590884562792,
+    "mean_kl": 0.15980346652794497
+  },
+  "1.5/ising-parity/paper": {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.256369799895495,
+    "mean_kl": 0.7444139570117427
+  },
+  "1.5/maxent/support": {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.6711799351277454,
+    "mean_kl": 0.14948409459721873
+  },
+  "1.5/maxent/paper": {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.059609355523685,
+    "mean_kl": 1.5736938705250085
+  },
+  "1.5/transformer/support": {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.001_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7211922058384888,
+    "mean_kl": 0.20287025427854544
+  },
+  "1.5/transformer/paper": {
+    "beta": 1.5,
+    "key": "transformer_full_s1_lr0.001_t600_paper",
+    "config": {
+      "model": "transformer",
+      "architecture": "full",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.922533632664393,
+    "mean_kl": 0.4096465819998113
+  },
+  "1.8/ising-nll/support": {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.02_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7916820662153463,
+    "mean_kl": 0.11362311615993714
+  },
+  "1.8/ising-nll/paper": {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.381612824542949,
+    "mean_kl": 0.7104393877640527
+  },
+  "1.8/ising-parity/support": {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7783218509175438,
+    "mean_kl": 0.09792333902354985
+  },
+  "1.8/ising-parity/paper": {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.1558698142303547,
+    "mean_kl": 0.47813296398037985
+  },
+  "1.8/maxent/support": {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7825775196983222,
+    "mean_kl": 0.10648312501869654
+  },
+  "1.8/maxent/paper": {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.845134258172494,
+    "mean_kl": 1.2026631824050624
+  },
+  "1.8/transformer/support": {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.003_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8207352177408591,
+    "mean_kl": 0.14835135670343333
+  },
+  "1.8/transformer/paper": {
+    "beta": 1.8,
+    "key": "transformer_full_s1_lr0.001_t600_paper",
+    "config": {
+      "model": "transformer",
+      "architecture": "full",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.983383997649027,
+    "mean_kl": 0.31422741504806256
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "development_started_at_utc": "2026-09-06T18:04:45.955762+00:00",
+  "predevelopment_commit": "e28d7d8eeeeed925d2c3517157d72c3e13299f4d",
+  "workers": 3,
+  "planned_development_fits": 1440,
+  "planned_confirmation_fits": 2160,
+  "development_finished_at_utc": "2026-09-06T18:08:38.201626+00:00",
+  "development_wall_seconds": 220.65,
+  "confirmation_started_at_utc": "2026-09-06T18:10:17.960550+00:00",
+  "preconfirmation_commit": "836aebf5c07e9417512ef8701b436ebfcae29b52",
+  "confirmation_finished_at_utc": "2026-09-06T18:15:04.040624+00:00",
+  "confirmation_wall_seconds": 262.05,
+  "total_training_wall_seconds": 482.7,
+  "confirmation_training_executions": 2160,
+  "confirmation_distinct_configuration_dataset_pairs": 2040,
+  "confirmation_roles": 18,
+  "confirmation_unique_configurations": 17,
+  "coincident_controls": "At 66 parameters, tuned and matched MSE coincide. Both 120-fit roles were executed and both labels retained; the multiplicity factor remains 12."
+}

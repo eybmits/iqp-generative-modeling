@@ -1,0 +1,160 @@
+{
+  "upstream_url": "https://github.com/eybmits/iqp-generative-modeling",
+  "upstream_commit": "ab906b4f19a7db993598e983962834cfe0c4fda7",
+  "files": {
+    "beta_metrics.csv": {
+      "source": "plots/experiment_3_beta_quality_coverage/experiment_3_beta_quality_coverage_metrics_per_seed.csv",
+      "source_sha256": "99161ee35f926041f9f43c584c76aa57c88b9dce79646d983df6df35749f850f",
+      "sha256": "99161ee35f926041f9f43c584c76aa57c88b9dce79646d983df6df35749f850f",
+      "operation": "byte-for-byte copy"
+    },
+    "size_metrics.csv": {
+      "source": "plots/experiment_6_ablation_n_sweep_all_baselines_n10_20/experiment_6_ablation_n_sweep_all_baselines_metrics_per_seed.csv",
+      "source_sha256": "f457a71fa447e51dc2a54108c06ae228110249a5f82b00319082ff21681e4e6f",
+      "sha256": "f457a71fa447e51dc2a54108c06ae228110249a5f82b00319082ff21681e4e6f",
+      "operation": "byte-for-byte copy"
+    },
+    "score_marginal_seed42.csv": {
+      "source": "plots/experiment_8_fixed_beta_bucket_fit_iqp_vs_mse/experiment_8_fixed_beta_bucket_fit_iqp_vs_mse_bucket_masses.csv",
+      "source_sha256": "3a6c0a531cc6bd9259d152782f941c20f08c9c97e2604f340296b9d537b65004",
+      "sha256": "3a6c0a531cc6bd9259d152782f941c20f08c9c97e2604f340296b9d537b65004",
+      "operation": "byte-for-byte copy"
+    },
+    "legacy_fixed.npz": {
+      "source": "plots/experiment_1_kl_diagnostics/experiment_1_data.npz",
+      "source_sha256": "0022d407da7329b9bcd2bc9ba44b11a0ad81f4896d631d2c23f3aea8f8176078",
+      "sha256": "32cd9e27e503689ed9cd86bf696d11cca76f8a588348e199f98c9d61a9ab0bee",
+      "operation": "numeric arrays selected, compressed; labels supplied from fixed grid where stated",
+      "retained_arrays": [
+        "all_seeds",
+        "sigma_values",
+        "k_values",
+        "kl_grid_by_seed",
+        "mse_kl_by_seed",
+        "panel_ab_grid",
+        "panel_ab_seed"
+      ]
+    },
+    "fixed.npz": {
+      "source": "plots/experiment_12_global_best_iqp_vs_mse/experiment_12_global_best_iqp_vs_mse_data.npz",
+      "source_sha256": "f74176507e0b21c0c4b36c0c21042e3cacfb26388bb8de8cc81bce0f57f93088",
+      "sha256": "9f57e13f61e8d8e13d8bf20663b7e1445cad6ed417c765dcb855e2b6a6a41f87",
+      "operation": "numeric arrays selected, compressed; labels supplied from fixed grid where stated",
+      "retained_arrays": [
+        "seeds",
+        "sigma_values",
+        "k_values",
+        "parity_kl_grid",
+        "mse_kl",
+        "train_indices",
+        "parity_weights",
+        "mse_weights"
+      ]
+    },
+    "recovery_seed118.npz": {
+      "source": "plots/experiment_4_recovery_sigmak_triplet_seed118/coverage_sigmak_triplet_data.npz",
+      "source_sha256": "3fed2db98f231d4706cb90c99e9243594cfd37d98fb18e90182349d701345649",
+      "sha256": "4669b8be08b9d7ddd0c4828ce0a826c12502855391af6bff023fad0f0836c711",
+      "operation": "numeric arrays selected, compressed; labels supplied from fixed grid where stated",
+      "retained_arrays": [
+        "Q",
+        "target_curve",
+        "uniform_curve",
+        "iqp_mse_curve",
+        "parity_curves",
+        "spectral_curves",
+        "seed",
+        "beta",
+        "elite_unseen_count",
+        "labels"
+      ]
+    },
+    "hardware.npz": {
+      "source": "plots/experiment_15_ibm_hardware_seedwise_best_coverage/experiment_15_ibm_hardware_seedwise_best_coverage_data.npz",
+      "source_sha256": "e2fd2028ed1c78f185f5cadf940ffa994732c083dfd443b6572172a7e8cbcdee",
+      "sha256": "343906145659b35ef2e650523c7ffb6361f1ef41759ed7e52b099a0fb2f811ef",
+      "operation": "numeric arrays selected, compressed; labels supplied from fixed grid where stated",
+      "retained_arrays": [
+        "seeds",
+        "model_keys",
+        "counts_cube",
+        "qideal_cube",
+        "elite_unseen_masks",
+        "train_indices",
+        "p_star",
+        "seedwise_sigma",
+        "seedwise_k"
+      ]
+    },
+    "hardware_curves.npz": {
+      "source": "plots/experiment_16_seedwise_best_hardware_recovery_curve/experiment_16_seedwise_best_hardware_recovery_curve_avg_common_seeds_no_spectral_paper.npz",
+      "source_sha256": "9366ef44697d8435ab41f67b61a36a12a0f95f5c7228b44f7bebf7e3418a46b2",
+      "sha256": "1719575ef02b3d7a27ae5853c009294ae632b71ca941933bff92571a660bd781",
+      "operation": "numeric arrays selected, compressed; labels supplied from fixed grid where stated",
+      "retained_arrays": [
+        "selected_seeds",
+        "q_grid",
+        "target_mean",
+        "target_std",
+        "uniform_mean",
+        "uniform_std",
+        "parity_sim_mean",
+        "parity_sim_std",
+        "parity_hw_mean",
+        "parity_hw_std",
+        "mse_sim_mean",
+        "mse_sim_std",
+        "mse_hw_mean",
+        "mse_hw_std"
+      ]
+    },
+    "hardware_jobs.json": {
+      "source": "plots/experiment_15_ibm_hardware_seedwise_best_coverage/experiment_15_ibm_hardware_seedwise_best_coverage_jobs.json",
+      "source_sha256": "d3a6299623ca31247ea495c614025b2a3d7fb283f49be7aee3dbe6d49debb30b",
+      "sha256": "d3a6299623ca31247ea495c614025b2a3d7fb283f49be7aee3dbe6d49debb30b",
+      "operation": "byte-for-byte copy"
+    },
+    "hardware_circuits.json": {
+      "source": "plots/experiment_15_ibm_hardware_seedwise_best_coverage/experiment_15_ibm_hardware_seedwise_best_coverage_circuits.json",
+      "source_sha256": "91fbe07294677a5398f7bcc78e01af47e94ceac0f1fa20e1fe592d1d80099689",
+      "sha256": "91fbe07294677a5398f7bcc78e01af47e94ceac0f1fa20e1fe592d1d80099689",
+      "operation": "byte-for-byte copy"
+    },
+    "main_protocol.md": {
+      "source": "docs/benchmark_reporting_protocol.md",
+      "source_sha256": "a946c244e763b6adc5492c57117273be32095492d1799ba7b7db261a40911474",
+      "sha256": "a946c244e763b6adc5492c57117273be32095492d1799ba7b7db261a40911474",
+      "operation": "byte-for-byte copy"
+    }
+  },
+  "validation": {
+    "beta_rows": 1000,
+    "beta_seeds": [
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
+    ],
+    "size_rows": 550,
+    "separate_KL_source_agrees_with_retained_coverage_source": true,
+    "presentation_overrides_used": false,
+    "hardware_observation": "20 completed 10000-shot jobs, 2026-04-08, ibm_marrakesh; historical only"
+  },
+  "figure_notes": {
+    "figure4": "Legacy seeds42..51; printed .402 summary is hardcoded and unsupported by raw arrays. Separate fixed.npz seeds111..120 is a distinct dataset.",
+    "figure5": "Canonical 111..120 raw rows, not stale presentation override101..110. Coverage uses exactly floor(0.1*|S|)=204 elite states, truncating tied scores, unlike the paper Eq9 tie-inclusive quantile.",
+    "figure6": "Seed118 full-cube, repeated-mask spectral proxy, as implemented upstream; differs from Eq14 support projection. Hardware parity is selected per seed by exact simulator KL. Legacy elite truncates ties: seed118 has127 unseen elite states; Eq9 has287. Historical hardware mean +/- SD bands overlap at all158 positive saved budget points; paired95% t intervals at Q1000 and2000 both include zero.",
+    "figure7": "Canonical n10..20,111..120; cached observation, not a fresh full recomputation."
+  },
+  "authoritative_paper": {
+    "title": "Parity Supervision as a Driver of Generalization in Quantum Generative Modeling",
+    "arxiv": "2605.10258v2",
+    "supplied_pdf_sha256": "00ded707cb3246aeebe6dca975930cf82071cf6012cca5c6476970884d4cfda9"
+  }
+}

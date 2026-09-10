@@ -1,0 +1,311 @@
+{
+  "stage": "confirmation",
+  "rows": 1320,
+  "seed_count": 120,
+  "roles": {
+    "parity": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.3604051220633,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.42551626795007375
+    },
+    "mse_matched": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.39432706797306155,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.4099473560671492
+    },
+    "mse_same": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.3867714622254358,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.4127562009096258
+    },
+    "ising-parity_paper": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 1.095550546651215,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.2838625351523857
+    },
+    "ising-parity_support": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.3978507451642054,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.43893023137983816
+    },
+    "ising-nll_paper": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 1.100496606144147,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.2818907029759605
+    },
+    "ising-nll_support": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.330254113917898,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.4289474185305432
+    },
+    "maxent_paper": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 2.493116034684571,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.1392303220540982
+    },
+    "maxent_support": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.39300606707993635,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.43420241350972477
+    },
+    "transformer_paper": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.8900168738898564,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.26711585380591196
+    },
+    "transformer_support": {
+      "n": 120,
+      "failures": 0,
+      "mean_kl": 0.22809302785151175,
+      "nonfinite_kl": 0,
+      "mean_recovery_1000": 0.47579251399769584
+    }
+  },
+  "multiplicity": {
+    "method": "Bonferroni simultaneous two-sided 95% family",
+    "unique_control_roles": 10,
+    "individual_confidence": 0.995
+  },
+  "comparisons": {
+    "ising-nll_paper": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 1.100496606144147,
+      "mean_difference": -0.7400914840808471,
+      "parity_wins": 120,
+      "nominal_ci95": [
+        -0.7525768646153693,
+        -0.7276061035463249
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        -0.7581270090934595,
+        -0.7220559590682347
+      ],
+      "interval_status": "finite",
+      "passes": true
+    },
+    "ising-nll_support": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.330254113917898,
+      "mean_difference": 0.030151008145402013,
+      "parity_wins": 39,
+      "nominal_ci95": [
+        0.019204459335950982,
+        0.041097556954853044
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        0.014338373976283174,
+        0.04596364231452085
+      ],
+      "interval_status": "finite",
+      "passes": false
+    },
+    "ising-parity_paper": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 1.095550546651215,
+      "mean_difference": -0.7351454245879148,
+      "parity_wins": 120,
+      "nominal_ci95": [
+        -0.7561192394907711,
+        -0.7141716096850584
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        -0.7654427601192139,
+        -0.7048480890566157
+      ],
+      "interval_status": "finite",
+      "passes": true
+    },
+    "ising-parity_support": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.3978507451642054,
+      "mean_difference": -0.03744562310090544,
+      "parity_wins": 75,
+      "nominal_ci95": [
+        -0.05515530711791731,
+        -0.019735939083893574
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        -0.06302781886747633,
+        -0.01186342733433456
+      ],
+      "interval_status": "finite",
+      "passes": true
+    },
+    "maxent_paper": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 2.493116034684571,
+      "mean_difference": -2.132710912621271,
+      "parity_wins": 120,
+      "nominal_ci95": [
+        -2.2583008248100684,
+        -2.0071210004324733
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        -2.3141294922432447,
+        -1.9512923329992968
+      ],
+      "interval_status": "finite",
+      "passes": true
+    },
+    "maxent_support": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.39300606707993635,
+      "mean_difference": -0.032600945016636414,
+      "parity_wins": 80,
+      "nominal_ci95": [
+        -0.04493902980826621,
+        -0.020262860225006618
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        -0.05042369669423981,
+        -0.014778193339033015
+      ],
+      "interval_status": "finite",
+      "passes": true
+    },
+    "mse_matched": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.39432706797306155,
+      "mean_difference": -0.033921945909761615,
+      "parity_wins": 84,
+      "nominal_ci95": [
+        -0.04778827737771985,
+        -0.020055614441803378
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        -0.05395229799490983,
+        -0.013891593824613396
+      ],
+      "interval_status": "finite",
+      "passes": true
+    },
+    "mse_same": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.3867714622254358,
+      "mean_difference": -0.026366340162135724,
+      "parity_wins": 75,
+      "nominal_ci95": [
+        -0.03778788126004788,
+        -0.014944799064223569
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        -0.04286511563673191,
+        -0.009867564687539531
+      ],
+      "interval_status": "finite",
+      "passes": true
+    },
+    "transformer_paper": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.8900168738898564,
+      "mean_difference": -0.5296117518265564,
+      "parity_wins": 120,
+      "nominal_ci95": [
+        -0.5507328649413142,
+        -0.5084906387117986
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        -0.5601218642594258,
+        -0.49910163939368696
+      ],
+      "interval_status": "finite",
+      "passes": true
+    },
+    "transformer_support": {
+      "n": 120,
+      "failed_pairs": 0,
+      "nonfinite_pairs": 0,
+      "finite_successful_pairs": 120,
+      "parity_mean_kl": 0.3604051220633,
+      "control_mean_kl": 0.22809302785151175,
+      "mean_difference": 0.1323120942117882,
+      "parity_wins": 0,
+      "nominal_ci95": [
+        0.12190299873597128,
+        0.1427211896876051
+      ],
+      "adjusted_confidence": 0.995,
+      "bonferroni_ci95": [
+        0.11727582829312581,
+        0.14734836013045058
+      ],
+      "interval_status": "finite",
+      "passes": false
+    }
+  },
+  "group_verdicts": {
+    "loss": true,
+    "paper": true,
+    "support": false
+  },
+  "close_paper_success": true,
+  "support_aware_success": false,
+  "scope": "Frozen configurations, final iterates, all seeds retained; validation NLL is diagnostic only",
+  "win_count_definition": "Parity wins among finite successful pairs; failed/infinite pairs are retained but not wins",
+  "recovery": "Descriptive only; undefined for a role with a failed fit"
+}

@@ -1,0 +1,13 @@
+{
+  "python": "3.13.12",
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O",
+  "versions": {
+    "iqp-repro": "0.1.0",
+    "numpy": "2.3.3",
+    "scipy": "1.16.3",
+    "torch": "2.10.0",
+    "matplotlib": "3.10.6"
+  },
+  "threads": 4,
+  "workers": 4
+}

@@ -1,0 +1,95 @@
+{
+  "fingerprint": {
+    "study_sha256": "2607074f2ff82d4ddd69d673bf575749099105e8e86f50ca058e1bc90dabe9b3",
+    "core_sha256": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe",
+    "protocol_sha256": "0031d0914ab190f019f6cfdf5d31d8821b1a61b8fb5dab1630c5601603c62895",
+    "python": "3.13.12 (main, Mar  3 2026, 15:32:44) [Clang 21.1.4 ]",
+    "numpy": "2.3.3",
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O"
+  },
+  "selected": {
+    "parity": {
+      "architecture": "dense",
+      "objective": "expected-parity",
+      "lr": 0.1,
+      "key": "dense_expected-parity_lr0.1",
+      "mean_kl": 0.3962514714581781,
+      "mean_validation_nll": 6.0633158449909015,
+      "mean_recovery_1000": 0.43163441996178803,
+      "runs": 10
+    },
+    "mse": {
+      "architecture": "ring",
+      "objective": "mse",
+      "lr": 0.1,
+      "key": "ring_mse_lr0.1",
+      "mean_kl": 0.4265794180392512,
+      "mean_validation_nll": 6.094385081021398,
+      "mean_recovery_1000": 0.40672761432753723,
+      "runs": 10
+    },
+    "same_architecture_mse": {
+      "architecture": "dense",
+      "objective": "mse",
+      "lr": 0.05,
+      "key": "dense_mse_lr0.05",
+      "mean_kl": 0.48164187414259707,
+      "mean_validation_nll": 6.1498404765562436,
+      "mean_recovery_1000": 0.3940887781415478,
+      "runs": 10
+    },
+    "parity_family": {
+      "architecture": "dense",
+      "objective": "parity",
+      "lr": 0.05,
+      "key": "dense_parity_lr0.05",
+      "mean_kl": 0.4208793902924062,
+      "mean_validation_nll": 6.084008113677661,
+      "mean_recovery_1000": 0.43306060973018423,
+      "runs": 10
+    },
+    "parity_family_mse": {
+      "architecture": "dense",
+      "objective": "mse",
+      "lr": 0.05,
+      "key": "dense_mse_lr0.05",
+      "mean_kl": 0.48164187414259707,
+      "mean_validation_nll": 6.1498404765562436,
+      "mean_recovery_1000": 0.3940887781415478,
+      "runs": 10
+    },
+    "expected-parity_family": {
+      "architecture": "dense",
+      "objective": "expected-parity",
+      "lr": 0.1,
+      "key": "dense_expected-parity_lr0.1",
+      "mean_kl": 0.3962514714581781,
+      "mean_validation_nll": 6.0633158449909015,
+      "mean_recovery_1000": 0.43163441996178803,
+      "runs": 10
+    },
+    "expected-parity_family_mse": {
+      "architecture": "dense",
+      "objective": "mse",
+      "lr": 0.05,
+      "key": "dense_mse_lr0.05",
+      "mean_kl": 0.48164187414259707,
+      "mean_validation_nll": 6.1498404765562436,
+      "mean_recovery_1000": 0.3940887781415478,
+      "runs": 10
+    },
+    "paper_parity": {
+      "architecture": "ring",
+      "objective": "parity",
+      "lr": 0.05,
+      "key": "ring_parity_lr0.05"
+    },
+    "paper_mse": {
+      "architecture": "ring",
+      "objective": "mse",
+      "lr": 0.05,
+      "key": "ring_mse_lr0.05"
+    }
+  },
+  "development_metrics_sha256": "dc45b9cc8feaf5aa9d4050a191300db21accc1d8821134d98c7b49af57f01bb9"
+}

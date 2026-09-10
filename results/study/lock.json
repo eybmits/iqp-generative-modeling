@@ -1,0 +1,8 @@
+{
+  "study_sha256": "2607074f2ff82d4ddd69d673bf575749099105e8e86f50ca058e1bc90dabe9b3",
+  "core_sha256": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe",
+  "protocol_sha256": "0031d0914ab190f019f6cfdf5d31d8821b1a61b8fb5dab1630c5601603c62895",
+  "python": "3.13.12 (main, Mar  3 2026, 15:32:44) [Clang 21.1.4 ]",
+  "numpy": "2.3.3",
+  "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O"
+}

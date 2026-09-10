@@ -1,0 +1,30 @@
+{
+  "study": "Bounded loss-advantage development, September 2026",
+  "status": "development only; confirmation requires a frozen selection",
+  "n": 12,
+  "betas": [0.9, 1.2, 1.5, 1.8],
+  "m": 200,
+  "k": 512,
+  "steps": 600,
+  "development_seeds": [111, 112, 113, 114, 115, 116, 117, 118, 119, 120],
+  "validation_samples": 2000,
+  "sample_seed_offset": 7,
+  "validation_seed_offset": 50000,
+  "mask_seed_offset": 222,
+  "architectures": ["ring", "ring3", "dense"],
+  "sigmas": [0.75, 1.0, 1.5, 2.0],
+  "parity_learning_rates": [0.02, 0.05, 0.1],
+  "mse_learning_rates": [0.005, 0.01, 0.02, 0.05, 0.1, 0.2],
+  "mse_objectives": ["mse", "scaled-mse"],
+  "optimizer": {"beta1": 0.9, "beta2": 0.99, "epsilon": 1e-8},
+  "classical": {
+    "ising-parity": {"architectures": ["ring", "ring3", "dense"], "sigmas": [0.75, 1.0, 1.5, 2.0], "learning_rates": [0.02, 0.05, 0.1], "steps": [600]},
+    "ising-nll": {"architectures": ["dense"], "sigmas": [1.0], "learning_rates": [0.005, 0.02, 0.05], "steps": [50, 100, 200, 600]},
+    "maxent": {"architectures": ["features"], "sigmas": [0.75, 1.0, 1.5, 2.0], "learning_rates": [0.005, 0.02, 0.05], "steps": [50, 200, 600]},
+    "transformer": {"architectures": ["prefix"], "sigmas": [1.0], "learning_rates": [0.0002, 0.001, 0.003], "steps": [50, 100, 200, 600]}
+  },
+  "selection_metric": "mean negative log likelihood on shared independent validation draws; target KL diagnostic only",
+  "constraints": "Development seeds and beta regimes have been examined previously. No development interval is confirmatory. Keep all configurations, outcomes and prior studies. Classical models receive exact even-support knowledge. Globally selecting shorter classical training budgets is allowed; no per-confirmation-data tuning. IQP always uses the final iterate after 600 updates. No new target, label or training example is supplied to a family alone.",
+  "reserved_confirmation_seeds": {"start": 4001, "stop_inclusive": 4120},
+  "confirmation_rule": "Freeze beta, all configurations, source hashes and comparisons before generating these 120 datasets. One cohort only, no retuning or sample expansion after observing it. Distinguish matched loss comparisons, original paper classical baselines and stronger support-aware classical comparisons. Report every planned comparison whether successful or not."
+}

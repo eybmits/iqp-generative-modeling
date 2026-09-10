@@ -1,0 +1,55 @@
+{
+  "numpy": "2.3.3",
+  "pennylane": "0.42.3",
+  "compatibility_patch": "P_t @ q rewritten to qnp.dot(P_t,q): constant tensors changed to ordinary NumPy; upstream matmul/tensor flags fail NumPy2/PennyLane autograd",
+  "tests": [
+    {
+      "n": 5,
+      "steps": 20,
+      "loss": "parity",
+      "target_max_abs": 2.7755575615628914e-17,
+      "q_max_abs": 5.551115123125783e-17,
+      "q_l1": 3.642919299551295e-16,
+      "kl_true": 0.3638077633735031,
+      "kl_legacy": 0.3638077633676822,
+      "legacy_seconds": 0.041057584108784795,
+      "new_seconds": 0.0016964590176939964
+    },
+    {
+      "n": 5,
+      "steps": 20,
+      "loss": "mse",
+      "target_max_abs": 2.7755575615628914e-17,
+      "q_max_abs": 8.326672684688674e-17,
+      "q_l1": 3.3133218391157016e-16,
+      "kl_true": 1.584595900398051,
+      "kl_legacy": 1.5845959003726975,
+      "legacy_seconds": 0.03698604099918157,
+      "new_seconds": 0.0011254579294472933
+    },
+    {
+      "n": 12,
+      "steps": 600,
+      "loss": "parity",
+      "target_max_abs": 4.163336342344337e-17,
+      "q_max_abs": 8.604228440844963e-16,
+      "q_l1": 8.077038290995104e-15,
+      "kl_true": 0.49765866045495477,
+      "kl_legacy": 0.4976586594357526,
+      "legacy_seconds": 7.379680749960244,
+      "new_seconds": 0.31927095900755376
+    },
+    {
+      "n": 12,
+      "steps": 600,
+      "loss": "mse",
+      "target_max_abs": 4.163336342344337e-17,
+      "q_max_abs": 4.163336342344337e-16,
+      "q_l1": 3.1331059313526843e-15,
+      "kl_true": 0.4721735130688734,
+      "kl_legacy": 0.4721735121018633,
+      "legacy_seconds": 6.947860666085035,
+      "new_seconds": 0.23936995794065297
+    }
+  ]
+}

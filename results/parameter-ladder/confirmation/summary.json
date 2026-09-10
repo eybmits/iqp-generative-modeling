@@ -1,0 +1,311 @@
+{
+  "stage": "confirmation",
+  "fits": 2160,
+  "planned_comparisons": 12,
+  "comparisons": [
+    {
+      "radius": 1,
+      "kind": "tuned",
+      "parity": "r1_parity",
+      "control": "r1_mse_tuned",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.7783803437178494,
+      "mean_mse_kl": 0.7630163982891458,
+      "mean_difference": 0.01536394542870356,
+      "relative_improvement": -0.020135799785106823,
+      "wins": 50,
+      "se": 0.004919011645186005,
+      "ci95": [
+        0.005623811077932665,
+        0.02510407977947445
+      ],
+      "adjusted_ci95": [
+        0.0009920451994521271,
+        0.029735845657954993
+      ],
+      "confirmed_win": false,
+      "confirmed_loss": true
+    },
+    {
+      "radius": 1,
+      "kind": "matched",
+      "parity": "r1_parity",
+      "control": "r1_mse_matched",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.7783803437178494,
+      "mean_mse_kl": 0.7728405471254405,
+      "mean_difference": 0.005539796592408925,
+      "relative_improvement": -0.007168097757052294,
+      "wins": 57,
+      "se": 0.004842681635273201,
+      "ci95": [
+        -0.0040491967151660285,
+        0.01512878989998388
+      ],
+      "adjusted_ci95": [
+        -0.008609089875930152,
+        0.019688683060748002
+      ],
+      "confirmed_win": false,
+      "confirmed_loss": false
+    },
+    {
+      "radius": 2,
+      "kind": "tuned",
+      "parity": "r2_parity",
+      "control": "r2_mse_tuned",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.4674434180224091,
+      "mean_mse_kl": 0.4370733709038902,
+      "mean_difference": 0.030370047118518883,
+      "relative_improvement": -0.06948500901739241,
+      "wins": 39,
+      "se": 0.006396089331457774,
+      "ci95": [
+        0.017705151423689648,
+        0.04303494281334812
+      ],
+      "adjusted_ci95": [
+        0.01168256183495545,
+        0.04905753240208231
+      ],
+      "confirmed_win": false,
+      "confirmed_loss": true
+    },
+    {
+      "radius": 2,
+      "kind": "matched",
+      "parity": "r2_parity",
+      "control": "r2_mse_matched",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.4674434180224091,
+      "mean_mse_kl": 0.432210734042719,
+      "mean_difference": 0.035232683979690045,
+      "relative_improvement": -0.08151737382859103,
+      "wins": 36,
+      "se": 0.006232467920243278,
+      "ci95": [
+        0.022891775020987284,
+        0.047573592938392806
+      ],
+      "adjusted_ci95": [
+        0.017023252168442624,
+        0.05344211579093747
+      ],
+      "confirmed_win": false,
+      "confirmed_loss": true
+    },
+    {
+      "radius": 3,
+      "kind": "tuned",
+      "parity": "r3_parity",
+      "control": "r3_mse_tuned",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.3532498526473086,
+      "mean_mse_kl": 0.3790477592352696,
+      "mean_difference": -0.025797906587960974,
+      "relative_improvement": 0.06805977864110946,
+      "wins": 81,
+      "se": 0.005504943444182285,
+      "ci95": [
+        -0.036698244421518464,
+        -0.01489756875440348
+      ],
+      "adjusted_ci95": [
+        -0.04188172660186294,
+        -0.009714086574059002
+      ],
+      "confirmed_win": true,
+      "confirmed_loss": false
+    },
+    {
+      "radius": 3,
+      "kind": "matched",
+      "parity": "r3_parity",
+      "control": "r3_mse_matched",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.3532498526473086,
+      "mean_mse_kl": 0.3990818872261113,
+      "mean_difference": -0.04583203457880269,
+      "relative_improvement": 0.11484368508269394,
+      "wins": 93,
+      "se": 0.00621285599540582,
+      "ci95": [
+        -0.05813410996755832,
+        -0.03352995919004705
+      ],
+      "adjusted_ci95": [
+        -0.06398416613394209,
+        -0.027679903023663292
+      ],
+      "confirmed_win": true,
+      "confirmed_loss": false
+    },
+    {
+      "radius": 4,
+      "kind": "tuned",
+      "parity": "r4_parity",
+      "control": "r4_mse_tuned",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.3721601394648926,
+      "mean_mse_kl": 0.4642134456660743,
+      "mean_difference": -0.09205330620118155,
+      "relative_improvement": 0.19829952591980493,
+      "wins": 105,
+      "se": 0.007335389539423049,
+      "ci95": [
+        -0.10657811012172974,
+        -0.07752850228063335
+      ],
+      "adjusted_ci95": [
+        -0.11348514946718712,
+        -0.07062146293517597
+      ],
+      "confirmed_win": true,
+      "confirmed_loss": false
+    },
+    {
+      "radius": 4,
+      "kind": "matched",
+      "parity": "r4_parity",
+      "control": "r4_mse_matched",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.3721601394648926,
+      "mean_mse_kl": 0.8128632748761496,
+      "mean_difference": -0.44070313541125683,
+      "relative_improvement": 0.5421614544935665,
+      "wins": 105,
+      "se": 0.061657735214102234,
+      "ci95": [
+        -0.5627916092894081,
+        -0.3186146615331056
+      ],
+      "adjusted_ci95": [
+        -0.620848840031798,
+        -0.26055743079071575
+      ],
+      "confirmed_win": true,
+      "confirmed_loss": false
+    },
+    {
+      "radius": 5,
+      "kind": "tuned",
+      "parity": "r5_parity",
+      "control": "r5_mse_tuned",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.41242345125416974,
+      "mean_mse_kl": 0.5715493847654639,
+      "mean_difference": -0.15912593351129428,
+      "relative_improvement": 0.2784115209512328,
+      "wins": 117,
+      "se": 0.00869858122542171,
+      "ci95": [
+        -0.17634999312083338,
+        -0.14190187390175518
+      ],
+      "adjusted_ci95": [
+        -0.18454062055114845,
+        -0.13371124647144011
+      ],
+      "confirmed_win": true,
+      "confirmed_loss": false
+    },
+    {
+      "radius": 5,
+      "kind": "matched",
+      "parity": "r5_parity",
+      "control": "r5_mse_matched",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.41242345125416974,
+      "mean_mse_kl": 0.6350399855805473,
+      "mean_difference": -0.22261653432637762,
+      "relative_improvement": 0.35055514515808595,
+      "wins": 99,
+      "se": 0.046353161884590904,
+      "ci95": [
+        -0.31440042444601074,
+        -0.1308326442067445
+      ],
+      "adjusted_ci95": [
+        -0.35804679267261297,
+        -0.08718627598014231
+      ],
+      "confirmed_win": true,
+      "confirmed_loss": false
+    },
+    {
+      "radius": 6,
+      "kind": "tuned",
+      "parity": "r6_parity",
+      "control": "r6_mse_tuned",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.4292181629972367,
+      "mean_mse_kl": 0.7988800149277819,
+      "mean_difference": -0.36966185193054524,
+      "relative_improvement": 0.46272512144888533,
+      "wins": 97,
+      "se": 0.07057331364194958,
+      "ci95": [
+        -0.5094040615519434,
+        -0.2299196423091471
+      ],
+      "adjusted_ci95": [
+        -0.5758562453718348,
+        -0.16346745848925567
+      ],
+      "confirmed_win": true,
+      "confirmed_loss": false
+    },
+    {
+      "radius": 6,
+      "kind": "matched",
+      "parity": "r6_parity",
+      "control": "r6_mse_matched",
+      "n": 120,
+      "finite_pairs": 120,
+      "mean_parity_kl": 0.4292181629972367,
+      "mean_mse_kl": 0.7988800149277819,
+      "mean_difference": -0.36966185193054524,
+      "relative_improvement": 0.46272512144888533,
+      "wins": 97,
+      "se": 0.07057331364194958,
+      "ci95": [
+        -0.5094040615519434,
+        -0.2299196423091471
+      ],
+      "adjusted_ci95": [
+        -0.5758562453718348,
+        -0.16346745848925567
+      ],
+      "confirmed_win": true,
+      "confirmed_loss": false
+    }
+  ],
+  "primary_majority": {
+    "confirmed_wins": 4,
+    "architectures": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "total_count": 6,
+    "required_wins": 4,
+    "confirmed_majority": true
+  },
+  "matched_confirmed_wins": 4,
+  "scope": "Only the tested cyclic pair-gate architecture family; no quantum computational advantage claim."
+}

@@ -1,0 +1,107 @@
+{
+  "checks": [
+    {
+      "seed": 111,
+      "objective": "parity",
+      "q_max_error": 5.551115123125783e-17
+    },
+    {
+      "seed": 111,
+      "objective": "mse",
+      "q_max_error": 0.0
+    },
+    {
+      "seed": 112,
+      "objective": "parity",
+      "q_max_error": 6.938893903907228e-17
+    },
+    {
+      "seed": 112,
+      "objective": "mse",
+      "q_max_error": 0.0
+    },
+    {
+      "seed": 113,
+      "objective": "parity",
+      "q_max_error": 5.551115123125783e-17
+    },
+    {
+      "seed": 113,
+      "objective": "mse",
+      "q_max_error": 0.0
+    },
+    {
+      "seed": 114,
+      "objective": "parity",
+      "q_max_error": 6.938893903907228e-17
+    },
+    {
+      "seed": 114,
+      "objective": "mse",
+      "q_max_error": 0.0
+    },
+    {
+      "seed": 115,
+      "objective": "parity",
+      "q_max_error": 1.734723475976807e-17
+    },
+    {
+      "seed": 115,
+      "objective": "mse",
+      "q_max_error": 0.0
+    },
+    {
+      "seed": 116,
+      "objective": "parity",
+      "q_max_error": 1.1102230246251565e-16
+    },
+    {
+      "seed": 116,
+      "objective": "mse",
+      "q_max_error": 0.0
+    },
+    {
+      "seed": 117,
+      "objective": "parity",
+      "q_max_error": 2.0816681711721685e-17
+    },
+    {
+      "seed": 117,
+      "objective": "mse",
+      "q_max_error": 0.0
+    },
+    {
+      "seed": 118,
+      "objective": "parity",
+      "q_max_error": 1.3877787807814457e-17
+    },
+    {
+      "seed": 118,
+      "objective": "mse",
+      "q_max_error": 0.0
+    },
+    {
+      "seed": 119,
+      "objective": "parity",
+      "q_max_error": 4.5102810375396984e-17
+    },
+    {
+      "seed": 119,
+      "objective": "mse",
+      "q_max_error": 0.0
+    },
+    {
+      "seed": 120,
+      "objective": "parity",
+      "q_max_error": 2.7755575615628914e-17
+    },
+    {
+      "seed": 120,
+      "objective": "mse",
+      "q_max_error": 0.0
+    }
+  ],
+  "maximum_error": 1.1102230246251565e-16,
+  "source": "Previously independently validated final main checkpoints, beta=.9, seeds111..120,600updates",
+  "all_samples_and_masks_identical": true
+}

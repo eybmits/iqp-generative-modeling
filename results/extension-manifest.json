@@ -1,0 +1,139 @@
+{
+  "base_commit": "8e8b1fde953d1538581149c350dd3529e526e0ac",
+  "v1_preconfirmation_commit": "7fc888a",
+  "v2_prereplication_commit": "3b7282c",
+  "files": [
+    {
+      "path": ".github/workflows/test.yml",
+      "sha256": "b427cd87cad6b1c0b197d10da68a837d53679afd9674380de9316584962c45d5",
+      "bytes": 4946
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "777e6e802cd4a46cd8c07488539022de510911f9a788f0e3c077f1ae3ca61da1",
+      "bytes": 365
+    },
+    {
+      "path": "README.md",
+      "sha256": "3e2200cc13e63dd942c098580db3e17a28d6751ca7316b5ac071cfb0b84f7a1d",
+      "bytes": 3868
+    },
+    {
+      "path": "docs/reproduce.md",
+      "sha256": "69673dbbb8ed634e88975c958f6821d134deb73d3ca105644dae0cd44165949f",
+      "bytes": 2313
+    },
+    {
+      "path": "protocols/parity-study-v1.json",
+      "sha256": "0031d0914ab190f019f6cfdf5d31d8821b1a61b8fb5dab1630c5601603c62895",
+      "bytes": 3114
+    },
+    {
+      "path": "protocols/sampled-parity-replication-v2.json",
+      "sha256": "34d6b9c5e340f3e97c7f749a9290c40dda5ba92e0da3c0f2edbb3367a223236a",
+      "bytes": 4320
+    },
+    {
+      "path": "results/raw-checkpoints-manifest.json",
+      "sha256": "1f7eec2c86084aa765bf87183b58bf3b40c3a7ba620ec949c4d6328afe4ba61a",
+      "bytes": 217907
+    },
+    {
+      "path": "results/replication/checkpoints/metrics.csv",
+      "sha256": "e7f76d62b551b5282cc5bfe6d2fa68cb8956959526f6add3fd64366ace933ca3",
+      "bytes": 96434
+    },
+    {
+      "path": "results/replication/independent-validation.json",
+      "sha256": "c2ec6cd74d38974c98fe4936d3eab6c9225de44682f8bfd4719f957b0b574034",
+      "bytes": 78648
+    },
+    {
+      "path": "results/replication/lock.json",
+      "sha256": "826d51fa222cfd20c7b273591dea8350eb4a3ecee4f57365a7ac375736bce097",
+      "bytes": 5336
+    },
+    {
+      "path": "results/replication/summary.json",
+      "sha256": "b45235d082f4fee778316e683d901bb637ea5375970bdc3d70492ba8c1e3d02b",
+      "bytes": 10727
+    },
+    {
+      "path": "results/study/confirmation-seal.json",
+      "sha256": "ff8558cd2a5c45e9953dc9cee55cab1e296d3561f188e7291562127ec0fcb262",
+      "bytes": 530
+    },
+    {
+      "path": "results/study/confirmation-summary.json",
+      "sha256": "8534b6d459a172b8621556dd99b0cfde8396e36535900038c627ed7fe1e4c275",
+      "bytes": 14466
+    },
+    {
+      "path": "results/study/confirmation/metrics.csv",
+      "sha256": "c902b56ffe7f2d89cadcde46bbfe4ad311eba304abaed2ba2c5808f5f40dff27",
+      "bytes": 97785
+    },
+    {
+      "path": "results/study/development-ranking.json",
+      "sha256": "734666a4379a67a24eccebddd34399c93699e855b9dcd3643af9b0e95757e585",
+      "bytes": 10467
+    },
+    {
+      "path": "results/study/development/metrics.csv",
+      "sha256": "dc45b9cc8feaf5aa9d4050a191300db21accc1d8821134d98c7b49af57f01bb9",
+      "bytes": 110414
+    },
+    {
+      "path": "results/study/independent-validation.json",
+      "sha256": "dc85944e3671fcc2e1929f9d474014293ef161089a8ca4f23229a541601f2d1a",
+      "bytes": 150456
+    },
+    {
+      "path": "results/study/lock.json",
+      "sha256": "038e5cdd404b1b36e45a99fc8adb7776668e533d899e59d718039f0782d60129",
+      "bytes": 405
+    },
+    {
+      "path": "results/study/original-reference-equivalence.json",
+      "sha256": "1a8ee48af565bc4069f152a77810fae50b606b0bf6ab55d4325f3a42b61924a2",
+      "bytes": 2090
+    },
+    {
+      "path": "results/study/resource-accounting.json",
+      "sha256": "81c6e930baea193fd545bb18d40f5365f7686d109f84160ac9fcc462f5150b35",
+      "bytes": 1252
+    },
+    {
+      "path": "results/study/selection.json",
+      "sha256": "72076bc19232cdae37ec2ae71fd78705565a12fd41b04c27dfbf436a81aabf1e",
+      "bytes": 2922
+    },
+    {
+      "path": "results/validation/dense-rerun-2026-09-06.json",
+      "sha256": "ffdb5506493480cf31fac768f7c91106eff7f856428957c27f91eced66c42340",
+      "bytes": 4976
+    },
+    {
+      "path": "scripts/plot_parity_study.py",
+      "sha256": "5d3fbdb9975b2fd454022cd919012b7a410427a487d3e7659c11d75546f78873",
+      "bytes": 16749
+    },
+    {
+      "path": "scripts/replicate_sampled_parity.py",
+      "sha256": "4f5df23840fb21e75b9d81697424c6f5a03c172d6557c6ba8cc8103d9de62c1f",
+      "bytes": 2536
+    },
+    {
+      "path": "src/iqp_repro/study.py",
+      "sha256": "2607074f2ff82d4ddd69d673bf575749099105e8e86f50ca058e1bc90dabe9b3",
+      "bytes": 14621
+    },
+    {
+      "path": "tests/test_study.py",
+      "sha256": "e167801d93903dc5ad54a0621f3fecd24e29aa7fd6ff21d1ba77209bde6b515c",
+      "bytes": 17927
+    }
+  ],
+  "raw_checkpoints": "results/raw-checkpoints-manifest.json",
+  "scope": "Extension code, frozen protocols and numerical evidence. Derived pictures removed; original reproduction covered by results/manifest.json. Cleanup and deterministic rerun checks added 2026-09-06."
+}

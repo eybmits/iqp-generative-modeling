@@ -1,0 +1,7 @@
+include *.md CITATION.cff LICENSE .gitignore
+recursive-include src/iqp_repro/data/reference *
+recursive-include results *.json *.csv *.npz
+recursive-include docs *.md
+recursive-include protocols *.json
+recursive-include scripts *.py
+recursive-include .github *.yml

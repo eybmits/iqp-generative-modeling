@@ -1,0 +1,19 @@
+{
+  "checkpoints": 120,
+  "model_rows": 240,
+  "max_errors": {
+    "normalization": 2.220446049250313e-16,
+    "kl_recalculation": 0.0,
+    "coverage_recalculation": 0.0,
+    "kl_decomposition": 4.440892098500626e-16
+  },
+  "archived_main_KL_comparison": {
+    "iqp-parity": {
+      "rows": 10,
+      "max_absolute_KL_difference": 1.0572862585433995e-09,
+      "mean_KL_difference": 9.24772480814795e-10
+    }
+  },
+  "source_hash": "cee5d42521aa4437cb18859411b4c5971d1adaf9381596912dcfbd0095f8aa6e",
+  "status": "complete; all numerical checks passed"
+}

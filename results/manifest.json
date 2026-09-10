@@ -1,0 +1,25 @@
+{
+  "training_fingerprint": "cee5d42521aa4437cb18859411b4c5971d1adaf9381596912dcfbd0095f8aa6e",
+  "files": {
+    "results/ablation/config.json": "1540615dd0f7a2f34c9d647ef0e50c7fca0b2e95df324fa698c7129b856e97ab",
+    "results/ablation/environment.json": "84d2121046e54a160894533735d47d840cd13fcb21b3f64321b017fd0641a93f",
+    "results/ablation/fresh_recovery_data.npz": "2bac98a77ab30cab939282aab1e2f726c899bc7277cb220d701b7427c81d0bb1",
+    "results/ablation/metrics.csv": "6b1292c9bf9976088777d55f1d3381d7dd685aa0990079569a97527e2daac365",
+    "results/ablation/summary.json": "d505f2f2129467af177990163713206441205c767f7b1dca8fc58567f3698546",
+    "results/ablation/validation.json": "b00a0cb77128e79221e276c22aad019edcd125e0f61b0daa721b6dabaafc72e1",
+    "results/historical/reference-summary.json": "1254146b3fb36ce76d2f5b77dd99f4a677f898bf13cf88f314145df01260f74d",
+    "results/paper/config.json": "30e195a690670ce09e9b345ebe859a2df53e764dc8523d1951c6a77fdcc0ec8e",
+    "results/paper/environment.json": "242cd1e28cddaa2fd9efbf2d83bc9448bbc6082edc69744e56f556175407e62b",
+    "results/paper/fresh_recovery_data.npz": "144fddd330323d9ecf41f73286647e7a85c7e3816b669a0af7cb3bff01c30632",
+    "results/paper/legacy-metric-comparison.json": "a96e6008bc1408d64e37b8196bc7db03d05388fad65155d165749b985a4a9edf",
+    "results/paper/metrics.csv": "c8cc0b529058017cdd198d1dd33b4c820462392ef0e29b78eae7ee1f065d1b58",
+    "results/paper/summary.json": "8ae6c2fac345ad15f7b27da1d6580c1058219f57d34128de90749736c15e4099",
+    "results/paper/validation.json": "894e7506cf66e67b8b8633ae1ee0c6c82705efce52551c38a5a8eccef56c97ce",
+    "results/validation/classical-equivalence.json": "108c756ee9744b29bd9bc00a3d9784f6ba287de8d542881d0540d02d1a6e68a7",
+    "results/validation/clean-install.json": "b5eaa75759c00cdbaaab437681c49554f4b13a967d48377eb8d47fbbf23ff36e",
+    "results/validation/correction-effects.json": "78b01ca3ec5c76c41f06d3095fac9d8124ceac550af202b8cf37934da2976d74",
+    "results/validation/iqp-equivalence.json": "cbb9ee8b3984a3bf0463f75f03550a3919244ac7b824d66947a872766daba5da",
+    "results/validation/paper-rerun-2026-09-06.json": "4c98357d77fc887cd78138a2f5db705100ac1cbe39b57465719b67557895fc53",
+    "results/validation/thread-sensitivity.json": "e3f5d2e258eb1e20fd642ec3c01e476df3a6fb0a6f106177c5501d227b3b6f37"
+  }
+}

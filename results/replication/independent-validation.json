@@ -1,0 +1,2055 @@
+{
+  "audited_at_utc": "2026-09-06T14:05:31.350991+00:00",
+  "auditor": "independent classical/protocol audit agent",
+  "status": "pass",
+  "frozen_commit": "3b7282c533dc6c2e6328e4f2cd188fd786676160",
+  "frozen_fingerprint": {
+    "script_sha256": "4f5df23840fb21e75b9d81697424c6f5a03c172d6557c6ba8cc8103d9de62c1f",
+    "study_sha256": "2607074f2ff82d4ddd69d673bf575749099105e8e86f50ca058e1bc90dabe9b3",
+    "core_sha256": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe",
+    "protocol_sha256": "34d6b9c5e340f3e97c7f749a9290c40dda5ba92e0da3c0f2edbb3367a223236a",
+    "python": "3.13.12 (main, Mar  3 2026, 15:32:44) [Clang 21.1.4 ]",
+    "numpy": "2.3.3",
+    "platform": "macOS-15.6.1-arm64-arm-64bit-Mach-O"
+  },
+  "replication_rows": 360,
+  "replication_seed_count": 120,
+  "unique_configurations": 3,
+  "checks": {
+    "protocol_matches_frozen_lock": 1,
+    "cohort_disjoint_from_previous": 1,
+    "previous_cohorts_fully_declared": 1,
+    "120_unique_replication_seeds": 1,
+    "current_file_hash_matches_lock": 4,
+    "matches_preconfirmation_commit": 4,
+    "checkpoint_specification": 360,
+    "stage_seed_membership": 360,
+    "configuration_metadata": 360,
+    "probability_domain": 360,
+    "normalization": 360,
+    "odd_mass": 360,
+    "target_array": 360,
+    "independent_training_rng": 360,
+    "independent_validation_rng": 360,
+    "independent_mask_rng": 360,
+    "initialization_rng": 360,
+    "array_hashes": 360,
+    "shared_data_all_configurations": 360,
+    "shared_initialization_within_architecture": 360,
+    "parameter_count": 360,
+    "fixed_update_count": 360,
+    "tie_inclusive_unseen_elite": 360,
+    "true_kl": 360,
+    "validation_nll": 360,
+    "coverage": 360,
+    "recovery": 360,
+    "final_iterate_loss": 360,
+    "explicit_gate_probabilities": 360,
+    "complete_unique_stage_grid": 1,
+    "csv_row_count": 1,
+    "csv_array_agreement": 1440,
+    "commit_predates_confirmation_checkpoint": 1,
+    "complete_paired_contrast": 2,
+    "summary_agreement": 20,
+    "robust_intersection_gate": 1,
+    "summary_training_count": 1,
+    "pre_atomic_same_scientific_specification": 400,
+    "pre_atomic_identical_probability_repeat": 400
+  },
+  "maximum_absolute_errors": {
+    "normalization": 2.220446049250313e-16,
+    "odd_mass": 0.0,
+    "target_array": 0.0,
+    "true_kl": 0.0,
+    "validation_nll": 0.0,
+    "coverage": 0.0,
+    "recovery": 0.0,
+    "final_iterate_loss": 6.071532165918825e-18,
+    "explicit_gate_probabilities": 1.3877787807814457e-16,
+    "csv_array_agreement": 0.0,
+    "summary_agreement": 0.0
+  },
+  "errors": [],
+  "robust_benefit_gate": true,
+  "comparisons": {
+    "matched_dense_mse": {
+      "left": "dense_parity_lr0.05",
+      "right": "dense_mse_lr0.05",
+      "n": 120,
+      "confidence": 0.975,
+      "parity_mean_kl": 0.41736179176596033,
+      "mse_mean_kl": 0.7009931110933041,
+      "mean_difference": -0.2836313193273438,
+      "ci": [
+        -0.3795303059950113,
+        -0.18773233265967632
+      ],
+      "wins": 97,
+      "seeds": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2044,
+        2045,
+        2046,
+        2047,
+        2048,
+        2049,
+        2050,
+        2051,
+        2052,
+        2053,
+        2054,
+        2055,
+        2056,
+        2057,
+        2058,
+        2059,
+        2060,
+        2061,
+        2062,
+        2063,
+        2064,
+        2065,
+        2066,
+        2067,
+        2068,
+        2069,
+        2070,
+        2071,
+        2072,
+        2073,
+        2074,
+        2075,
+        2076,
+        2077,
+        2078,
+        2079,
+        2080,
+        2081,
+        2082,
+        2083,
+        2084,
+        2085,
+        2086,
+        2087,
+        2088,
+        2089,
+        2090,
+        2091,
+        2092,
+        2093,
+        2094,
+        2095,
+        2096,
+        2097,
+        2098,
+        2099,
+        2100,
+        2101,
+        2102,
+        2103,
+        2104,
+        2105,
+        2106,
+        2107,
+        2108,
+        2109,
+        2110,
+        2111,
+        2112,
+        2113,
+        2114,
+        2115,
+        2116,
+        2117,
+        2118,
+        2119,
+        2120
+      ],
+      "paired_differences": [
+        -1.0529898321048479,
+        -0.23143985452426807,
+        -0.3253618586923631,
+        -0.015486281630566423,
+        -0.11807185566092332,
+        -0.2620066575463294,
+        -0.18437270759730345,
+        -0.11640769799479611,
+        -0.028855173919304478,
+        0.00474670878758493,
+        0.0002273016129602512,
+        -0.9829615556340411,
+        0.05670396626347657,
+        -0.12557359126021284,
+        -0.08410736132921881,
+        -0.010324055965159173,
+        -0.13120218812881573,
+        0.005688979767239588,
+        0.10352160042414182,
+        -0.9987490280132139,
+        -1.026875962585171,
+        0.05810628903553933,
+        -0.020516728501448922,
+        -0.08898547754126512,
+        -0.11699988662279959,
+        -0.04770082877699572,
+        -1.2357184760869608,
+        0.061804994738504315,
+        -0.07860440524423934,
+        0.009402199000514089,
+        -0.11233671307365212,
+        -1.0502578240750995,
+        0.023541541266485944,
+        -0.012240317076158191,
+        -0.06638585591092772,
+        -0.08551878799104695,
+        0.031674611044797074,
+        -0.02645415000135598,
+        -0.23385025650308133,
+        -0.02191046518881562,
+        -0.15263692460115574,
+        -0.04774599322678197,
+        0.04316385867689476,
+        0.005325221886901321,
+        0.004025076051790699,
+        -0.11047908016246599,
+        -0.06958680663172667,
+        -0.07359578825824897,
+        -0.09652338618842449,
+        -0.00028624813342498223,
+        -0.03315978624744237,
+        0.04895633908792629,
+        -0.11687997103958092,
+        -0.14504132908482048,
+        -1.1988683136766167,
+        -0.6330901929930078,
+        0.001551633345640957,
+        -1.5000463022556778,
+        -1.1692434262939801,
+        -1.4538446406585068,
+        -1.262661496725236,
+        -0.10982812421762228,
+        0.0006180438299602797,
+        -0.3103098164169746,
+        -0.0597947193299872,
+        -0.1657625566283461,
+        -0.07407635912693539,
+        -0.0470078057927002,
+        -0.15290877738301928,
+        -2.2845557671255476,
+        -0.15387028811362508,
+        -1.382269770436106,
+        -0.160402261667562,
+        -0.08297974072674186,
+        -0.1318741242287308,
+        -0.026821315637671483,
+        -0.9237186224032531,
+        -0.02319662936215533,
+        -0.18454046250855272,
+        -0.0632420177680626,
+        -0.10269527801671724,
+        -0.08866886340028424,
+        -0.11814193782474214,
+        -1.1328129088090182,
+        -0.028566006256592114,
+        -0.005849934314813787,
+        -1.1063850976482579,
+        -0.8494763674473675,
+        -0.03227554916328024,
+        -1.2676861534634392,
+        -0.047382803256180495,
+        -0.11330807843985458,
+        -0.15310062603215607,
+        -1.1529911898253915,
+        -0.15044510925616933,
+        -0.12206531232160478,
+        -0.06606584110477925,
+        -0.21192023684912864,
+        -0.025680490471985284,
+        -0.08699126723608941,
+        -1.3164219432974296,
+        -0.7408419664283822,
+        -0.05309834939586228,
+        -0.2830746086549474,
+        0.11690141335444809,
+        0.019406227561071854,
+        0.026098784427648125,
+        -0.42301664416854795,
+        -0.10245336168505442,
+        0.013031484274724725,
+        -1.1872731401989833,
+        -0.14845077404652474,
+        0.06312039925813923,
+        -0.10293546889613192,
+        -0.1461925907756565,
+        0.05911372594614178,
+        -0.031266635584013935,
+        0.020356611202700492,
+        -0.006243750526911285,
+        -0.11595236509911105
+      ],
+      "parity_recovery_1000": 0.42299450211730727,
+      "mse_recovery_1000": 0.34622282970161716
+    },
+    "strong_ring_mse": {
+      "left": "dense_parity_lr0.05",
+      "right": "ring_mse_lr0.1",
+      "n": 120,
+      "confidence": 0.975,
+      "parity_mean_kl": 0.41736179176596033,
+      "mse_mean_kl": 0.4462877264074248,
+      "mean_difference": -0.028925934641464462,
+      "ci": [
+        -0.04770305059460517,
+        -0.010148818688323756
+      ],
+      "wins": 74,
+      "seeds": [
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026,
+        2027,
+        2028,
+        2029,
+        2030,
+        2031,
+        2032,
+        2033,
+        2034,
+        2035,
+        2036,
+        2037,
+        2038,
+        2039,
+        2040,
+        2041,
+        2042,
+        2043,
+        2044,
+        2045,
+        2046,
+        2047,
+        2048,
+        2049,
+        2050,
+        2051,
+        2052,
+        2053,
+        2054,
+        2055,
+        2056,
+        2057,
+        2058,
+        2059,
+        2060,
+        2061,
+        2062,
+        2063,
+        2064,
+        2065,
+        2066,
+        2067,
+        2068,
+        2069,
+        2070,
+        2071,
+        2072,
+        2073,
+        2074,
+        2075,
+        2076,
+        2077,
+        2078,
+        2079,
+        2080,
+        2081,
+        2082,
+        2083,
+        2084,
+        2085,
+        2086,
+        2087,
+        2088,
+        2089,
+        2090,
+        2091,
+        2092,
+        2093,
+        2094,
+        2095,
+        2096,
+        2097,
+        2098,
+        2099,
+        2100,
+        2101,
+        2102,
+        2103,
+        2104,
+        2105,
+        2106,
+        2107,
+        2108,
+        2109,
+        2110,
+        2111,
+        2112,
+        2113,
+        2114,
+        2115,
+        2116,
+        2117,
+        2118,
+        2119,
+        2120
+      ],
+      "paired_differences": [
+        -0.0041726378159383515,
+        -0.1184117041206133,
+        -0.0350323426578546,
+        0.21198972759136497,
+        -0.12875714322481108,
+        -0.2459621573793344,
+        -0.028192377422623094,
+        -0.1666512854714739,
+        -0.1451416085622208,
+        -0.10874906969032827,
+        0.16037096895148478,
+        -0.11662577487184145,
+        0.12166869670056984,
+        -0.05595347265797185,
+        0.02058702057197692,
+        -0.011224241843450833,
+        -0.1580570533986173,
+        0.0044376298834959416,
+        0.1139658049244705,
+        0.024966423488401945,
+        0.001028760176971233,
+        -0.07973470994195392,
+        -0.1440755228745637,
+        -0.03578189461555503,
+        -0.08088990690666298,
+        -0.07691456578742928,
+        -0.11879547043504946,
+        -0.015277955193902737,
+        0.013622376382757262,
+        -0.02374623051576491,
+        0.02363546890606827,
+        0.005288275129881781,
+        -0.11223204478567711,
+        0.05139254505074825,
+        -0.12598871783214172,
+        -0.024209203907616772,
+        0.030860136427001472,
+        -0.13200776315032925,
+        0.05243474330872677,
+        -0.048181334027429024,
+        0.11102251027880444,
+        0.06343679660016122,
+        -0.019282334003654644,
+        -0.03153579293659731,
+        0.06444230359399494,
+        -0.016528221556480704,
+        0.01891113681390444,
+        -0.02340514881579825,
+        0.06466600106838216,
+        0.0576969308039616,
+        -0.08273774847356147,
+        0.15985766600966855,
+        0.11104562373029836,
+        -0.13821310757124083,
+        0.0013590455933527035,
+        -0.08211996169479874,
+        0.1349847243628926,
+        0.033219189622540224,
+        -0.07332833665826527,
+        -0.05676345452611725,
+        -0.028357949493309498,
+        -0.09898112418713412,
+        -0.07568687305950433,
+        -0.16236000621112384,
+        -0.06662023595230493,
+        -0.034753878053425336,
+        0.053552065965219164,
+        -0.17364657827666524,
+        -0.12022700437973582,
+        -0.016896934757341997,
+        -0.0884219004582193,
+        0.050477389539791195,
+        -0.016647646110288017,
+        0.03279586567886572,
+        0.011620507748806963,
+        -0.03836280731698455,
+        -0.1272333239409354,
+        -0.02341917778462993,
+        0.027626951524578836,
+        -0.10115274249966955,
+        -0.0703222651453187,
+        0.03180769206374939,
+        0.0006536930186101242,
+        -0.03922704578783964,
+        0.05621126794974335,
+        0.12027974096274746,
+        -0.03969039003259678,
+        -0.06244525913574239,
+        -0.0010457421108788223,
+        -0.06179609204032577,
+        -0.02752037295956017,
+        -0.03217047612728319,
+        -0.23590476406390298,
+        -0.1711991952414783,
+        -0.2367448026377707,
+        0.005126630712675995,
+        0.03831339571812553,
+        -0.26716395296998485,
+        -0.04313090947960774,
+        0.023305674978420177,
+        -0.04538710701338289,
+        -0.08683105518965262,
+        -0.09232716754910253,
+        -0.043763223630086445,
+        0.017024391473745293,
+        0.06300268474487397,
+        -0.007287722083276216,
+        0.06916302138538138,
+        0.04853374701541613,
+        0.10280566225260968,
+        -0.1339044906636528,
+        0.05447747135572456,
+        0.11985546510584733,
+        0.0773925057604764,
+        -0.07741944098760895,
+        -0.17627904105980086,
+        -0.08147349261905745,
+        -0.04782425305951993,
+        0.09906822532753701,
+        -0.11278997383418993
+      ],
+      "parity_recovery_1000": 0.42299450211730727,
+      "mse_recovery_1000": 0.40047343440233546
+    }
+  },
+  "total_study_budget": {
+    "retained_registered_runs": {
+      "v1_development": 400,
+      "v1_confirmation": 360,
+      "v2_replication": 360,
+      "total": 1120
+    },
+    "updates_per_run": 600,
+    "retained_registered_updates": 672000,
+    "additional_recorded_identical_development_repeat_runs": 400,
+    "additional_repeat_updates": 240000,
+    "repeat_max_probability_difference": 0.0,
+    "total_full_budget_run_executions_including_identical_development_repeat": 1520,
+    "total_updates_including_identical_development_repeat": 912000,
+    "boundary": "Counts exclude short smoke/unit tests and separately documented original-reference equivalence checks; not a claim about all historical reproduction training or CPU/wall-clock equivalence."
+  },
+  "interpretation": "The separate adaptively motivated v2 replication passes both predeclared 97.5% paired-mean KL comparisons on all120 fresh seeds. V1 failed its primary robust gate and is not pooled or relabeled. Positive evidence concerns sampled parity on the dense66 extension at n12/beta0.9 under these training budgets, not the originalring24 paper effect, universal superiority, quantum advantage, or new hardware. No training, filtering, selection, or tuning was performed by this audit.",
+  "checkpoint_manifest": [
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2001.npz",
+      "sha256": "a7523b7919dca4bcb4398dbdd7cc564c1b993245c6f59148423ca1e259c4711d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2002.npz",
+      "sha256": "8109fa2c6a87287a86bc970375ba8111659615a5ee1f58ba16f608ee68d631fb"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2003.npz",
+      "sha256": "ca6502be16c31f940a4129e904c6574bd6f6ea43216803b349113c4d6c6f423a"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2004.npz",
+      "sha256": "33295fc678e9ec221df1d97a7057ddb0342a3eb8b5d5b40d42b2a9d74ba152ce"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2005.npz",
+      "sha256": "ade1dd71567c87c0e13bbe7fe148e87eca9f5a7fa88ce825dc0e14ffb5ca2f04"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2006.npz",
+      "sha256": "7453792a5ccd3c374bca115d7778f8a8b5feae3923b3cf927a65dc9affdfc59b"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2007.npz",
+      "sha256": "2ca18f949c54d408dd3fcb12a1eee22bb3385f3691d7f78e0e4d5d20c86a2379"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2008.npz",
+      "sha256": "f9754ff328e8015e47e186e3014cae9c8036543be1b486c80f9b2f27fe949f5f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2009.npz",
+      "sha256": "78cf1fc7a34157c0b612ee8fd10d803b391e03ff987ddc7216d2a7c377c34f6a"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2010.npz",
+      "sha256": "aeca09a2d3c3a33565a398e18199401bc3d64c95f7dff46dbd5b961f7ee420da"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2011.npz",
+      "sha256": "aaedde91f2fe76bc4c9730ad783309147606d8b7d23b9cc1c6c34aef46402ab3"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2012.npz",
+      "sha256": "521d4c4ef7708f512dc681d3f1e76d4d0b1b67e2fa2b44bce2d583a82d42ba4e"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2013.npz",
+      "sha256": "00729b225b2d633bd49b3d6d5c6b9b43e0251187dea8487e5b6ce6c2919e42aa"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2014.npz",
+      "sha256": "c1c84967db314965fbec21c0ab9d0a1f2b1d67b733607b7e63f35ca436f4bf5d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2015.npz",
+      "sha256": "86b25f988e570b533285d5d8d6f405d93990cb9e88dc42aca553e699ede44740"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2016.npz",
+      "sha256": "66185658a2d20d914d281c5c133ea9ddc5b55aae45733d320063037828ed06c1"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2017.npz",
+      "sha256": "46578c110ca1aaab522da093d84e495dd06feae0ca39c3bdbf09b6011cdd9881"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2018.npz",
+      "sha256": "40accbb3993bdaebefe572ba3ff9557be0cc43dbdc4c687ae4629152d6d1de06"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2019.npz",
+      "sha256": "ac6d2ef0472265e56edb0b28ab0b9ca243c60eca8c0594338ee2492b7036cae5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2020.npz",
+      "sha256": "c728c74c69cbc87738adc8bb066c592ddec0704e1431a18bef4e8481ac9a3248"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2021.npz",
+      "sha256": "6bb565cf9fd5fe21499593d5d50b980da41d2894c9fe76d7ae23529842673c4d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2022.npz",
+      "sha256": "964acfd436c275dd91498730bfbd53907ab1217a1bca13b9a986d00c3c906454"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2023.npz",
+      "sha256": "3a4b04e322ef7b8a5f6f4366d48229f47cf84640026077122486942a63761d7a"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2024.npz",
+      "sha256": "4af7f1a53aee80220e5c8503e0610f34e20f772bcce2b06fc33acfb3735693a3"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2025.npz",
+      "sha256": "a12c4f391fca3c1f1914a4d61252e3ee7de5252a18609de75cc46e5422e2bba5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2026.npz",
+      "sha256": "64babb636973ed44ecea2a5b6e09f9d28579c09f4dc481954724a82363e6551f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2027.npz",
+      "sha256": "153b27c59f12e496bc0a9cf2f2d269af1d41e875967228f07c556b16193bf078"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2028.npz",
+      "sha256": "4930a77855caa9beef985ce10d26d64487a1b13c23da6c7e8b9fb8cbf114b694"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2029.npz",
+      "sha256": "caac355c4182dc2e5500c2ca1a3cec40c9e0b8eee8267f72e0918c15428dbe13"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2030.npz",
+      "sha256": "ae7b94b23fd5259dd58340d23a18cfe922659c76831ecf429d3286859874a33d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2031.npz",
+      "sha256": "ed9fdf2b44753e3133c4f0f31e0695922c794523030aa67385b85fd8a476a999"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2032.npz",
+      "sha256": "2525ec8900b2250a5af104006279a1c832dcaa041b30be1d1900a8cb36ac67ef"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2033.npz",
+      "sha256": "5510c80cc9a42bf6172f3ae172876896a3f1aad1fbc9c12be3e580bbb7762d54"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2034.npz",
+      "sha256": "5d307799a2cc1787b75616450633e0be4587ef491a08bbaba44ecc936abdd5bb"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2035.npz",
+      "sha256": "eed6bdbca191a841de69b1014ddbe2e11f7467bc1142ba73c0ab2fe057ef782e"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2036.npz",
+      "sha256": "5bda903fb050f4424ba5060ce4908370737e054fad0c0fe8e4d31f40c51fd0c1"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2037.npz",
+      "sha256": "7b2f01875757d2cab8b0ed8b776a2d48d3ed05a4d47b5a8e06b06eafd4dc003f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2038.npz",
+      "sha256": "6b8c18d7eeaf63e20d823159a85b0cd5192cfc58a795506d8b29784b69cee2db"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2039.npz",
+      "sha256": "3ffbec56cff6973921a5ef33f67d789124b805f6723db0376c6b25c0ac18d5f0"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2040.npz",
+      "sha256": "66af7b76a457bb4e80333e26b4b1e2875c53d9e5eb6133624f220a5d1afdb782"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2041.npz",
+      "sha256": "69a5bf9e0091332e363b850c7e768bac1edf0b77bfc045845de472d74f2d8a70"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2042.npz",
+      "sha256": "6fbe65636c451e2ae866a14fca9076e6ff27f1c8cc30d0800e79d9289c5a96d4"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2043.npz",
+      "sha256": "818e5029c77457b6b9ebbc4c722603c33c870f9a59bb6326d79b452048db1b2e"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2044.npz",
+      "sha256": "d5eb23ecf3905fa0b027bbff6f781aa0e270383a407ced52107ca40f6465648d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2045.npz",
+      "sha256": "0b0886003110d4ece02b4e99356c68ad43d213cb131a5305dd39d5d6c7f97d97"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2046.npz",
+      "sha256": "55d51b4fea0ee10943e36a575593d972a1cdc22db38b4e76a6617be60c5e569d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2047.npz",
+      "sha256": "422d2c360e7d3ad3fa8eed3290f9649c6ce8ada48875b74f2036f9e4d246d7a9"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2048.npz",
+      "sha256": "6d5735c4fd509007b89bd3cf68bbe57997ccfe2f84a771a131a5545cb0e9a040"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2049.npz",
+      "sha256": "c3cd4bdfa15a30ebf39082223fe56271f546373024ac08ee67f9019e5601df83"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2050.npz",
+      "sha256": "9b3b5ecbc0659cff361933da30b03f4021e1a5d137c07f88445359b7aca7a69f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2051.npz",
+      "sha256": "f4d609f4c4732565243ab994595bbcadef6f503f032a015d165ad2739df31eda"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2052.npz",
+      "sha256": "2d3649bc6449addc754f11ac927b9fee0eb3a271954cd6d15b29f73cfe5c04d2"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2053.npz",
+      "sha256": "9979ec5ae3f85f22f800e25f8f4664780d8b5af2dcd72e3aebf2e1098d53dd15"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2054.npz",
+      "sha256": "7130b7411399cf5d1469412b0a0dc92188796b45fd2befb6881476bd2435c2e3"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2055.npz",
+      "sha256": "2358f11368477af17f8aa2e5d88cb0f665e8a88e8d70f0d8f2b87cecbaa73244"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2056.npz",
+      "sha256": "182a1c46126acec074c4488b253177f47316e31aa9e84cfa46ba33a01f459a32"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2057.npz",
+      "sha256": "97a5ceda2d4e305de4ef3efbd3949a9e843170a2b031fb039a6854cd20f365b8"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2058.npz",
+      "sha256": "a850f0f71590c951d3b25f0f21f1eaa3bf1e30d79d99810fbbf31ecb17a4b5c0"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2059.npz",
+      "sha256": "21dc4f12441136d143fee834fd234e7e2d34b994346c09f599e371e057bd0329"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2060.npz",
+      "sha256": "bc442a7c1235916254429b000a997c50d759cd38735eb46b4efe069d9f81b445"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2061.npz",
+      "sha256": "24b6ccc8e4231900c183755d61a8f4938abe089ca35762688c132682da043f93"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2062.npz",
+      "sha256": "6e01d08d840f8b69659d7a15d67129652d1ccaa01e41a1708a939c9c6a928518"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2063.npz",
+      "sha256": "942f140306bc887767c9586a2fee063fdecba8a34ad53a3b2a57c35be0d0d973"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2064.npz",
+      "sha256": "32a8babd8bbf9a931afe0610b3b14ccec47bac72da817d179ce59cc589dc3bc9"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2065.npz",
+      "sha256": "4b56e14382bdc93cc9e155292d15ee9a339e17c1c96e44ddb73ebdf192c676cb"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2066.npz",
+      "sha256": "01757f0cb9a7fecece0c78e016fb5d68056fa7503df6d35419c0f0512ba6ca25"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2067.npz",
+      "sha256": "381dd2663750f28a15e752ad1ff559d04fb26f9a8cc4805b3307eb17e29c7316"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2068.npz",
+      "sha256": "1c156147a8bd18d4e38135c5f57cbd9d983c2efd1bbca80a8971ef54a7361865"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2069.npz",
+      "sha256": "5d8afeb1b499f0692f121a888d868b33dd597d4a73551aa763d42f8b600d91eb"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2070.npz",
+      "sha256": "d199a0faaf7bb267bcae6fab2d80281f12e8d02d752e71d8c51fd07f4a6b9a18"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2071.npz",
+      "sha256": "0f9b1a16206afd69bbe9dfacdb2bd6c050c8489cf68443ba9161e3b7582ced02"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2072.npz",
+      "sha256": "702555c0fd3e3626d78ef90ef7575f34de691280e78b38a5113355d54d47eca9"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2073.npz",
+      "sha256": "1ae1deeb1d56b5aff3dfa486c5d65f5c866a9c36dbbbd5ce29eb94c326ad37f6"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2074.npz",
+      "sha256": "c44caa3a435fbacfbe2b73757eb9011fda161b74d16ea74c9e6590ad9715d180"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2075.npz",
+      "sha256": "508921f90df6194c92b28ff4d17f63c6a32702cd0e1a7a3b32de879a70e90521"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2076.npz",
+      "sha256": "12ca0cb7e8085950f3df7fbc09af7672afa3dea29333df859f1ffaaf03ddb571"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2077.npz",
+      "sha256": "9d7094c5194f2eb9ccdc2036ff678032e76403e887e9a000dc8301cc2d3c65fb"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2078.npz",
+      "sha256": "cfbdf3e4bb94f44c0db6e0d42da1c8fc752e6483254d3cc268fbdaefbec1e796"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2079.npz",
+      "sha256": "48ff7d541da409b5de65e6cc360f24bc0869bd6d800adde7fea997650cb8e18b"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2080.npz",
+      "sha256": "da3f7fa232d7a45cf1f5dc9855302b5bc3fbd6516b8b9b7eb3468abe08d67e41"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2081.npz",
+      "sha256": "1faafd8c1eb29d29dc7f13b7bab39711785f9cf9c39967d85787a8921f55a817"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2082.npz",
+      "sha256": "5413354c67e98bf102d1100ee68a3cb9e8efc60be280d0fb89687bd193e862f8"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2083.npz",
+      "sha256": "471f51cc8ead6ca0713eda4cfd49cde3e8cd9f9788787154ac572d293c4b436d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2084.npz",
+      "sha256": "c5389d5a21124687d5ec7ab5a2dd1313078de7bb59e1f8e8fb41f974a726e61a"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2085.npz",
+      "sha256": "8eadbb4962208e7d31bbc4faa78395a30f8f0822a09f53bdb6b49bb8dd58faf3"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2086.npz",
+      "sha256": "edc5c8bd27b43973e6dd02c0c93ee3027f9f47b394cdcaf1dd99774230367a1d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2087.npz",
+      "sha256": "ccd47bec85b82d37611ba55ba1c5bdc4d2989eb826b8ebabf6e17d5cfaecf8ff"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2088.npz",
+      "sha256": "0489aa7887048055aee8637b9e639813dfbc223f49c3480ce09502088f9092f5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2089.npz",
+      "sha256": "25b2012c0d4b4d68db2005736aab0b516d0102cd29962d83b5c485ac3d639f90"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2090.npz",
+      "sha256": "3aa964ff78c900db092ea9466bb8b8bff76907e3bd71797c0b392f78cc89a7d7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2091.npz",
+      "sha256": "010a68bebf385ce94d5ed49a85e8370adf27980abe5d22f633f292e67492d141"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2092.npz",
+      "sha256": "3b32241ea5b4448e4ef2ca50b92215560d60425fd9bd72170edc9a66709ebef2"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2093.npz",
+      "sha256": "6e37221a12e7f86bdc97da7fac91b39efbebbe680514d51e57ea987cf02cca46"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2094.npz",
+      "sha256": "1d648caeca1cd9edb49a62c6d74b56b4617338266f47769a0e0b8d3253594ee2"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2095.npz",
+      "sha256": "bda6dbf0e925a4647d6fd7823833c6c7561e53024ef0918f641abf5ee9db1cc7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2096.npz",
+      "sha256": "1cf9fcab302019a7c3acaaa0c9da7d11403a697c42415835c07ab4db300656ab"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2097.npz",
+      "sha256": "ab87adea8da14d4939f60e00058e898b98319e1a9a6c47727e6505ae7c7d9fbc"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2098.npz",
+      "sha256": "dace78829467f494fba05fb708155852129e181698a57d910e4a42b3be875283"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2099.npz",
+      "sha256": "1cdae1c3e956b83c078159b74ff248f7bff013fb8f768826cdcc87f61c2b1513"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2100.npz",
+      "sha256": "ed587f4d31dc59d6339b4bfabaca7403163da397b313167950a77dbaed201096"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2101.npz",
+      "sha256": "b79cf2ee5b1e0aa88660fd60d8fe024ae30f357193f32c51b06a11cb6117a28b"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2102.npz",
+      "sha256": "6cd81370275d9798809f3d54e7dcbb818a03647d0d435d9aed634804a79b950f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2103.npz",
+      "sha256": "e8d734557fb47d8fac047276313d65fbc5fd84d7d925174fdfd72ac388907ad6"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2104.npz",
+      "sha256": "ce7deb0935a5f455f1da31f9edb2c9343da95fca63b7f20b1b29fa5c819e2a8e"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2105.npz",
+      "sha256": "a7bdec09dbe02504b668eb306aa9dfe713fed673d914ea79c3a5572866acdc9e"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2106.npz",
+      "sha256": "73bf341af31020010d633d621228f02056919bee0570c5a9de2e45561d161352"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2107.npz",
+      "sha256": "1b7644457c3c4ea23ce05d22efebd3aaf9e497ba35e4f0d26e30cf8e8aec8170"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2108.npz",
+      "sha256": "cbcf2a7cef4eb4468bf909d800f3b96f6f78e776cecc9c21a02e48ff435dc37d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2109.npz",
+      "sha256": "0250409f7fb26be8baa8a6909679bfa8c536687153008798dd456078d12d7ec7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2110.npz",
+      "sha256": "8fb5f41ffdb2aba480416737679d0a8c260ce90b553f1b7bb8b33a6ad1d0638d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2111.npz",
+      "sha256": "5e9d60ead8b58be58407ee1f4c4e2b38c103bc04e594683c7fe6951ec5811e33"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2112.npz",
+      "sha256": "165760a39f34c0a5e84c0d6e0349ae1d6bb9d9b5f05757719175363e0db422b9"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2113.npz",
+      "sha256": "d8abe9283d896fa3f38635ae1ac17caa93689a67e192cc8e33b5f37d6322a444"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2114.npz",
+      "sha256": "70d0a83ed15e324e65e2e0398c5818e637b2fa4639c5580da612440a6c9a9903"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2115.npz",
+      "sha256": "0945cc3e45eaf22e302999e3310f72cd700538d9ae563ab10fa4282d7b416eac"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2116.npz",
+      "sha256": "8865c6b936e6ee84fd4237f6cedcc9b48ef93ca65c27779cd4a9222e21836b6b"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2117.npz",
+      "sha256": "95ae5a70178d7bf3ec9c581d9958db50438fa571bab9e55f99ae120b0548010f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2118.npz",
+      "sha256": "9e3e7e67f4c4dc7e4d2c6da3a1f8a56e9c4d0a9494ed651777e3b8d7120fbf66"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2119.npz",
+      "sha256": "0d82da29e744c59b963625290919c9e230ecab9f3198813f7fa66d2d2e5ee1c2"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_mse_lr0.05_seed2120.npz",
+      "sha256": "28219d32f508786d1984c497266d006c7d1477f8c8d2032531b547114dfbc049"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2001.npz",
+      "sha256": "9c1aec5f98371bb6f848118f6c5211fdd70c7a6f7b8e0e89c5358f7061501766"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2002.npz",
+      "sha256": "4113b5289539f2d8b785ac03eb4678131feb9b9830413070e182fb922020e994"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2003.npz",
+      "sha256": "6bf39ccc6f2b18e2af38d2484634b0dab56d3e41156542182bcea2cd5d18852f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2004.npz",
+      "sha256": "a99aa4e34c68cd2cb3ae4d36b2c7693e7b5175d47aea30f6119a71d96084141b"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2005.npz",
+      "sha256": "073a7a54f6622d9cda5409adceadd4aba5657cf09f606d77458e5c78181938d3"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2006.npz",
+      "sha256": "4f23ad27fc71edcc101efb15be3ec5f6e196a17ac53027df8bc2f90931501b42"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2007.npz",
+      "sha256": "a3cd43a7160eb5e492bd18f3c21b0a186765ababd66278a9ea24450c7c9540b9"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2008.npz",
+      "sha256": "a74f13c7dd8870071435650b9b801f3576fe669037e17f50e4fc2416be7187ac"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2009.npz",
+      "sha256": "faa7b564930c973cb17bd52032591a39fc1f445b2b36ad3b65188ac7ef3d4084"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2010.npz",
+      "sha256": "05604f2bc91f9de837630aa1780b5041e3d92ee46d0599dceee993864a146668"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2011.npz",
+      "sha256": "de72d0a4a7d2a871da4df0d845b27d59961faa2e3178e79c6b0de421ef7d78bd"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2012.npz",
+      "sha256": "6678ce45a9c696cccaa93e332e75eea3099f0f2cc0529927cb79fbf76566fb85"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2013.npz",
+      "sha256": "ffbe50f965808b6d3db036d77bb0be67b43a85829c9decd48cdde0a0488911d5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2014.npz",
+      "sha256": "e196149f132cd843f38729ebd0a6ff2fc435fa834f3c3e91d067439284d7d901"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2015.npz",
+      "sha256": "e348747b3fee3f13858c7e91172ea4cb8b5cc871f4cb9637531a1042ee067e42"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2016.npz",
+      "sha256": "b232a5b8c3ce2c5d2dbe08da02b658ebc5daac2d3b0d5bcb75ed7aa7a6f75844"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2017.npz",
+      "sha256": "9a0c2adca7952d0b0962005a0252cd8c4eaccd54662db5471fa35d2713039502"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2018.npz",
+      "sha256": "eb42f96a6b5baea321e3254cbf1fd889b21cd27cad5e25d8b6b845f570cc83ae"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2019.npz",
+      "sha256": "4476bd84c273853aeaa5f0154b65e4017fb6c66000c6ab3b9805bcd61ad4bfd1"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2020.npz",
+      "sha256": "6820e1a9b173ca226d16c8b824c74c806fca8df7aa6b63a3ef1c6d0b9b1c3842"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2021.npz",
+      "sha256": "bfa0baa39c2e63468d259ece55fa0ce6aaffb0ff579f302df4f9e9c032524e3b"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2022.npz",
+      "sha256": "7ec981578bc7e2251db1da0feefed7286143167be64856aa8c2fdaeb343a1998"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2023.npz",
+      "sha256": "e59adb9e7f4db806c384f6e1a89e2ec16c31b71814b31acea0a29a1d1d3783b5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2024.npz",
+      "sha256": "901505960930365ed8b6c1b09030f4b111560f894aa7c1ed3a72d2eeb099ffc4"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2025.npz",
+      "sha256": "028e136739f3b662c25ef60601876fefd512c8240810dcfd35e38e0935cff17a"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2026.npz",
+      "sha256": "d1385692228a86fed794d11cab6725f8cefcffbb9db0fcee70e4abe64bec8d13"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2027.npz",
+      "sha256": "8d1016bc785a0cb705bf8ac0fe62ba28c06f02161aa3226bdeb7a57b6c3116c3"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2028.npz",
+      "sha256": "fc25aa66f23fac3fdc68ff16ee5f1606dc17bcdd6593a283227aab2b9fd96b8f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2029.npz",
+      "sha256": "007f835c3ccfc30e431031917c69127eb881dec1c78c3e4026cc37ad2b086137"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2030.npz",
+      "sha256": "8387a7dcdd57962afc750e960c31c54b2314c6de5cd97887a14e867f794dbda7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2031.npz",
+      "sha256": "7c38bfc19358bc9e907291626b2f2cc73b44665afcf37137f56f185a6f8ebdad"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2032.npz",
+      "sha256": "178669517751eb5caa85e6ac027cbb032fab4dc85da3b7d409a769eb13b3d6e1"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2033.npz",
+      "sha256": "15d7ef94e90fc563d799ec3bb67dfbaed9f9a5b9e78a6a76bce297c9aff9cbf4"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2034.npz",
+      "sha256": "dbb832348ca76e75f5fdbfe94a772b778c56076880485d9993e3d2735f1327a7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2035.npz",
+      "sha256": "0f944cb2cccd6ea36b41c0a5eac7c58b66b41e5c2753425753c62d379c23a397"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2036.npz",
+      "sha256": "74233021c330bc7e2ff7aa3f2117a9978b898a203be26bd1950d6ccc99fd7b2f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2037.npz",
+      "sha256": "03b4395d49dea139679bdbb6e4d421f08b8a1ae3691f6cf9a6cc4b9bc73be08a"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2038.npz",
+      "sha256": "e18ffbbe5f490912de126fc8fa6a5bd4c5a317edfb4cd22b73bef7005edb1bad"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2039.npz",
+      "sha256": "8faaaf4833f2d66b60cf35332341572e1cf4e8cdb1e9343ac37984e18426e160"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2040.npz",
+      "sha256": "38408552be5f2b7cc278b9ce05d2873a76ff79bc74a1df9c78544cd88e68d9d3"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2041.npz",
+      "sha256": "4769b75116b77fdb802c537041fbf38c9b7cae95c4e1dd5490d7a630daf021b7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2042.npz",
+      "sha256": "b5cefd776507ffc9085f7f21e5a03c42f1680517d6f0cb4bc9e5306dddf7f4f6"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2043.npz",
+      "sha256": "739ac650ce67c36ee692644248e2d0bf7975ea0a755dee365e7cf5e322628526"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2044.npz",
+      "sha256": "3c66fbcf3bd826185f2281956d0e714ae219c08e691a1b13952710a8ac81b952"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2045.npz",
+      "sha256": "b5be3299613a50f1b3acfe13efee360b92a8d103dc3bba88133ea43badeae2b5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2046.npz",
+      "sha256": "b4d3fd4fc089465cf463197d6a4fb11635583067328c22cd0fbdbba3311c14c6"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2047.npz",
+      "sha256": "d7969f521deb06e44f8899ee99bace8c49ad1bdfb5b3c1938517cef4cc39e226"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2048.npz",
+      "sha256": "fd6a1f66c2b0ecbbd54526955653c0128738b838970210965b7ba39d11f3c83f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2049.npz",
+      "sha256": "b936aead1b6ff833ea4a130b7f44e94c53c2d50714a4f88147b6746bd28237c3"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2050.npz",
+      "sha256": "2fe15bd9fd39d41fe877e24eae7ee81e05bcf2bca38469f810674174c6328f69"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2051.npz",
+      "sha256": "7cbbb5409e2dbdf9befee6d37606fb982da6254f7d89e97ab14f8138bf5119fb"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2052.npz",
+      "sha256": "ea9756284d4c2b6a5eb0ab8b01f36ce1a777ac28c6820cc07d7c811c42aba507"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2053.npz",
+      "sha256": "b22c5d6a08b10be6a7174e18866093f4f81505b40858841e9e5e5cd7b11a5ef6"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2054.npz",
+      "sha256": "91a256aee689092c0b0fc8cb295809f883b94cace600b7b5e255423c38dbc1a5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2055.npz",
+      "sha256": "ae6c259269ca1cbf9d65d1d49996f10f260252e08ddfa09abaf47721f9b3f88c"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2056.npz",
+      "sha256": "9604e1b26784fa88184de2f4294836aebcbc15fbc59dad120c3deb8faf265ab7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2057.npz",
+      "sha256": "44508c4ed515435610ece34dfdca189bae131977af1f251b5ce84db304df99e1"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2058.npz",
+      "sha256": "f2267c62a6105d4617c0419c6359f5683b361a8aa5f3a3b207b0f0f1e69a064f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2059.npz",
+      "sha256": "a95923bce8375444f627bdf46383552dfd51e7db3d4e058fa0788689bcbb8659"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2060.npz",
+      "sha256": "1bbb4bb9e1a42744896066c308a5aef8f70ee85ba649f7fa34cb1bb08887f8b0"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2061.npz",
+      "sha256": "42e3dfeeaa00389ed4aed910df5c4e0dbde230c6557839bd0ebe5c0a98867777"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2062.npz",
+      "sha256": "cd0cd9d636327eb7b668818c2f63bd67454281f0763b004985e3a60a44370ea1"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2063.npz",
+      "sha256": "a59604b934dc0c4061acdac638da9cbe5716482eac7d4d2efb7e473b65cf1139"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2064.npz",
+      "sha256": "e3e879863f544e1f16ec4c0261170137e3e07e3cc12301751ceebb697a73f247"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2065.npz",
+      "sha256": "98b0772863c68f23e604e2fbcda492046201257311bec40a57400b3311d58302"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2066.npz",
+      "sha256": "c76122e7c82ae206085a54a1a9cc64b352c7584de89ce927677736f76571d060"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2067.npz",
+      "sha256": "b83c07bb98a8dcb5517bb39d8b63d38658332db190102f80ecbb5f36159d425f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2068.npz",
+      "sha256": "1b935564dc4069ba7428d6a9e93963d364ef778463e1f1c17b1baf654419257b"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2069.npz",
+      "sha256": "c027db6b7dfcac108c0e4f81784621a81f2975f5eb3e65e5e237b8445769cc52"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2070.npz",
+      "sha256": "c1539dbc48d77cc4479744d5cad9544c69e0923cc5d82a58082891a2b6576179"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2071.npz",
+      "sha256": "b76a340737a323c607d17fd838679485a644c5e2eb2f2ad9c52040cd5f682e11"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2072.npz",
+      "sha256": "c9b101bd68520128ef0f2bb9877aaa2961bd6edb6d53a520a4b430af513952dc"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2073.npz",
+      "sha256": "e00c2eedff348504a55fe4964459fbcb0937ccd27cb4789349cf0e6491f40f73"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2074.npz",
+      "sha256": "928be7a996c99fd9b031fb38909810338f22f8ea5451d24d9c57c3c8b6163337"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2075.npz",
+      "sha256": "2dcc2f8d59846162f6f9c704484848acff0e69db1bf2a26715272bd9590bae41"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2076.npz",
+      "sha256": "63ff657590ae25c5f7321c07c5ff0119659806cc32a907777007fa049102cb95"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2077.npz",
+      "sha256": "2caf65854e0bb15337538cdf8ce8441a1fc0084cae60c646766d8bf9247a1cd2"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2078.npz",
+      "sha256": "b3b0f8d0224e7dc233cf7361ccce48a2d9485871019e2217fc8d108acf81cce5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2079.npz",
+      "sha256": "302ccfffde1e60b1940b3a98bbe44dc940135fc7bea93f0abc18b5c9f160cad6"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2080.npz",
+      "sha256": "b1f7ae2cc485d7b333a229dd607ea7b47d313a4b5821a2724d041795669b15e5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2081.npz",
+      "sha256": "ffe39efff6c08b774c524f16d73afdb8bda9e6e6dd85846175e9fbadf3d9221b"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2082.npz",
+      "sha256": "476affe42cf624ee7747833e3bfe926ce600349fcd4963c8c9235a129bf5e259"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2083.npz",
+      "sha256": "216cb8541fe9c5c7937c13a3f1486132054ea9b3dc413aea869787fc2c004fe1"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2084.npz",
+      "sha256": "6bc5faa8d10313cd6cfdced829ca36380b48834a4529b4eaf58e31ba9985780e"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2085.npz",
+      "sha256": "2db67f903cf001bdb90d479036e996d24da716bdb2be9446c763d177aec422a7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2086.npz",
+      "sha256": "008eb2dd8ff5b16e2dd09f08f04ca451e383bbf145d64c29ce6de8ca9f4b4af3"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2087.npz",
+      "sha256": "cbe416f7792c224b7ed7e30a096ddd1ba0f54e63e0064c91df352b985657f9e9"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2088.npz",
+      "sha256": "95f4d2facf986367cb165962dac10c7dbaa702f046f4347c65a1ca3b8c3c0c96"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2089.npz",
+      "sha256": "a253efb50f6f8864689ad6f55d24ba75acdcaa0049f98618f31914588e15d65a"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2090.npz",
+      "sha256": "fc2e898dcca963ca1b53d6fb9c051a1ddfc027de89c63960d7c18b0199318fd0"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2091.npz",
+      "sha256": "96205cba5f021a4051e43ff3a3937f7861d79a4e783b64e91ebbc58abfdedd64"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2092.npz",
+      "sha256": "7c28bedd7cc53841978082ea405841cf4861671b8d85b80d6f15fc4f403c516e"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2093.npz",
+      "sha256": "dae4f94cb24c1d4ce76ab8023e5875bf8a126847115d1222e1f8df627b4a7a66"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2094.npz",
+      "sha256": "79191fde9387f3b7f5fcf9b178631fabf0d1bf3bc0bdf0b762831244d1c56f71"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2095.npz",
+      "sha256": "7c202f2e0c37349b08cf5f2befef31848f31b0a42da6d3c946553b2b28a63d08"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2096.npz",
+      "sha256": "0c2e8aff9680e9322c45c10015798b5f927948b717df2448f5583d296c694ae2"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2097.npz",
+      "sha256": "0bdd007088b3a91fcf02f6415074363d47f7de6484d50097df195b12ffeb316f"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2098.npz",
+      "sha256": "34b5557ace11c27be474c71847022a80182ff82f428f1e5f5e7166f4aa1d15e7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2099.npz",
+      "sha256": "2672026a7aeff38f65590b31bf6b27d7e6b154110a0416c4730061b583ffea5d"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2100.npz",
+      "sha256": "734c9ae4abd05856a11139f3d98fb7b3937fdc23a5dddb0b40c3c537c67d016c"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2101.npz",
+      "sha256": "6aebce38aea5f3d595584576140d24d0bd65e681088302324b31e374c369dc79"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2102.npz",
+      "sha256": "dce736f51811d3aa3dc6ffc2242e0b8e1cd3ef27e9e8c1d98b66a681ca63d4d7"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2103.npz",
+      "sha256": "8936388b462fe21bffdf0eb9656062b7120863b0ee93d3f60d6c71dbc8930115"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2104.npz",
+      "sha256": "91cffbb8375af185dd7f7a96a65ad0adbe2890ca39831393a8d5129e3843d5e2"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2105.npz",
+      "sha256": "bee1f4c7b50e47b226529456877de6bc21c3448ebed31017d87eec1cc8e89ea2"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2106.npz",
+      "sha256": "988b9d48a90ee8170c5c0f09f87a702e7b75ac08f1db94a726fd691293055d02"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2107.npz",
+      "sha256": "52f2c8e70ddcad8a46c7ecdb41d139a496a5a3f1737ce0009fb21e3c583b4012"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2108.npz",
+      "sha256": "89d0188dcd61d13a4bb54c495d5a956af171000ba36ff8be8c0ee2cc64cfd93a"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2109.npz",
+      "sha256": "fcc6affc9dc4bcc256b22e6273f223b5e2e7b07fb667dbc1b9ee31e9cb039e38"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2110.npz",
+      "sha256": "b9dade7c6bb1b703dba6220850611950d4ee6ddd6c0f1d8bb8fd5d6a06efc4a6"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2111.npz",
+      "sha256": "ab19d373de848f4587fcabc44d6fc99353c72a7e3e620b65e66eec447153fbb5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2112.npz",
+      "sha256": "f15841067168bf3ebf525882f0d8e726b44a51c53e0977be473a8aed265282b6"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2113.npz",
+      "sha256": "06d64f22855735b0ec6c626284e9baa3e017c8c2a961202542b27af97d56ec44"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2114.npz",
+      "sha256": "d3387305d8d088b0976eb6c68f34c34a1a91a1f7981a960e9c36a96e4cb97ca5"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2115.npz",
+      "sha256": "7de24445ae4037beae22033e629e4bb9fe6f4e0fdc9610a137f5eb1b924551eb"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2116.npz",
+      "sha256": "0e7df3ace34545f356110a3b9b2a20cce67895304d84236b6405075ebe963488"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2117.npz",
+      "sha256": "5623bdd7bcb8fcb6f69342510efd48e42ad953e4c0759511bf123c441e01b4f4"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2118.npz",
+      "sha256": "d0ed8b5f4186b164821b5ae7254673f872b67d86a59a3666b8a6a93719bb8f21"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2119.npz",
+      "sha256": "a3e68e9115b1e2fbcabbbe091171d696f070ea2d80416105bbf557ce6ca9fbfb"
+    },
+    {
+      "path": "results/replication/checkpoints/dense_parity_lr0.05_seed2120.npz",
+      "sha256": "80854fa7e4949f6d2ce5ba72fd59193f659985ac5c36b973f774b4872a1a21b6"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2001.npz",
+      "sha256": "63a220af84694212a8e5c2f1bcd7a4d547e1d293b87701367e0c04d49bfe69f5"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2002.npz",
+      "sha256": "ebd12f232e261901bef3283a11a2dd42d9b1352ee0eb31de232831276260dc88"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2003.npz",
+      "sha256": "5003c07e9c7a3d149fad1e6c6c6449aca85ac4c5f017f095a18a224f5c090c1e"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2004.npz",
+      "sha256": "bc1dd808d0225276a1701551ad1617ff724864102000cda5a81f05306ff0d3da"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2005.npz",
+      "sha256": "814e28e5433a3226ed4a085260fdcf951df41ae878704007bcdc2c4a3ef2fb3e"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2006.npz",
+      "sha256": "b4c9e8822c8b925f3ae2f4bd86537a51dbb6346734c70f2b2c4e7d451f3ee337"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2007.npz",
+      "sha256": "a8697c763d141041dea0d105d2534de411a4d5aa23547de90d5bac082c1b6227"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2008.npz",
+      "sha256": "d0eca41f40d41f894eb291e20dbb5fc9d887c49eb73afd93081c252f66d429da"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2009.npz",
+      "sha256": "3754f084a3a356e457cd0be671fa2d4240d38c59a7b3350fbe48c3bdf9873c4e"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2010.npz",
+      "sha256": "a5f0c148afd9bbcd98072d33f22121207a9c748f8dcfcbf70fe4043d4ee01736"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2011.npz",
+      "sha256": "ae9242c3c7c03761a9caa1f1a59a4a049693621b56d01ff4463784dc0037bc99"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2012.npz",
+      "sha256": "7ec3631c48779352fb6df4b992c668a648995038c226dbd62d33673f5bd436b6"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2013.npz",
+      "sha256": "5224d6babd71b3b3c7da3b2183b17caf9489c064846c7b2d16950f582d027b4f"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2014.npz",
+      "sha256": "7d3e6ef9b9b9e46291adc5ce33756a2c0ee1d9839821c88886555bc9f392853a"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2015.npz",
+      "sha256": "b2fae437ed0058a97f4d199588fab3969e87a6e87cb9d572c330135951754319"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2016.npz",
+      "sha256": "3d91eb27b56da19d794bd0872128c12c1c9342e0fea9f1d94211152441ce918a"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2017.npz",
+      "sha256": "ea446b4388685d9a86dd42d908c45e475db371c6f1f6c37c8ecd4d2de7bf9f2f"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2018.npz",
+      "sha256": "7a922ff2992b2b4a1ac598107b76412677756fe1418605a187096452eb081bad"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2019.npz",
+      "sha256": "96dd1933acb03406284f51e0ea3cacde88bae20a489ffc5b595570593c1fa15e"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2020.npz",
+      "sha256": "c4b2f31c8b0145e96b0df107805fa9efd1073985f43f7fa85a85d50fff97664b"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2021.npz",
+      "sha256": "562de23c87ae9d1221cb17668317401da741dd3ad49341d5804c4abcad2b93d9"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2022.npz",
+      "sha256": "2d64726bf9dfbf21c006bc663c64171a42c36c9d7acc68e2d32cccf6bdc18dc6"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2023.npz",
+      "sha256": "151e8c67754c81421c7c4f1377819f74c1d33af03415ad9b081cc96b96175e2b"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2024.npz",
+      "sha256": "52481dde1c529a134f103abe002fee6a47f4743a3f11ce1d3530809ec455a88d"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2025.npz",
+      "sha256": "7b041cf0ece14c7ed71860ed120736029218e728ebe6a61bdb7673540dcb2e9d"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2026.npz",
+      "sha256": "5284b094b4826d37d551f15883b0d398a02db59616a7cf998f5b0907dfe72e56"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2027.npz",
+      "sha256": "4a9cfc82f2415e28e8563cde315e6d2fca28b29e50eaee44f3e00b0f65672025"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2028.npz",
+      "sha256": "a44e33bd0cc8e24ecde6011feba73b10a1ac8e5cab9cd46e0c3f5dae5698346d"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2029.npz",
+      "sha256": "2393e4b169301e41c319974063a86924231ef5afe2150ad39ef788f11d5a4cf5"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2030.npz",
+      "sha256": "815c6ad823f1b5791817fb4b37e0b56e4167379300d0227536b805a8366e297d"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2031.npz",
+      "sha256": "a03dad3efeab1e0dd4c672622ec8d961460969d2ee3c3b583b3cad21d00610c1"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2032.npz",
+      "sha256": "190c1567ba98fa2e4695021371f98ec16c7529b53c47d5e19e548801d824e144"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2033.npz",
+      "sha256": "fca2afac09a16b5c1bf70ed72d55882142e59fd39f84a001f58b70a9f84daa03"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2034.npz",
+      "sha256": "0701f03b987b29ec65b364ec4c3c60f26b4de9c5573a8238956a67cff4a0bd32"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2035.npz",
+      "sha256": "89df9a99671cdf94e1519e75545459fbf78d76ea42dde10fb11fa4d3286e5d8f"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2036.npz",
+      "sha256": "22fea4b6ea1c487888ea5ef96673c4553f4f53b1328d5a0aac0762a200718101"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2037.npz",
+      "sha256": "ac6d93f914b950f757ec9069a0943cef14fcc7fb6c010a021dc36baa12fc46c5"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2038.npz",
+      "sha256": "3ece6c3358ce993f7f56abdb63bf53d1c420140ceaf5798ddfdd71088b543b2f"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2039.npz",
+      "sha256": "a5dbf237354b74431c370093005a46a8eb7d87442568abf2955657e8fa19ec44"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2040.npz",
+      "sha256": "5df9b5000cf15346a615ca09faa4e2313b800bfaa621679eaf6941ded574f429"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2041.npz",
+      "sha256": "a996adca7a1a557f0d44bb28686bdb04a9d9a8de7c501b4467f42418961ee4e4"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2042.npz",
+      "sha256": "26ebac3fd863dd685491471775bbc6983b8b468a6338c3b602fee933d7fe1974"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2043.npz",
+      "sha256": "24f62d6ced78e047b84bc2218469dd19105bf2cee31f2e27a102a04f3fd45df8"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2044.npz",
+      "sha256": "a27d9531334d9f6710cff0004178989e9e071962e74ed26703151b68802e6ef3"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2045.npz",
+      "sha256": "520340b82cf2af183c7ed8e4902ed8959a5f2f5afb1dd3015ac0b7b1dca9db8f"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2046.npz",
+      "sha256": "4e35ff88016d601fa41ecadf44c0399d03aadbccc94c6fc521b1547a479a08d6"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2047.npz",
+      "sha256": "0f6215584fb936345f8eb368eb415764cc169625c7861249abe4c100885f3c1b"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2048.npz",
+      "sha256": "862048654b26ef697530b0621c751fdefb9c99c21eb65eda65ed8a16c2fc0835"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2049.npz",
+      "sha256": "4196f2be20cf183cae0b95d6b75df5099aebcb2396de70d6dc62c8cd2a428d73"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2050.npz",
+      "sha256": "6b1571ded0d4b0c66d189da964a1d31ed9e228b5649e3a355ece12cb092f5206"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2051.npz",
+      "sha256": "3bde3dc66e2338a0c170b4987edfdc6c5e1329277d2890e31f34728942e4019b"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2052.npz",
+      "sha256": "211d9b5595677b407e8e3b82c839f871eac36c36d9597fa55d20fbfe05a07e83"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2053.npz",
+      "sha256": "c3e083a4c8a59a63cec6fe8cc6d2ee553537e633f73447d7c5ee9b878ffc1b05"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2054.npz",
+      "sha256": "5c2664c3c3fd11e55190bc7d65e6bcfb7898224df26336e868321764a4992527"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2055.npz",
+      "sha256": "ed0388634358eeb14fbb455e211e8dbe6d47ee13790788b921aa39afd9f285dc"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2056.npz",
+      "sha256": "bbfd002c85dd3508bcfda5cf314cb1144adeaeb172647214c56a7cf2e6fd726b"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2057.npz",
+      "sha256": "0292070f5bc66aa966ab6fe1dc7120b4012b1702929e181c5d8e9f8a268db75a"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2058.npz",
+      "sha256": "cf2ae8faf25d49d2de1b528b710471b30d7d2a606d4ad9191f74967f07980887"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2059.npz",
+      "sha256": "62f653db8cccea6ecd832e62c6b766a13fbfdf78ef3bae3342c61a126308f1e0"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2060.npz",
+      "sha256": "acb8dbb10540448b49b7cba116adc8bac294c47dac3b9d2363dfdec9ef02819c"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2061.npz",
+      "sha256": "66cb02a9b4c54ce0581e2dc0bc1ab6329b11be8ecaa536aefa7e0683f2e35329"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2062.npz",
+      "sha256": "74f5bedb09a74eedf54a949f1d0bbc8bb754a84f1409097ac251bdc31d52893f"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2063.npz",
+      "sha256": "ead6b47f012c687d67e9226ffc3e26c392d1647563848951e05ebba221e304da"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2064.npz",
+      "sha256": "c8f343272c3eaf9bbc0f44561f87784099f07381feb26b647c439574fe445404"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2065.npz",
+      "sha256": "d17ae97bcccbc369a27534c6e54fd72878bc8ced9d4d61237f681a88d99acb27"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2066.npz",
+      "sha256": "c8027c757bc1eab1ce56e6e9ccefc9bc6e7419278d9601ad031cc296a8d6f5ac"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2067.npz",
+      "sha256": "a1814632059deb0450cdb46cadc8f512af0ee99db5369d1cb7efea6cf15e8eb5"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2068.npz",
+      "sha256": "c6b39e9cf3df87a913acc7bfdf3de4d9c77ba1ef03de739ef904f71538a42e51"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2069.npz",
+      "sha256": "dd8d8ea35d8e92adf7093c8f283b92a9276b07de5a736e4e675adf0cb19f3d84"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2070.npz",
+      "sha256": "6a971bfdc3d7597674a045c82b6196b670bbff4aa93fcd01ab44668a2ed6a936"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2071.npz",
+      "sha256": "9566990346b374f80a22cc65d04c9218031dbf7a6ea61898199b340cee51ef4a"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2072.npz",
+      "sha256": "fb1d08429a86ffad9a51ace7fa900601d0694e0236c6b03b27a58b1a467ea81c"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2073.npz",
+      "sha256": "619e2561a305d0559f98ac73ae125765eea87b3bd799e4b739baba245f4142ca"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2074.npz",
+      "sha256": "fe6b30d4cc3890bda448980248017ab851e175fbded4be5d17409fcb18c5faf1"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2075.npz",
+      "sha256": "02a04a94df728ea770d4702b21e2f44bf5b4210b45fec208cbcbcd77ce9d4856"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2076.npz",
+      "sha256": "225725b6b245d365978793d46355be268104349a6d55578323dcdef210430e64"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2077.npz",
+      "sha256": "e1b6f942425b588a1b5d9597c16cee0aefe198c4f9ca45f9d6149ab60c0a3b47"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2078.npz",
+      "sha256": "8be1da6749e332325b7342e3e05668fd0623169b348a72421c1ac52fbff04fbd"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2079.npz",
+      "sha256": "2be3885c0c217d4748dbfd2d0aa9ce281fa6326aeb5c8665d3fc6016d730169b"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2080.npz",
+      "sha256": "40d19003b247e804de56ca297315dba1687fe603dee0f3a4d8d94a13eb3351cb"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2081.npz",
+      "sha256": "36adc22c34f2e5bfaee011b38f5e51549fe3c52840bef955be5a77d1bbfb95f6"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2082.npz",
+      "sha256": "a58cc59f6eb4068eabe1bb9ccd94458d28e945d5eeb5578465b4e9ac6f1945d9"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2083.npz",
+      "sha256": "8358b145c56fb7176c632d16454d53386f78b68a01502010b5cd080b3adb5bde"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2084.npz",
+      "sha256": "4e53c4bbba400d65f518ee639deaea3188662a7deeb8cd344f50d4684b3f64e9"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2085.npz",
+      "sha256": "bb66b1384f83d69c6b0afc0ffac2415547dbb748776ea52dd0f130c207880062"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2086.npz",
+      "sha256": "dce8d47dc2c1aaefdb52c8dd7d05bb6bcc5b34c827c5ce60ab82a2bffdbce2e0"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2087.npz",
+      "sha256": "eda66db6ecefc194727ceec21e3e4c2a394cfb947fa03e25e256c8f22a73c692"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2088.npz",
+      "sha256": "81eced0c7e5d04209b4dc6a4a45634e79788f3bd04ba17ef2b29e506d9614c18"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2089.npz",
+      "sha256": "260433a65c1ac17fa5f8795c3eb92736863e17dd5b6b8f9e49fa152a131b92ef"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2090.npz",
+      "sha256": "f040f4032cda13271966d62ba733a2c06f127e995214864e85927111e2f55393"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2091.npz",
+      "sha256": "148e136923fd2f372c320a71328d39cf996203c5c987c560df5d146cc6a8137d"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2092.npz",
+      "sha256": "e132cd8bb822ec662c3528f4107132c58a1f48766cbb493f845e7c9cf7c30f05"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2093.npz",
+      "sha256": "d42215a42bb2aae9c264ca74a15007154ce7d46d51dfd787a6c1365673ee8cfe"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2094.npz",
+      "sha256": "7e26b68b7d4a91b228979c856c154542c169c789efda4ac5d620efcd141f3df6"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2095.npz",
+      "sha256": "67ead8269f23858dcdfdc6d471bd49e204693182577dfe2754291d58676955c7"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2096.npz",
+      "sha256": "ee9d139be631f3d38f190d7eb71935aceb4e1371fe46defa341d72561428a4a8"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2097.npz",
+      "sha256": "e0ad5f13afa8cfefa407a1f10ff5967971c53593de163968db4ab348885c01a0"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2098.npz",
+      "sha256": "c1b94aff02129066175366b5a19b2904305d266ec82395b1197c61ac4e9815e2"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2099.npz",
+      "sha256": "29a2c8cb1de7ab9b33173663d2077199ebe5f8f2b888936a448ea482f4ef13c1"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2100.npz",
+      "sha256": "254f95fd2dc25a8521a2eac9eebce37cdf7b42c76756e8178a0ee8a33d018ce3"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2101.npz",
+      "sha256": "a0b51272a653832e4253dedeea652e526e290ee7cd52df71505e2bc09f31f983"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2102.npz",
+      "sha256": "c31b3138053478e67483013d2c8e6aa942d538c95fee0051aa1953bea6909ddc"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2103.npz",
+      "sha256": "90e969aa9face669b818c2589e1b1cedcf366da56aa8fec8678302c9623239ff"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2104.npz",
+      "sha256": "8ca0adf2b4640fce106ea93b363e2169b9767bf42f7e70a45abe5808d5dcd8bc"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2105.npz",
+      "sha256": "89bd4b5a58e55e2f72379241b88fb246e3a9524b29a6d6ea12fcef81b082909f"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2106.npz",
+      "sha256": "a8e71aa73c6c8df1a18ad07e8e33d1d787a2233df14e547054c945eebe35c26f"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2107.npz",
+      "sha256": "d30454014789183576dc10dc12d46206c7bba4b4c3cc2eb317337e1ad43e433b"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2108.npz",
+      "sha256": "6486b6372fa6078e78bbd4ad77b471d64c26a4af2d10f42dc7064dd8a61884f2"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2109.npz",
+      "sha256": "e1968512f8aaa1d8d9f8550b44bb847ca14f75bd14b159072729773d095896fe"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2110.npz",
+      "sha256": "e5408c160c99cf052d08189d7155010577595ab4ed8f4e2230f55b53e4f8f1bc"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2111.npz",
+      "sha256": "4c32e6b6a7729e5a73ec605912325bec16d7d8726cbb9f03df079eca59524503"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2112.npz",
+      "sha256": "876415a17fc1c7fd055715c396ed09a5f9cc0bb92db023b8ee50bdfd89b541e6"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2113.npz",
+      "sha256": "b6b40143607c5733cfb6deb71480374f793e9bbaca00bd26617534e42fef1905"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2114.npz",
+      "sha256": "0a2d0b109246130c5f1738f00702a2e0ae8499c2b16d2bce381bdcd701e620cd"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2115.npz",
+      "sha256": "d6d20d0301ed1d4e027c0a4e3611b8d7a458a04493d85abc1ce0112fa60c90c4"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2116.npz",
+      "sha256": "d25927e3710be6d3829b8efb7af23ab8cbf8a9f15fd27131068f5bcffa0fb530"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2117.npz",
+      "sha256": "d635e0c76d276fe3a2347368d6b1e04a81404e9ebb1c1e032c5a51ea4b367139"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2118.npz",
+      "sha256": "494f9f511965e53f4e078ec21acab176cc306046c9a277e7c3ebd5703e686389"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2119.npz",
+      "sha256": "973220a937b4b1140342502ec11fbb03c5003104ed502ba239172999aeb20889"
+    },
+    {
+      "path": "results/replication/checkpoints/ring_mse_lr0.1_seed2120.npz",
+      "sha256": "b3b8c72f9793ceeae02692559e7550b5172afdd5247b6ace468129003adecacf"
+    }
+  ]
+}

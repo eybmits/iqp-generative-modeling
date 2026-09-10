@@ -1,0 +1,357 @@
+{
+  "study": "Selected-regime IQP loss advantage, one fresh confirmation",
+  "frozen_at_utc": "2026-09-06T16:30:41.996622+00:00",
+  "n": 12,
+  "m": 200,
+  "k": 512,
+  "steps": 600,
+  "validation_samples": 2000,
+  "optimizer": {
+    "beta1": 0.9,
+    "beta2": 0.99,
+    "epsilon": 1e-08
+  },
+  "beta": 0.9,
+  "confirmation_seeds": [
+    5001,
+    5002,
+    5003,
+    5004,
+    5005,
+    5006,
+    5007,
+    5008,
+    5009,
+    5010,
+    5011,
+    5012,
+    5013,
+    5014,
+    5015,
+    5016,
+    5017,
+    5018,
+    5019,
+    5020,
+    5021,
+    5022,
+    5023,
+    5024,
+    5025,
+    5026,
+    5027,
+    5028,
+    5029,
+    5030,
+    5031,
+    5032,
+    5033,
+    5034,
+    5035,
+    5036,
+    5037,
+    5038,
+    5039,
+    5040,
+    5041,
+    5042,
+    5043,
+    5044,
+    5045,
+    5046,
+    5047,
+    5048,
+    5049,
+    5050,
+    5051,
+    5052,
+    5053,
+    5054,
+    5055,
+    5056,
+    5057,
+    5058,
+    5059,
+    5060,
+    5061,
+    5062,
+    5063,
+    5064,
+    5065,
+    5066,
+    5067,
+    5068,
+    5069,
+    5070,
+    5071,
+    5072,
+    5073,
+    5074,
+    5075,
+    5076,
+    5077,
+    5078,
+    5079,
+    5080,
+    5081,
+    5082,
+    5083,
+    5084,
+    5085,
+    5086,
+    5087,
+    5088,
+    5089,
+    5090,
+    5091,
+    5092,
+    5093,
+    5094,
+    5095,
+    5096,
+    5097,
+    5098,
+    5099,
+    5100,
+    5101,
+    5102,
+    5103,
+    5104,
+    5105,
+    5106,
+    5107,
+    5108,
+    5109,
+    5110,
+    5111,
+    5112,
+    5113,
+    5114,
+    5115,
+    5116,
+    5117,
+    5118,
+    5119,
+    5120
+  ],
+  "seed_reservation_note": "Development initially reserved seeds4001-4120. Before confirmation these were replaced with5001-5120 because4001 was used in a6-qubit unit smoke. No paper-cohort results from either range were used for selection.",
+  "configurations": {
+    "parity": {
+      "kind": "iqp",
+      "config": {
+        "beta": 0.9,
+        "architecture": "ring3",
+        "objective": "parity",
+        "sigma": 0.75,
+        "lr": 0.1
+      }
+    },
+    "mse_matched": {
+      "kind": "iqp",
+      "config": {
+        "beta": 0.9,
+        "architecture": "ring3",
+        "objective": "mse",
+        "sigma": 0.75,
+        "lr": 0.1
+      }
+    },
+    "mse_same": {
+      "kind": "iqp",
+      "config": {
+        "beta": 0.9,
+        "architecture": "ring3",
+        "objective": "mse",
+        "sigma": 0.75,
+        "lr": 0.2
+      }
+    },
+    "ising-parity_paper": {
+      "kind": "classical",
+      "config": {
+        "beta": 0.9,
+        "model": "ising-parity",
+        "architecture": "ring",
+        "sigma": 1.0,
+        "lr": 0.05,
+        "steps": 600,
+        "support_aware": false,
+        "l2": 0.0
+      }
+    },
+    "ising-parity_support": {
+      "kind": "classical",
+      "config": {
+        "beta": 0.9,
+        "model": "ising-parity",
+        "architecture": "ring3",
+        "sigma": 2.0,
+        "lr": 0.02,
+        "steps": 600,
+        "support_aware": true,
+        "l2": 0.0
+      }
+    },
+    "ising-nll_paper": {
+      "kind": "classical",
+      "config": {
+        "beta": 0.9,
+        "model": "ising-nll",
+        "architecture": "dense",
+        "sigma": 1.0,
+        "lr": 0.05,
+        "steps": 600,
+        "support_aware": false,
+        "l2": 0.0
+      }
+    },
+    "ising-nll_support": {
+      "kind": "classical",
+      "config": {
+        "beta": 0.9,
+        "model": "ising-nll",
+        "architecture": "dense",
+        "sigma": 1.0,
+        "lr": 0.005,
+        "steps": 100,
+        "support_aware": true,
+        "l2": 0.0
+      }
+    },
+    "maxent_paper": {
+      "kind": "classical",
+      "config": {
+        "beta": 0.9,
+        "model": "maxent",
+        "architecture": "features",
+        "sigma": 1.0,
+        "lr": 0.05,
+        "steps": 600,
+        "support_aware": false,
+        "l2": 0.0
+      }
+    },
+    "maxent_support": {
+      "kind": "classical",
+      "config": {
+        "beta": 0.9,
+        "model": "maxent",
+        "architecture": "features",
+        "sigma": 2.0,
+        "lr": 0.005,
+        "steps": 50,
+        "support_aware": true,
+        "l2": 0.0
+      }
+    },
+    "transformer_paper": {
+      "kind": "classical",
+      "config": {
+        "beta": 0.9,
+        "model": "transformer",
+        "architecture": "full",
+        "sigma": 1.0,
+        "lr": 0.001,
+        "steps": 600,
+        "support_aware": false,
+        "l2": 0.0
+      }
+    },
+    "transformer_support": {
+      "kind": "classical",
+      "config": {
+        "beta": 0.9,
+        "model": "transformer",
+        "architecture": "prefix",
+        "sigma": 1.0,
+        "lr": 0.003,
+        "steps": 100,
+        "support_aware": true,
+        "l2": 0.0
+      }
+    }
+  },
+  "role_aliases": {
+    "parity": "parity",
+    "mse_matched": "mse_matched",
+    "mse_same": "mse_same",
+    "mse_global": "mse_same",
+    "ising-parity_paper": "ising-parity_paper",
+    "ising-parity_support": "ising-parity_support",
+    "ising-nll_paper": "ising-nll_paper",
+    "ising-nll_support": "ising-nll_support",
+    "maxent_paper": "maxent_paper",
+    "maxent_support": "maxent_support",
+    "transformer_paper": "transformer_paper",
+    "transformer_support": "transformer_support"
+  },
+  "comparisons": [
+    {
+      "control": "mse_matched",
+      "group": "loss"
+    },
+    {
+      "control": "mse_same",
+      "group": "loss"
+    },
+    {
+      "control": "ising-parity_paper",
+      "group": "paper"
+    },
+    {
+      "control": "ising-parity_support",
+      "group": "support"
+    },
+    {
+      "control": "ising-nll_paper",
+      "group": "paper"
+    },
+    {
+      "control": "ising-nll_support",
+      "group": "support"
+    },
+    {
+      "control": "maxent_paper",
+      "group": "paper"
+    },
+    {
+      "control": "maxent_support",
+      "group": "support"
+    },
+    {
+      "control": "transformer_paper",
+      "group": "paper"
+    },
+    {
+      "control": "transformer_support",
+      "group": "support"
+    }
+  ],
+  "source_hashes": {
+    "src/iqp_repro/core.py": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe",
+    "src/iqp_repro/study.py": "2607074f2ff82d4ddd69d673bf575749099105e8e86f50ca058e1bc90dabe9b3",
+    "src/iqp_repro/loss_search.py": "9a960cd6a4f76cdc05209806073a8b0f1d95e06a969c7fabffb8198bd00ee568",
+    "src/iqp_repro/classical.py": "572d1c2c92c05ebd5fdd4ddc197f6a4dfaaf19456e3810a4bed325afad66c5cb",
+    "src/iqp_repro/cli.py": "08b44715399401205674cb051e53da6eb82b824ba93c7aadad4f57776ddffae7",
+    "src/iqp_repro/support_baselines.py": "9454caa23073098f2abf33b3f39200ccfe865d56086c241f6b2e4e183df7895a",
+    "scripts/check_loss_baselines.py": "5aea810154213074eac6481ab3cd7dcbdcc8940b854d22ccee8a9dc5bfcf3f6d",
+    "scripts/select_loss_advantage.py": "bf9191ea4b79fc9d3fdd926f4057803d10856378237c0b0c0a5763c41796360f",
+    "scripts/confirm_loss_advantage.py": "9e6e6edc77b7e3d6a90a0e3459716aa6444fef6d7ee3cb60d1110ec514aeaf9a"
+  },
+  "development_evidence": {
+    "protocols/loss-advantage-development.json": "9762061c63b10a18bf4a465c0ab138b6ff0a8e65400827556aea687141fa506c",
+    "results/loss-advantage/development/iqp/metrics.csv": "1d7dc59d49d133858f584328706c63b70ca34ea1b50324b057db20b7c29930fd",
+    "results/loss-advantage/development/iqp/summary.json": "f9a264436fe2598f409501762afc167ba8a728419c7f474a30034034ec4859f9",
+    "results/loss-advantage/development/iqp/lock.json": "2c3100a81ce4a4b4eceba6e88929d534b5c6e9fd3d17fcaf341375ef7893ac7c",
+    "results/loss-advantage/development/classical/metrics.csv": "f3cf98240531b9b180c049671f80f24205a70cb14ee3a91b65b7be1b70129028",
+    "results/loss-advantage/development/classical/ranking.json": "219cda662cb7b7708f04a2276ba62781cb1e065816d0d7cdf344cc68d1ccb4df",
+    "results/loss-advantage/development/classical/lock.json": "ff605acf3ee2cf3df87505b052031e29d9d2e745f8d92c8186f1a44725b0ca92"
+  },
+  "selection_tier": "paper",
+  "selection_rule": "Minimum mean validation NLL per family within beta; choose beta with smallest worst parity-minus-control NLL gap. Prefer the support-aware tier if any beta has all negative gaps, otherwise use the MSE plus paper-default tier. Target KL never selects. All support-aware controls are retained in either tier.",
+  "primary_metric": "Mean exact forward KL, no probability floor or omitted seed",
+  "inference": "Two-sided paired t intervals; Bonferroni familywise alpha=.05 over all distinct control roles. Loss, paper and support gates each require every corresponding upper bound below zero. Infinite or failed outcomes cannot pass. Recovery and win counts descriptive.",
+  "stopping_rule": "Run these 120 datasets once. No per-dataset selection, restarts, retuning, target-KL choice, or additional confirmation cohorts. Retain every result. Confirmation validation likelihood is diagnostic only.",
+  "resources": "Each model sees the same 200 training draws per seed. Development additionally used 2000 shared validation draws on each of40 previously examined datasets. Classical final update counts may be below600 because a global development search selected them. This is not equal search count or equal compute across families.",
+  "scope": "A modified-protocol simulation extension of the paper. Success against original unrestricted classical defaults is distinct from success against support-aware trained classical models. It is not the printed18% result, an exact paper replication, or quantum computational advantage."
+}

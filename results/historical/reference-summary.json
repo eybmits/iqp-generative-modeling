@@ -1,0 +1,215 @@
+{
+  "status": "cached historical measurements; no new training or physical device execution",
+  "legacy_seeds42_51": {
+    "reference_parity": {
+      "mean": 0.5093170798070122,
+      "ci95_halfwidth": 0.03280978273086759,
+      "median": 0.5105149915560734,
+      "n": 10
+    },
+    "mse": {
+      "mean": 0.49207221387947353,
+      "ci95_halfwidth": 0.05769941395403999,
+      "median": 0.47906309475958886,
+      "n": 10
+    },
+    "paired_delta_parity_minus_mse": {
+      "mean": 0.017244865927538718,
+      "ci95_halfwidth": 0.06450022054979532,
+      "median": 0.048728089154052245,
+      "n": 10
+    },
+    "reference_wins": 3,
+    "oracle_min_over_12_bands": {
+      "mean": 0.41481865650130023,
+      "ci95_halfwidth": 0.0398979872565454,
+      "median": 0.39565273619290375,
+      "n": 10
+    },
+    "interval": "Student t, df=9; oracle is selected using exact target KL"
+  },
+  "fixed_seeds111_120": {
+    "reference_parity": {
+      "mean": 0.4515499628932399,
+      "ci95_halfwidth": 0.03192215116246914,
+      "median": 0.44687230914796633,
+      "n": 10
+    },
+    "mse": {
+      "mean": 0.4816465976824188,
+      "ci95_halfwidth": 0.0547819313374751,
+      "median": 0.4950663534095029,
+      "n": 10
+    },
+    "paired_delta_parity_minus_mse": {
+      "mean": -0.030096634789178837,
+      "ci95_halfwidth": 0.06536127776435405,
+      "median": -0.017115425906280568,
+      "n": 10
+    },
+    "reference_wins": 6,
+    "oracle_min_over_12_bands": {
+      "mean": 0.4079456177837174,
+      "ci95_halfwidth": 0.02870432205997987,
+      "median": 0.41398002169564513,
+      "n": 10
+    },
+    "interval": "Student t, df=9; oracle is selected using exact target KL"
+  },
+  "paper_printed_parity_mean": 0.402,
+  "paper_printed_mean_supported_by_raw_arrays": false,
+  "main_table": {
+    "iqp_parity_mse": {
+      "KL": {
+        "mean": 0.385062690181615,
+        "ci95_halfwidth": 0.020898087478172386,
+        "median": 0.4143081871085941,
+        "n": 200
+      },
+      "C1000": {
+        "mean": 0.05307687249000942,
+        "ci95_halfwidth": 0.003548066757048971,
+        "median": 0.05861891808064254,
+        "n": 200
+      },
+      "KL_wins": 190
+    },
+    "classical_nnn_fields_parity": {
+      "KL": {
+        "mean": 0.9229301066663389,
+        "ci95_halfwidth": 0.061628028782741665,
+        "median": 0.9286689903854283,
+        "n": 200
+      },
+      "C1000": {
+        "mean": 0.03750112547066805,
+        "ci95_halfwidth": 0.0027176300221877685,
+        "median": 0.04062426054278433,
+        "n": 200
+      },
+      "KL_wins": 0
+    },
+    "classical_dense_fields_xent": {
+      "KL": {
+        "mean": 0.9472295638682752,
+        "ci95_halfwidth": 0.02450137190841105,
+        "median": 0.9779719474245939,
+        "n": 200
+      },
+      "C1000": {
+        "mean": 0.03474140915256893,
+        "ci95_halfwidth": 0.002969799647068532,
+        "median": 0.04032960500150044,
+        "n": 200
+      },
+      "KL_wins": 0
+    },
+    "classical_transformer_mle": {
+      "KL": {
+        "mean": 0.7437418846828042,
+        "ci95_halfwidth": 0.05413832755174689,
+        "median": 0.7367074548931956,
+        "n": 200
+      },
+      "C1000": {
+        "mean": 0.03590249606399943,
+        "ci95_halfwidth": 0.0022520173007347195,
+        "median": 0.039446276199174166,
+        "n": 200
+      },
+      "KL_wins": 10
+    },
+    "classical_maxent_parity": {
+      "KL": {
+        "mean": 1.8036506895863462,
+        "ci95_halfwidth": 0.10809409049672869,
+        "median": 1.6886250594661507,
+        "n": 200
+      },
+      "C1000": {
+        "mean": 0.018443406079257412,
+        "ci95_halfwidth": 0.002396955917170869,
+        "median": 0.013947254986072261,
+        "n": 200
+      },
+      "KL_wins": 0
+    }
+  },
+  "size_median_KL": {
+    "10": {
+      "iqp_parity_mse": 0.33767619985385905,
+      "classical_nnn_fields_parity": 0.9806494108376848,
+      "classical_dense_fields_xent": 0.969639242820505,
+      "classical_transformer_mle": 0.7195314868472433,
+      "classical_maxent_parity": 1.7065294282322716
+    },
+    "15": {
+      "iqp_parity_mse": 0.6376284255875451,
+      "classical_nnn_fields_parity": 1.2659392763286763,
+      "classical_dense_fields_xent": 1.266031850963241,
+      "classical_transformer_mle": 0.9573088729239835,
+      "classical_maxent_parity": 2.2505742800794977
+    },
+    "20": {
+      "iqp_parity_mse": 1.256185770930297,
+      "classical_nnn_fields_parity": 1.6698491873134045,
+      "classical_dense_fields_xent": 1.8283014497777916,
+      "classical_transformer_mle": 1.3184082537189608,
+      "classical_maxent_parity": 2.6326498743067743
+    }
+  },
+  "main_table_interval": "Normal 95% interval over 200 instance metrics, as historical protocol; beta grid is fixed and data seeds repeat across beta.",
+  "hardware_curve_max_absolute_reconstruction_error": 1.2434497875801753e-14,
+  "hardware": {
+    "jobs": 20,
+    "shots_per_job": 10000,
+    "backend": "ibm_marrakesh",
+    "date": "2026-04-08",
+    "parity_selection": "best true-KL band separately per seed",
+    "curve_estimator": "expected occupancy under observed frequencies; not fresh physical samples",
+    "paired_recovery": {
+      "1000": {
+        "mean": 0.025661786278246845,
+        "ci95_halfwidth": 0.04578467197337815,
+        "median": 0.0354055026294027,
+        "n": 10,
+        "ci95_low": -0.020122885695131303,
+        "ci95_high": 0.07144645825162499,
+        "parity_wins": 7,
+        "direction": "parity minus MSE recovery; higher is better"
+      },
+      "2000": {
+        "mean": 0.03473775270225542,
+        "ci95_halfwidth": 0.049405788163663575,
+        "median": 0.04709327983486733,
+        "n": 10,
+        "ci95_low": -0.014668035461408158,
+        "ci95_high": 0.08414354086591899,
+        "parity_wins": 7,
+        "direction": "parity minus MSE recovery; higher is better"
+      }
+    },
+    "paired_interval": "Student t, df=9, across 10 matched seed differences",
+    "mean_plus_minus_sd_overlap": {
+      "positive_saved_budget_points": 158,
+      "overlapping_points": 158,
+      "overlap_fraction": 1.0,
+      "nonoverlapping_budgets": [],
+      "definition": "Overlap of separate mean +/- sample-SD intervals on the saved positive Q grid; not a paired significance test"
+    }
+  },
+  "legacy_score_display": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "historical_elite_rule": "Top floor(0.1 * |S|) states, truncating score ties; differs from the tie-inclusive Eq.9 quantile rule used in fresh runs"
+}

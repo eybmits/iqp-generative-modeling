@@ -1,0 +1,41 @@
+{
+  "n": [
+    12
+  ],
+  "betas": [
+    0.9
+  ],
+  "seeds": [
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "m": 200,
+  "steps": 600,
+  "sigma": [
+    0.5,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "k": [
+    128,
+    256,
+    512
+  ],
+  "models": [
+    "iqp-parity",
+    "iqp-mse"
+  ],
+  "protocol": "matched",
+  "preset": "ablation",
+  "threads": 4,
+  "implementation_sha256": "cee5d42521aa4437cb18859411b4c5971d1adaf9381596912dcfbd0095f8aa6e"
+}

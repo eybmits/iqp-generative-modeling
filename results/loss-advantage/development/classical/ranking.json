@@ -1,0 +1,6402 @@
+[
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.005_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.982414241328732,
+    "mean_kl": 0.327022328808748
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.005_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.0208024807509215,
+    "mean_kl": 0.3657287663605261
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.005_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.02455329984364,
+    "mean_kl": 0.36901109042772606
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.02_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.02769300253379,
+    "mean_kl": 0.37250718033919616
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.02_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.046232638643799,
+    "mean_kl": 0.390731113704586
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.02_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.054701874464418,
+    "mean_kl": 0.3987295808669125
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.005_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.054857469254402,
+    "mean_kl": 0.39887919300226027
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.05_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.054910138489626,
+    "mean_kl": 0.39893105656019856
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.055023350565965,
+    "mean_kl": 0.3990291903663875
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.05_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.055323278387116,
+    "mean_kl": 0.39933939747256675
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.0554191901412375,
+    "mean_kl": 0.3994434693926804
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.05_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.06494295529731,
+    "mean_kl": 0.40944978799787596
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.7447805444057725,
+    "mean_kl": 1.088202126659809
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.011377995983778,
+    "mean_kl": 0.3543848541751576
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.025631575179503,
+    "mean_kl": 0.3592106286153998
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.030329864151597,
+    "mean_kl": 0.3729322737845695
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.0322712311789255,
+    "mean_kl": 0.36600340635923645
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.033065927285678,
+    "mean_kl": 0.3665868191228864
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.03357429840605,
+    "mean_kl": 0.37122375162337945
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.053862411863911,
+    "mean_kl": 0.40006647317965294
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.05595072767221,
+    "mean_kl": 0.3939450159717399
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.066507375001909,
+    "mean_kl": 0.40304189249030015
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.067221957329682,
+    "mean_kl": 0.41347230696672765
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.070271148818501,
+    "mean_kl": 0.41171462544983345
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.074654492857993,
+    "mean_kl": 0.41122350200264357
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.074996385078656,
+    "mean_kl": 0.409761992125486
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.0760188095452135,
+    "mean_kl": 0.4242411991594338
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.079890817266962,
+    "mean_kl": 0.42751891612187326
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.08005292867382,
+    "mean_kl": 0.42673232208053163
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.0807265110457696,
+    "mean_kl": 0.41626228748580074
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.083880611936262,
+    "mean_kl": 0.41921438927353505
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.087951744583034,
+    "mean_kl": 0.43215104086504946
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.09352201488044,
+    "mean_kl": 0.4333275963219492
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.0957782407633925,
+    "mean_kl": 0.4298959479642999
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.097260102773688,
+    "mean_kl": 0.43202720596472927
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.103855077579658,
+    "mean_kl": 0.4509608924786489
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.121776499806402,
+    "mean_kl": 0.46585716149413026
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.162052391191875,
+    "mean_kl": 0.5031142746333496
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.175387990022052,
+    "mean_kl": 0.519617860820422
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.203192284041378,
+    "mean_kl": 0.5478053561649787
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.256844888543464,
+    "mean_kl": 0.6029996371335063
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.25812945546439,
+    "mean_kl": 0.6061976063991084
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.282801534716499,
+    "mean_kl": 0.6302875017204437
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.283844302733967,
+    "mean_kl": 0.6311620103632599
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring3_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.289111981773134,
+    "mean_kl": 0.6358503299480505
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.405815039297622,
+    "mean_kl": 0.7496153655990578
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.43412626457796,
+    "mean_kl": 0.7717337336030511
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.7487412781401614,
+    "mean_kl": 1.0822861324446955
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.024877487037083,
+    "mean_kl": 1.346545392990317
+  },
+  {
+    "beta": 0.9,
+    "key": "ising-parity_dense_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 12.041728295996283,
+    "mean_kl": 6.37920356695888
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.037503886185595,
+    "mean_kl": 0.3819218259173998
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1.5_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.086309398677612,
+    "mean_kl": 0.4316940958007659
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.091860051053062,
+    "mean_kl": 0.434162727936649
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.093553632448611,
+    "mean_kl": 0.43534230966016346
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.102784045429561,
+    "mean_kl": 0.444871140758656
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.102798206558232,
+    "mean_kl": 0.44487943402254837
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.102861890283596,
+    "mean_kl": 0.44494784894759964
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.102874345294355,
+    "mean_kl": 0.44496113244248897
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.118301332708059,
+    "mean_kl": 0.46002654432623347
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s2_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.147713905873715,
+    "mean_kl": 0.4905073083859204
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.16191478321159,
+    "mean_kl": 0.5047335583397768
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1.5_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.220459739153155,
+    "mean_kl": 0.5657688471303091
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1.5_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.2529648764856915,
+    "mean_kl": 0.5983204255078418
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1.5_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.278703826459712,
+    "mean_kl": 0.6230095355796921
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1.5_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.301171732210605,
+    "mean_kl": 0.6463097205650528
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1.5_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.304033352666184,
+    "mean_kl": 0.6490794703308268
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1.5_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.304173333930232,
+    "mean_kl": 0.6491056260034496
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.318504641587664,
+    "mean_kl": 0.6630131594674442
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.326398412435717,
+    "mean_kl": 0.6720133638855612
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s0.75_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.346390424089062,
+    "mean_kl": 0.673282425083353
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.5366963101475735,
+    "mean_kl": 0.8710839374042415
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.717700069385091,
+    "mean_kl": 1.0490221359300738
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.722814664389302,
+    "mean_kl": 1.050335745364063
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s0.75_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.851216049042378,
+    "mean_kl": 1.1622554295859242
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s0.75_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.0991467600927125,
+    "mean_kl": 1.4050189991247142
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s0.75_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.24264959818706,
+    "mean_kl": 1.542249325085021
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.263108639447291,
+    "mean_kl": 1.5853826583821147
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.407124823112653,
+    "mean_kl": 1.7269084504689576
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.420566874594522,
+    "mean_kl": 1.7398606429319923
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.9189689691679295,
+    "mean_kl": 2.2481314999573163
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 8.002997517360495,
+    "mean_kl": 2.3162065821451656
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s0.75_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 8.451413376786807,
+    "mean_kl": 2.721880021687286
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s1_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 8.790510463895226,
+    "mean_kl": 3.1179436428852814
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s0.75_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 8.876778384224815,
+    "mean_kl": 3.1361686750771716
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s0.75_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 8.996261037103574,
+    "mean_kl": 3.2557668218953166
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 10.939438681886891,
+    "mean_kl": 5.151242298802047
+  },
+  {
+    "beta": 0.9,
+    "key": "maxent_features_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 12.08388406815193,
+    "mean_kl": 6.26368846105737
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.003_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.870056411927314,
+    "mean_kl": 0.2123854825676849
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.0002_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.872097896472537,
+    "mean_kl": 0.21212894759195522
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.001_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.875184966618558,
+    "mean_kl": 0.21470273660498068
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.001_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.946448245958992,
+    "mean_kl": 0.2893043429290875
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.003_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.953104759926953,
+    "mean_kl": 0.2947729813619094
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.003_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.955492050835351,
+    "mean_kl": 0.29178612676429055
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.001_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.064255585026544,
+    "mean_kl": 0.3988271603649141
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.0002_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.100037622440506,
+    "mean_kl": 0.4448018487581663
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.001_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.143081267228479,
+    "mean_kl": 0.4891779851533462
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.0002_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.25807419865964,
+    "mean_kl": 0.6053689764895286
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.0002_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.374601413259494,
+    "mean_kl": 0.7238230361142228
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_full_s1_lr0.001_t600_paper",
+    "config": {
+      "model": "transformer",
+      "architecture": "full",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.503674730764852,
+    "mean_kl": 0.8323017077799493
+  },
+  {
+    "beta": 0.9,
+    "key": "transformer_prefix_s1_lr0.003_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.80872558861638,
+    "mean_kl": 1.1322214151008985
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.02_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.179735096442028,
+    "mean_kl": 0.2682141429112296
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.005_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.190569339064553,
+    "mean_kl": 0.28130010079699
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.005_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.200556992900376,
+    "mean_kl": 0.2885222142991935
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.02_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.213568101909077,
+    "mean_kl": 0.3063851620774441
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.05_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.227756931084275,
+    "mean_kl": 0.32137990180530296
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.02_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.2621362547225505,
+    "mean_kl": 0.35643504767569995
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.05_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.2637044604378795,
+    "mean_kl": 0.35788620843279706
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.005_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.277850672251732,
+    "mean_kl": 0.3724544356395921
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.05_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.294123235183631,
+    "mean_kl": 0.3885470490607644
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.307599527652518,
+    "mean_kl": 0.40248952601713084
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.315369565287051,
+    "mean_kl": 0.4107694325882035
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.005_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.378834932500147,
+    "mean_kl": 0.4646821937358389
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.9520960168837975,
+    "mean_kl": 1.0483319646606586
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.1719290250815435,
+    "mean_kl": 0.26159719015189553
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.180701995839298,
+    "mean_kl": 0.27184252896642025
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.184958381311182,
+    "mean_kl": 0.27686385275198516
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.187457225877509,
+    "mean_kl": 0.2771227971998204
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.19252504866742,
+    "mean_kl": 0.28669062667407064
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.199961352451401,
+    "mean_kl": 0.2934253588710668
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.200435676800208,
+    "mean_kl": 0.290715552685021
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.205038430716625,
+    "mean_kl": 0.29986832869884555
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.212039386865637,
+    "mean_kl": 0.3049260847491822
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.212557560707099,
+    "mean_kl": 0.30281915643816504
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.213125505737468,
+    "mean_kl": 0.30276273323610237
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.216759995986587,
+    "mean_kl": 0.3094596650792515
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.222294135797677,
+    "mean_kl": 0.3164753272884811
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.2264369829309745,
+    "mean_kl": 0.3210539222982023
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.229448883585791,
+    "mean_kl": 0.32371384031817824
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.2297403458889935,
+    "mean_kl": 0.32559926533854633
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.231219946484948,
+    "mean_kl": 0.3227107070629332
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.234839672132477,
+    "mean_kl": 0.3281081345136906
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.238444252681948,
+    "mean_kl": 0.329846416645096
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.239132515477697,
+    "mean_kl": 0.3355976274410275
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.243132273592006,
+    "mean_kl": 0.33314753199821856
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.245443694883158,
+    "mean_kl": 0.3397299374292617
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.258213467568971,
+    "mean_kl": 0.34919971019470875
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.2583471245294655,
+    "mean_kl": 0.34992249993776264
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.2917838653933815,
+    "mean_kl": 0.38120333242972243
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.299453034406671,
+    "mean_kl": 0.3851503174721113
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.300866699917524,
+    "mean_kl": 0.39041356998610244
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.320038833741076,
+    "mean_kl": 0.40939436936743184
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.337693562484466,
+    "mean_kl": 0.4267142258037057
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.344295810896741,
+    "mean_kl": 0.43264601469203334
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.346844428417799,
+    "mean_kl": 0.4326977325535954
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.365874030478048,
+    "mean_kl": 0.45406326894451243
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring3_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.368143548530773,
+    "mean_kl": 0.4554078899991915
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.407959936842746,
+    "mean_kl": 0.5012220960236402
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.919862734461784,
+    "mean_kl": 1.0196642624823953
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.806539922894098,
+    "mean_kl": 2.8997416104076157
+  },
+  {
+    "beta": 1.2,
+    "key": "ising-parity_dense_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 9.117579740752886,
+    "mean_kl": 5.232499211092074
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.153349709430502,
+    "mean_kl": 0.23833184316584957
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1.5_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.200936860571838,
+    "mean_kl": 0.2876140963689441
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s2_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.224647407355922,
+    "mean_kl": 0.31055916144801227
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s0.75_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.228224815808163,
+    "mean_kl": 0.30875337944819436
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s2_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.259741058576067,
+    "mean_kl": 0.346367545543785
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s2_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.26352166548654,
+    "mean_kl": 0.35170825145834433
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1.5_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.289136400149927,
+    "mean_kl": 0.37988792109439107
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s2_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.306480629197688,
+    "mean_kl": 0.39546726971567125
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1.5_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.319617795554448,
+    "mean_kl": 0.41058733635534567
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s2_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.3359152585752145,
+    "mean_kl": 0.42558907351948844
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.339642457488238,
+    "mean_kl": 0.4238399919270092
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s2_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.343620141181555,
+    "mean_kl": 0.4329848939303765
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s2_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.35807478567589,
+    "mean_kl": 0.44865409340715845
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1.5_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.373821706851298,
+    "mean_kl": 0.4676777039812784
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s2_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.402119282462508,
+    "mean_kl": 0.493860611097923
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.408640286948569,
+    "mean_kl": 0.49269117564607035
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s2_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.430959984635857,
+    "mean_kl": 0.5216537358675943
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s0.75_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.442375560720464,
+    "mean_kl": 0.5212965432199564
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.457603904089699,
+    "mean_kl": 0.545869189649225
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1.5_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.534274708558483,
+    "mean_kl": 0.626342016606596
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1.5_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.553755383240153,
+    "mean_kl": 0.646019585096174
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s0.75_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.558823626248278,
+    "mean_kl": 0.6361363844021094
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s0.75_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.602957543461504,
+    "mean_kl": 0.683774895313648
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1.5_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.614463244022842,
+    "mean_kl": 0.7072818031088512
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.841848098026541,
+    "mean_kl": 0.9355443124717585
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.913422810226068,
+    "mean_kl": 0.9961785158035745
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.96942437346592,
+    "mean_kl": 1.050873629871977
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.050312455786304,
+    "mean_kl": 1.1344175960686613
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s0.75_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.072787322410383,
+    "mean_kl": 1.1431284008681235
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.119697434899011,
+    "mean_kl": 1.2011039248303992
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s0.75_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.134887084510659,
+    "mean_kl": 1.2024061950629155
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s0.75_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.21187791341318,
+    "mean_kl": 1.2818408013785976
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.66960305477699,
+    "mean_kl": 1.729903697368766
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.783777479894252,
+    "mean_kl": 1.8538440048787883
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.80225051992251,
+    "mean_kl": 1.8652723093563341
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.959089857737721,
+    "mean_kl": 2.0291255407975894
+  },
+  {
+    "beta": 1.2,
+    "key": "maxent_features_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.988245042381155,
+    "mean_kl": 3.096235921847995
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.0002_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.1360205371923175,
+    "mean_kl": 0.22444259741630884
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.001_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.140622374485153,
+    "mean_kl": 0.22809477636662132
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.003_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.1640226963172955,
+    "mean_kl": 0.25151776769526774
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.003_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.169158111567048,
+    "mean_kl": 0.25283904350240854
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.001_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.230274721703468,
+    "mean_kl": 0.3133633399341356
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.003_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.346432809360769,
+    "mean_kl": 0.43783525980603893
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.001_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.352167566917527,
+    "mean_kl": 0.446268745752428
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_full_s1_lr0.001_t600_paper",
+    "config": {
+      "model": "transformer",
+      "architecture": "full",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.507756897123412,
+    "mean_kl": 0.5955275180256313
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.0002_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.584422586104109,
+    "mean_kl": 0.6819812119563495
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.001_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.655634060000569,
+    "mean_kl": 0.753237355349461
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.003_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.685199531718953,
+    "mean_kl": 0.7711030289390733
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.0002_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.830723504541184,
+    "mean_kl": 0.9271802125648578
+  },
+  {
+    "beta": 1.2,
+    "key": "transformer_prefix_s1_lr0.0002_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 5.15092215061089,
+    "mean_kl": 1.2465054415815386
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.02_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7078186569066784,
+    "mean_kl": 0.18394688309537596
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.005_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.710240722095727,
+    "mean_kl": 0.1863441728752575
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.02_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7156403296688185,
+    "mean_kl": 0.1916955518725907
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.05_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.73440413535772,
+    "mean_kl": 0.20956984783418603
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.05_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.765526603619608,
+    "mean_kl": 0.243995196238395
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.02_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7667460549355565,
+    "mean_kl": 0.24560191861172737
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.005_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7795656528580137,
+    "mean_kl": 0.2562303470586066
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.005_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.813734438682144,
+    "mean_kl": 0.29446150731503645
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.05_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.8510023763551944,
+    "mean_kl": 0.33126974448880453
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.0069258123092863,
+    "mean_kl": 0.4886417882468005
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.005_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.03477425574356,
+    "mean_kl": 0.5104769312202879
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.1342527018795048,
+    "mean_kl": 0.6168715842124433
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.57570307751472,
+    "mean_kl": 1.061091319181989
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.682590884562792,
+    "mean_kl": 0.15980346652794497
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.6886929075317227,
+    "mean_kl": 0.16669765168539846
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.6981591835808687,
+    "mean_kl": 0.17236282785666682
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.6989994629305234,
+    "mean_kl": 0.1736465103342797
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.70387702952792,
+    "mean_kl": 0.18045896680641632
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7047916846233053,
+    "mean_kl": 0.18409470360871025
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7080418768628727,
+    "mean_kl": 0.18645938862904476
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.710952986714818,
+    "mean_kl": 0.18774895053495935
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7116629835880475,
+    "mean_kl": 0.18656921664870335
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7156201454862754,
+    "mean_kl": 0.18950149890189008
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7190163780139938,
+    "mean_kl": 0.19319236213965948
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7214310265847894,
+    "mean_kl": 0.1957637303021758
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7232095877997087,
+    "mean_kl": 0.2013666446592684
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.725532101773985,
+    "mean_kl": 0.20145079534554186
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.726423113993179,
+    "mean_kl": 0.2029632662479691
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7290225151843956,
+    "mean_kl": 0.20748577915745722
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7296045138780314,
+    "mean_kl": 0.20559492396515924
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7313730352222905,
+    "mean_kl": 0.21206405964956293
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.734696157854006,
+    "mean_kl": 0.2171385713537884
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.735883181153775,
+    "mean_kl": 0.2146638123718298
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7374028337684337,
+    "mean_kl": 0.2138300612996876
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7421239921665777,
+    "mean_kl": 0.22241380017943904
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7482942734795506,
+    "mean_kl": 0.22935102498042292
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.753397359658798,
+    "mean_kl": 0.22932586196262178
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7626005513665346,
+    "mean_kl": 0.24241929049977484
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.773116022698833,
+    "mean_kl": 0.24868792703031922
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.773457823967272,
+    "mean_kl": 0.2593443472003274
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.779810841061135,
+    "mean_kl": 0.26028300270856575
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7989234431469585,
+    "mean_kl": 0.28518192242981877
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.8803220566805736,
+    "mean_kl": 0.3465785724705982
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.0857498727344765,
+    "mean_kl": 0.5490451424262143
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring3_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.0985435492081885,
+    "mean_kl": 0.5939417432419456
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.256369799895495,
+    "mean_kl": 0.7444139570117427
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.661339909595436,
+    "mean_kl": 2.160944317050725
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 13.984336558877406,
+    "mean_kl": 11.565345517872164
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 16.106971914433323,
+    "mean_kl": 13.682370699177673
+  },
+  {
+    "beta": 1.5,
+    "key": "ising-parity_dense_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 17.12006765569462,
+    "mean_kl": 14.686344278887862
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.6711799351277454,
+    "mean_kl": 0.14948409459721873
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s0.75_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.725340814555229,
+    "mean_kl": 0.20523409211369925
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1.5_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.728380970282438,
+    "mean_kl": 0.20384375103969848
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7422944460605243,
+    "mean_kl": 0.22672955615888127
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s2_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7591109171533725,
+    "mean_kl": 0.2370847428834122
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.759817798716323,
+    "mean_kl": 0.24475014516945676
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1.5_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.763108802732623,
+    "mean_kl": 0.2412070464817341
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s2_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7690252518152105,
+    "mean_kl": 0.24578907831993463
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1.5_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7727168015435852,
+    "mean_kl": 0.2495104162820895
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s2_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7927740908552137,
+    "mean_kl": 0.2701025925995613
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s0.75_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.804207973788052,
+    "mean_kl": 0.28685447110852796
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s0.75_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.8350905759471,
+    "mean_kl": 0.3207412713034497
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s2_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.8746460634638553,
+    "mean_kl": 0.35607315861474265
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s2_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.8747852431090797,
+    "mean_kl": 0.35828993175280366
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.8749947646943133,
+    "mean_kl": 0.36770277487355496
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1.5_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.920241432090705,
+    "mean_kl": 0.39269529643459045
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s2_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.921350847797693,
+    "mean_kl": 0.3942761470794323
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s0.75_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.934417419437113,
+    "mean_kl": 0.41856132140112123
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1.5_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.9436326882301556,
+    "mean_kl": 0.42842592834693516
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1.5_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.947775150357133,
+    "mean_kl": 0.4315331311531705
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s2_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.9736655178990916,
+    "mean_kl": 0.45530207206352813
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.986773320451044,
+    "mean_kl": 0.4794747681055062
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.9926708432930558,
+    "mean_kl": 0.4853263357136206
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s0.75_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.043381793399231,
+    "mean_kl": 0.5358551537706333
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s0.75_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.049623507505504,
+    "mean_kl": 0.5413563884552912
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.074891894863515,
+    "mean_kl": 0.570159208966049
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1.5_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.077436347710149,
+    "mean_kl": 0.5616768476859404
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s0.75_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.0856382164945764,
+    "mean_kl": 0.5795736928589544
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s2_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.091609648497758,
+    "mean_kl": 0.5847721571260506
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s2_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.2267043550975125,
+    "mean_kl": 0.7227153036967829
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.2425946743140655,
+    "mean_kl": 0.7428823158090823
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.248061134859152,
+    "mean_kl": 0.7468996233600733
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.301678588620887,
+    "mean_kl": 0.7976440533860895
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.419040681866656,
+    "mean_kl": 0.9181119817842912
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.5144500693501044,
+    "mean_kl": 1.018669889372989
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.6504234992223816,
+    "mean_kl": 1.1793580394377394
+  },
+  {
+    "beta": 1.5,
+    "key": "maxent_features_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.059609355523685,
+    "mean_kl": 1.5736938705250085
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.001_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7211922058384888,
+    "mean_kl": 0.20287025427854544
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.003_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7212018330652663,
+    "mean_kl": 0.2044439443077782
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.003_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7375962104099676,
+    "mean_kl": 0.2171160575806919
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.0002_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.756999885832933,
+    "mean_kl": 0.23653527463865515
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.001_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.7753719661952596,
+    "mean_kl": 0.2596197931508201
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_full_s1_lr0.001_t600_paper",
+    "config": {
+      "model": "transformer",
+      "architecture": "full",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.922533632664393,
+    "mean_kl": 0.4096465819998113
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.003_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.973000902604757,
+    "mean_kl": 0.4715586408377141
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.003_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.054906426623673,
+    "mean_kl": 0.529090126289627
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.001_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.0630198953143752,
+    "mean_kl": 0.5352221595243172
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.0002_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.32410952624191,
+    "mean_kl": 0.801144826263743
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.001_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.3887028367138043,
+    "mean_kl": 0.8672790849995472
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.0002_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.5738931584853857,
+    "mean_kl": 1.0498811579276226
+  },
+  {
+    "beta": 1.5,
+    "key": "transformer_prefix_s1_lr0.0002_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 4.224091052408879,
+    "mean_kl": 1.6932838177631813
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.02_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7916820662153463,
+    "mean_kl": 0.11362311615993714
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.005_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8094310271633034,
+    "mean_kl": 0.13279555446049654
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.05_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8103393838232489,
+    "mean_kl": 0.13058861039979913
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.02_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8116956999902,
+    "mean_kl": 0.13212213200740724
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.05_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8118010239452058,
+    "mean_kl": 0.1343109332015337
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.02_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8363771573926866,
+    "mean_kl": 0.15926277186770735
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.005_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.83841226457429,
+    "mean_kl": 0.1590158365345641
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.05_t200_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.859259082675725,
+    "mean_kl": 0.17975863001938758
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.005_t100_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9024215926941797,
+    "mean_kl": 0.2279120301641247
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9709508720961328,
+    "mean_kl": 0.2933584900834977
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.0720048048891986,
+    "mean_kl": 0.3963988863930713
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.005_t50_support",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.2135295407563786,
+    "mean_kl": 0.5401495134468772
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-nll_dense_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-nll",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.381612824542949,
+    "mean_kl": 0.7104393877640527
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7783218509175438,
+    "mean_kl": 0.09792333902354985
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7788257308087652,
+    "mean_kl": 0.09859832838500018
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7797970611307128,
+    "mean_kl": 0.10174583036414186
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7812663859073705,
+    "mean_kl": 0.10103771443976091
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.782403955845092,
+    "mean_kl": 0.10294973461271402
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.782888474207851,
+    "mean_kl": 0.10584023362335504
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.788546605930033,
+    "mean_kl": 0.10895214719238815
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7894557410811185,
+    "mean_kl": 0.1108738129901777
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7901008630537951,
+    "mean_kl": 0.11064808964729292
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7914199386135745,
+    "mean_kl": 0.11219823296746374
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7935603752286746,
+    "mean_kl": 0.11415790055014116
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.794806021866141,
+    "mean_kl": 0.11784995239990334
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s1_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7973534939204128,
+    "mean_kl": 0.12118932028605134
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7974036128916766,
+    "mean_kl": 0.11775020994211564
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7998322100183575,
+    "mean_kl": 0.12439906288579254
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8005200722059946,
+    "mean_kl": 0.12563915001392528
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8031739380036136,
+    "mean_kl": 0.12821254457311787
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8062095489483698,
+    "mean_kl": 0.12789725850271072
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8086498131545468,
+    "mean_kl": 0.13013866820428008
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8115530369102206,
+    "mean_kl": 0.1320967233713944
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8124704512521688,
+    "mean_kl": 0.1343696416197967
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s1_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8159474155357587,
+    "mean_kl": 0.14115921033667095
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s2_lr0.02_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.816879237840173,
+    "mean_kl": 0.14343251230356996
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8343762448276355,
+    "mean_kl": 0.15746867534622114
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.040670006011536,
+    "mean_kl": 0.37251857442145575
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.1531966302702283,
+    "mean_kl": 0.46999790404317177
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.1558698142303547,
+    "mean_kl": 0.47813296398037985
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.5140812549773033,
+    "mean_kl": 0.872619229098316
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.752811839285606,
+    "mean_kl": 5.12719066440867
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.864395325442251,
+    "mean_kl": 5.264960999661188
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s0.75_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 0.75,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 6.865486766192518,
+    "mean_kl": 5.280921548510958
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s2_lr0.05_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.271507925514797,
+    "mean_kl": 5.6576155973126845
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 7.955710871994945,
+    "mean_kl": 6.338820972135343
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_ring3_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "ring3",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 8.02042682780213,
+    "mean_kl": 6.404692609232387
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s1_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 11.508060589913944,
+    "mean_kl": 9.941757021771613
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s2_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 2.0,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 11.940122671363643,
+    "mean_kl": 10.374730618424895
+  },
+  {
+    "beta": 1.8,
+    "key": "ising-parity_dense_s1.5_lr0.1_t600_support",
+    "config": {
+      "model": "ising-parity",
+      "architecture": "dense",
+      "sigma": 1.5,
+      "lr": 0.1,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 12.233746009891972,
+    "mean_kl": 10.666766461419531
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.7825775196983222,
+    "mean_kl": 0.10648312501869654
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1.5_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8060530140775293,
+    "mean_kl": 0.12798270362103342
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8072415741020535,
+    "mean_kl": 0.12879496764224152
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8075563472598186,
+    "mean_kl": 0.12959282964017532
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s2_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8093369907887218,
+    "mean_kl": 0.13118857816574425
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1.5_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8206579713034656,
+    "mean_kl": 0.14721858327713003
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s0.75_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8245866839619134,
+    "mean_kl": 0.15093262543640137
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s0.75_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8297718337169981,
+    "mean_kl": 0.15457763631637322
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s0.75_lr0.005_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8412516040398441,
+    "mean_kl": 0.16663342012059262
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1.5_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.844839410487023,
+    "mean_kl": 0.16745668534441865
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s2_lr0.005_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8569152499923962,
+    "mean_kl": 0.18129563477963828
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s2_lr0.02_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8678889079475312,
+    "mean_kl": 0.18954603932020817
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s2_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8692474274882653,
+    "mean_kl": 0.19415007104821697
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s2_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8763729825433895,
+    "mean_kl": 0.2013468757285431
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1.5_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.897701007778664,
+    "mean_kl": 0.22088202505646648
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1.5_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9025389642742923,
+    "mean_kl": 0.22621525823341257
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9125668516852492,
+    "mean_kl": 0.23643104334214646
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9153304503085096,
+    "mean_kl": 0.23969102906622278
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s0.75_lr0.02_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9374260062988005,
+    "mean_kl": 0.2658283082933729
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s0.75_lr0.005_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.005,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9409004307929216,
+    "mean_kl": 0.26967916305349543
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9612189222300458,
+    "mean_kl": 0.28259878317351983
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s0.75_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9747320078359714,
+    "mean_kl": 0.3043531964678925
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s2_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9761599554531741,
+    "mean_kl": 0.30278931327451974
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s0.75_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.978411557354346,
+    "mean_kl": 0.3127907790641642
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9849902149146188,
+    "mean_kl": 0.31091621621982535
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1.5_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9967021281272346,
+    "mean_kl": 0.32073507211615676
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s2_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.006473841661396,
+    "mean_kl": 0.3378548598205412
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1.5_lr0.05_t200_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.008175837149391,
+    "mean_kl": 0.33409200697352265
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.0230469254062546,
+    "mean_kl": 0.34969648882450016
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s2_lr0.05_t50_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.025307594418891,
+    "mean_kl": 0.352173957515647
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s0.75_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.032195196450539,
+    "mean_kl": 0.36376312504763725
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s0.75_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 0.75,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.0431071135093744,
+    "mean_kl": 0.37556336065460083
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1.5_lr0.02_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.02,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.050199489535476,
+    "mean_kl": 0.37736093072344346
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.09914338989899,
+    "mean_kl": 0.4313414186736111
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s2_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 2.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.1581679206420032,
+    "mean_kl": 0.49048127853824564
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1.5_lr0.05_t600_support",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.5,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.330003934763318,
+    "mean_kl": 0.6607198473807356
+  },
+  {
+    "beta": 1.8,
+    "key": "maxent_features_s1_lr0.05_t600_paper",
+    "config": {
+      "model": "maxent",
+      "architecture": "features",
+      "sigma": 1.0,
+      "lr": 0.05,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.845134258172494,
+    "mean_kl": 1.2026631824050624
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.003_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8207352177408591,
+    "mean_kl": 0.14835135670343333
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.001_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8269687405429278,
+    "mean_kl": 0.15760578494587454
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.003_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8706716513122648,
+    "mean_kl": 0.19746823703577165
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.001_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.8856219361211852,
+    "mean_kl": 0.21435802995321582
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.003_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9432675134807311,
+    "mean_kl": 0.2871787812022667
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.0002_t600_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 600,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.9534162323303075,
+    "mean_kl": 0.2825032165272484
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_full_s1_lr0.001_t600_paper",
+    "config": {
+      "model": "transformer",
+      "architecture": "full",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 600,
+      "support_aware": false,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 1.983383997649027,
+    "mean_kl": 0.31422741504806256
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.003_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.003,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.176972408798174,
+    "mean_kl": 0.49811018677462443
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.001_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.2143024620942846,
+    "mean_kl": 0.5384899646724718
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.0002_t200_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 200,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.461689793786904,
+    "mean_kl": 0.7844572078725714
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.001_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.001,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.5083269316377934,
+    "mean_kl": 0.8347739978125341
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.0002_t100_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 100,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 2.755935941709757,
+    "mean_kl": 1.0724864649397274
+  },
+  {
+    "beta": 1.8,
+    "key": "transformer_prefix_s1_lr0.0002_t50_support",
+    "config": {
+      "model": "transformer",
+      "architecture": "prefix",
+      "sigma": 1.0,
+      "lr": 0.0002,
+      "steps": 50,
+      "support_aware": true,
+      "l2": 0.0
+    },
+    "runs": 10,
+    "mean_validation_nll": 3.700042897831181,
+    "mean_kl": 2.0100813138536053
+  }
+]

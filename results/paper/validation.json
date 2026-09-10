@@ -1,0 +1,39 @@
+{
+  "checkpoints": 200,
+  "model_rows": 1200,
+  "max_errors": {
+    "normalization": 2.6645352591003757e-15,
+    "kl_recalculation": 0.0,
+    "coverage_recalculation": 0.0,
+    "kl_decomposition": 8.881784197001252e-16
+  },
+  "archived_main_KL_comparison": {
+    "iqp-parity": {
+      "rows": 200,
+      "max_absolute_KL_difference": 0.06904482075880025,
+      "mean_KL_difference": 0.0008055598533053185
+    },
+    "ising-parity": {
+      "rows": 200,
+      "max_absolute_KL_difference": 0.0018637748854146707,
+      "mean_KL_difference": -1.0262387828519903e-05
+    },
+    "ising-nll": {
+      "rows": 200,
+      "max_absolute_KL_difference": 0.0706697279374644,
+      "mean_KL_difference": 0.005456019323174266
+    },
+    "transformer": {
+      "rows": 200,
+      "max_absolute_KL_difference": 0.001022784991634662,
+      "mean_KL_difference": 1.5519101760599064e-05
+    },
+    "maxent": {
+      "rows": 200,
+      "max_absolute_KL_difference": 2.2652158219997616,
+      "mean_KL_difference": 0.12287148509358099
+    }
+  },
+  "source_hash": "cee5d42521aa4437cb18859411b4c5971d1adaf9381596912dcfbd0095f8aa6e",
+  "status": "complete; all numerical checks passed"
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "Original-ring setting selection on the existing 200-dataset cohort. All 4800 run records retained; exact-KL and validation-NLL selection kept separate.",
+  "base_commit": "9b3e60a63a80f7afe37c6555c5f0abfc922a38ca",
+  "files": {
+    "protocols/parity-setting-check.json": "a08dbdb4a8cb2b73374e8a5982a0484570ee740af9ae97a4774a0165c838936e",
+    "results/parity-settings/config.json": "c4598b1703f317812a0d443a0892e474b4d4767bc851b99260c4bed6406f15dd",
+    "results/parity-settings/environment.json": "c9253be250a9aaafb423aed3c426fd06d0f602b1c57efd9c149da3cb3c28690c",
+    "results/parity-settings/metrics.csv": "1a6e339a6a194d5a9f0d20e8720376d145f8084789a5246be60c06c27d70e466",
+    "results/parity-settings/selected-settings.csv": "179a636ba57c74614200b2669e184d677238b83b7ecaf358f42651d8f37bfda3",
+    "results/parity-settings/selection-audit.json": "c09194b31ab8e477a73ae3f2cfda8063397a891e67fab8a92982ff4c04194c8d",
+    "results/parity-settings/summary.json": "ea877e1a42c0a0df0e8d7692a249f6458615f7933703da8a34019335a2f046b1",
+    "results/parity-settings/validation-scores.csv": "b58bad51fe1fa421435d7dea8682b5179dca449ed14ce58cba871a37315763e5",
+    "results/parity-settings/verification.json": "404632338cf3c78f58ab4fcdddb1a15f46f4b00675cd43d09a5fd223ef8c0581",
+    "scripts/check_parity_settings.py": "21480e2ee47b24b82b1056bb2bacc8e7aeed8f7acfc06a89db8297ef5e6d9bd1",
+    "tests/test_parity_settings.py": "1ac736aa6eedbd40702e90d656b587c0953c91a3d5f6ddf353a036a05b998e95"
+  }
+}

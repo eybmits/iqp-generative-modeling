@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "scope": "Exploratory recheck of the original 24-parameter ring on the existing historical cohort; not an independent confirmation or a reproduction of the printed 18 percent.",
+  "n": 12,
+  "m": 200,
+  "steps": 600,
+  "learning_rate": 0.05,
+  "betas": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0,
+    1.1,
+    1.2,
+    1.3,
+    1.4,
+    1.5,
+    1.6,
+    1.7,
+    1.8,
+    1.9,
+    2.0
+  ],
+  "seeds": [
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120
+  ],
+  "sigma": [
+    0.5,
+    1.0,
+    2.0,
+    3.0
+  ],
+  "k": [
+    128,
+    256,
+    512
+  ],
+  "models": [
+    "iqp-parity",
+    "iqp-mse"
+  ],
+  "reference": {
+    "sigma": 1.0,
+    "k": 512
+  },
+  "selection_rules": {
+    "best_fixed": "One sigma/K minimizing mean exact KL over the analyzed cohort; descriptive selection on evaluation data.",
+    "oracle": "A separate sigma/K minimizing exact target KL for each beta/seed; target-aware diagnostic, not an implementable training-only selection rule.",
+    "validation": "Select separately for each beta/seed by mean negative log likelihood on 200 additional IID validation observations shared by all candidates; no exact KL used for this rule."
+  },
+  "validation_samples": 200,
+  "validation_seed_offset": 733001,
+  "controls": [
+    "MSE with the initialization chosen by parity",
+    "Original fixed K512 MSE",
+    "MSE independently selecting among its three distinct K-dependent initializations"
+  ],
+  "resource_accounting": "12 distinct parity fits and 3 distinct MSE fits per beta/seed. Existing CLI executes 12 MSE entries; sigma leaves MSE unchanged. Validation selection uses 200 extra observations for each model family. Each fit receives 200 training draws and 600 updates. Candidate selection changes total search cost.",
+  "uncertainty": "Descriptive paired Student-t 95 percent intervals; average repeated beta values within each of the ten seed IDs. Intervals are not corrected for retrospective setting selection and are not confirmatory claims.",
+  "stopping_rule": "Complete the specified grid and retain every result. Do not add settings or replace seeds based on outcomes."
+}
