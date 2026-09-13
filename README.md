@@ -88,6 +88,15 @@ on all 120 paired datasets.
 
 [Classical comparison](docs/loss-advantage.md) contains model settings and paired intervals.
 
+The IQP architecture has a built-in advantage for this target: its pairwise
+H–RZZ–H circuit guarantees even-parity outputs for every parameter setting,
+without having to learn the constraint or discard invalid samples. This
+alignment with the target support is part of the advantage over the unrestricted
+classical baselines. The [support ablation](docs/supplementary-controls.md)
+examines classical models given the same constraint explicitly. This structural
+advantage is separate from the parity-versus-MSE result, where both IQP models
+already enforce the same support.
+
 ## Limitations
 
 - The results cover this synthetic target and the tested 12-qubit architecture family.

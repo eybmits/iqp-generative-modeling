@@ -26,6 +26,19 @@ Conditional KL normalizes each trained model on the known even-parity support.
 | AR Transformer | .743757 | .367345 | .057350 |
 | MaxEnt parity | 1.926522 | 1.558755 | .031283 |
 
+For the valid even-parity set `S`, the decomposition is
+`KL(p || q) = KL(p || q(. | S)) - log q(S)` whenever the terms are finite.
+Conditioning removes the penalty for probability assigned outside `S`, while
+preserving relative probabilities within `S`. The IQP architecture already has
+`q(S) = 1` by construction, so its two KL columns coincide. This is the concrete
+benefit of its built-in support constraint for this target; unrestricted models
+can incur an additional error from invalid outputs.
+
+This diagnostic conditions already-trained models. The separate
+[support ablation](supplementary-controls.md) trains classical models with the
+constraint explicitly encoded. Both IQP-parity and IQP-MSE have the architectural
+support advantage, so it does not explain their loss-dependent KL difference.
+
 ## Recovery at beta = 0.9
 
 Mean unseen-elite recovery at Q = 1,000 over ten seeds:

@@ -53,6 +53,14 @@ confidence across ten comparisons, including the
 [models with explicit parity support](supplementary-controls.md).
 Recovery and win counts are descriptive.
 
+The comparison includes a structural advantage of the IQP model: its pairwise
+H–RZZ–H architecture enforces the target's even-parity constraint for all angles,
+so it spends no probability mass on invalid strings and needs no rejection or
+post-selection. The full-cube classical baselines do not encode this constraint.
+The [support ablation](supplementary-controls.md) examines how the comparison
+changes when they receive it explicitly. Parity versus IQP-MSE isolates a
+different question, since both losses share the same built-in support.
+
 ## Reproduction
 
 ```bash
