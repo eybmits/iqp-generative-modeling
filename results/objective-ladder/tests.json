@@ -1,0 +1,8 @@
+{
+  "tests": 254,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "command": "python -m pytest -q --disable-warnings",
+  "scope": "Complete repository suite including architecture extension, gradient compatibility and auditor tampering checks"
+}

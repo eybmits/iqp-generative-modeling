@@ -1,5 +1,31 @@
 # Additional results
 
+## When parity supervision improves generalization
+
+The generalization benefit of parity supervision depends on the target
+distribution, IQP architecture and training settings. With settings selected
+by validation likelihood, the advantage over independently tuned MSE is
+statistically supported at beta = 0.9 in the tested 36-, 48-, 60- and
+66-parameter circuits. The 36-parameter parity model achieves the lowest mean
+exact KL; the relative advantage over MSE grows in the larger tested circuits.
+Tuned MSE performs better at 12 and 24 parameters. These results identify
+favorable tested regimes, rather than a universal parameter-count threshold
+or a globally optimal parity setting. See the
+[architecture comparison](parameter-ladder.md).
+
+The [seven-objective ablation](../README.md#seven-objective-ablation) finds that
+parity beats MSE in all four tested circuits and all six alternatives at 36, 48
+and 66 parameters, under correction for 24 comparisons. At 60 parameters,
+spherical has the lowest mean KL and parity shows several high-KL outcomes.
+[Per-seed results](../results/objective-ladder/confirm/metrics.csv) ·
+[Paired statistics and variability](../results/objective-ladder/confirm/summary.json)
+
+The earlier 36-parameter cohort is retained separately in its
+[results](../results/objective-comparison/confirm/summary.json). In the historical
+20-seed rerun, parity and MSE reproduced the earlier rounded means; the previously
+reported NLL value did not reproduce (0.3666 at learning rate 0.10, versus the
+reported approximately 0.421). See the [historical results](../results/objective-comparison/historical/summary.json).
+
 ## Fixed-band 24-parameter circuit
 
 The fixed-band preset uses sigma = 1, K = 512, 200 training observations and
@@ -26,18 +52,14 @@ Conditional KL normalizes each trained model on the known even-parity support.
 | AR Transformer | .743757 | .367345 | .057350 |
 | MaxEnt parity | 1.926522 | 1.558755 | .031283 |
 
-For the valid even-parity set `S`, the decomposition is
+For the valid even-parity set `S`,
 `KL(p || q) = KL(p || q(. | S)) - log q(S)` whenever the terms are finite.
-Conditioning removes the penalty for probability assigned outside `S`, while
-preserving relative probabilities within `S`. The IQP architecture already has
-`q(S) = 1` by construction, so its two KL columns coincide. This is the concrete
-benefit of its built-in support constraint for this target; unrestricted models
-can incur an additional error from invalid outputs.
-
-This diagnostic conditions already-trained models. The separate
-[support ablation](supplementary-controls.md) trains classical models with the
-constraint explicitly encoded. Both IQP-parity and IQP-MSE have the architectural
-support advantage, so it does not explain their loss-dependent KL difference.
+Conditioning removes the penalty for probability outside `S`. Both IQP losses
+already have `q(S) = 1`, so this architectural property does not explain the
+parity-versus-MSE difference. The loss advantage is evaluated separately in the
+architecture and objective comparisons above. This table conditions models
+after training; the [support ablation](supplementary-controls.md) instead gives
+classical models the constraint during training, and some then outperform IQP.
 
 ## Recovery at beta = 0.9
 

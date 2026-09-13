@@ -1,0 +1,50 @@
+{
+  "status": "pass",
+  "stages": {
+    "develop": {
+      "fits": 1680,
+      "failed": 0,
+      "nonfinite_kl": 0
+    },
+    "confirm": {
+      "fits": 3360,
+      "failed": 0,
+      "nonfinite_kl": 0
+    }
+  },
+  "checkpoints": 5040,
+  "unique_datasets": 130,
+  "architecture_dataset_pairs": 520,
+  "max_absolute_errors": {
+    "probabilities": 0.0,
+    "kl": 0.0,
+    "validation_nll": 0.0,
+    "raw_loss": 7.105427357601002e-15,
+    "initial_gradient_norm": 6.938893903907228e-18,
+    "scaled_gradient_norm": 0.0,
+    "summary": 0.0
+  },
+  "source_hashes": {
+    "core.py": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe",
+    "loss_search.py": "9a960cd6a4f76cdc05209806073a8b0f1d95e06a969c7fabffb8198bd00ee568",
+    "objective_losses.py": "2bda529f8e3928de18dd563b6d564efa2f2206d5db2ec0dec17105660d80d2de",
+    "study.py": "2607074f2ff82d4ddd69d673bf575749099105e8e86f50ca058e1bc90dabe9b3",
+    "objective_comparison.py": "96eca3dddb3fdbd36e53e370275e24b58c069a1313cc885768978e9fc5c0df27",
+    "objective_ladder.py": "02ce4dc821b2034b24d43c2c824ec245ab24400361d6fd6490c11681ebd91df8",
+    "parameter_ladder.py": "07cd47cbc2ec9c270b0110e6b252ff62b3a9c60c623b17a13f2ee280bc919a13"
+  },
+  "protocol_sha256": "4b98721728158e09670549c0e21516a0aabb5c05f8e90c012d6a8138ca0f3a58",
+  "evidence_sha256": {
+    "lock.json": "64d21ba01e841f42795b6a653d7b548b6265056d28b606a21ae25d2410edeab8",
+    "develop/metrics.csv": "4a06a8a4359fa4478cf5737d4b37572cb04026f83a25cc6e2d579ebc927c8d56",
+    "develop/summary.json": "e06051a220ad7607a02c0b59b5d2a4ff73f9a6763dbd481bc707580707f266a1",
+    "develop/selection.json": "02a1f8aab6600fc708968b2fab8fd4f5a837dde204e48ab8559762db568774e7",
+    "confirm/metrics.csv": "e828bd384d6ddd15e9476d44a6f5fe95720a074f6219b11c5e79f374acd6eb4e",
+    "confirm/summary.json": "d19a6e9473d5a5aac4fa5b5f7cc1a2abd6330b146a95ba23713debd2b9372e3a",
+    "confirm/seal.json": "60703952cfea455b7cb9db1f2ca50a59191f310489babd2a0fc5ab3ce5aeeb49"
+  },
+  "checkpoint_manifest_sha256": "2b8bf190ec3b04f3eabd5fc7a9819444293ac31d5153324cd913a39ccb5ae39d",
+  "auditor_sha256": "fe4fc2fc875ffe4f90433ce4d29f1fd7aaae4f6c21ea591834f8e8fff508180a",
+  "audit_helper_sha256": "e375428ed3ee6583e388bc7f177cb857382a3d57d0f3a8a2ead3ce5aa05cc338",
+  "limits": "No retraining. Frozen tested circuit kernels reconstruct probabilities and gradients; scalar losses, RNG inputs, validation selection, intervals and descriptive stability are checked independently. Hash consistency does not prove historical freeze timing."
+}

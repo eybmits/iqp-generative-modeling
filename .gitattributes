@@ -1,0 +1,3 @@
+# Preserve the exact CSV bytes recorded in the experiment's provenance hashes.
+results/objective-comparison/**/metrics.csv -text whitespace=cr-at-eol
+results/objective-ladder/**/metrics.csv -text

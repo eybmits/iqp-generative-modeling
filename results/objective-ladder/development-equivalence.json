@@ -1,0 +1,11 @@
+{
+  "status": "pass",
+  "compared_fits": 120,
+  "maximum_absolute_KL_or_validation_difference": 0.0,
+  "shared_input_hashes": "all match",
+  "scope": "Every overlapping parity fit in the four new architecture development grids compared with the original architecture study; no comparison made for differently scaled non-parity training.",
+  "evidence_sha256": {
+    "runs/objective-ladder/develop/metrics.csv": "4a06a8a4359fa4478cf5737d4b37572cb04026f83a25cc6e2d579ebc927c8d56",
+    "results/parameter-ladder/development/metrics.csv": "1563a3e5d0686ee83dd176407a364c2d34e33ad95f83b6fb14f70e68330d2289"
+  }
+}

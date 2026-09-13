@@ -34,6 +34,38 @@ python scripts/check_loss_baselines.py --out runs/development/classical --jobs 2
 python scripts/select_loss_advantage.py --iqp runs/development/iqp --classical runs/development/classical --out runs/selected-protocol.json --selection-out runs/selection.json
 ```
 
+## Gradient-scale-matched objective comparison
+
+```bash
+python -m iqp_repro.objective_comparison historical --out runs/objective-comparison --jobs 3
+python -m iqp_repro.objective_comparison develop --out runs/objective-comparison --jobs 3
+python -m iqp_repro.objective_comparison confirm --out runs/objective-comparison --jobs 3
+python scripts/audit_objective_comparison.py --runs runs/objective-comparison --out runs/objective-comparison/validation.json
+```
+
+The historical stage reconstructs the previously discussed 20-seed comparison,
+including both NLL learning rates. The development stage gives each of seven
+objectives the same six learning rates on ten development datasets; independent
+validation likelihood selects one rate per objective. The confirmation stage
+seals those choices before training on 120 new datasets. Every fit uses a fixed
+scalar that matches its initial gradient norm to parity. See the
+[protocol](../protocols/objective-comparison.json) and
+[results](../results/objective-comparison/confirm/summary.json).
+
+## Seven-objective architecture extension
+
+For the [seven-objective ablation](../README.md#seven-objective-ablation), run:
+
+```bash
+python -m iqp_repro.objective_ladder develop --out runs/objective-ladder --jobs 4
+python -m iqp_repro.objective_ladder confirm --out runs/objective-ladder --jobs 4
+python scripts/audit_objective_ladder.py --runs runs/objective-ladder --out runs/objective-ladder/validation.json
+```
+
+It trains all seven losses on the 36-, 48-, 60- and 66-parameter circuits and
+uses a new common 120-dataset confirmation cohort, with 24 planned paired
+comparisons and separate descriptive stability statistics.
+
 ## Outputs and resuming
 
 Experiments save `metrics.csv`, `summary.json`, configuration and environment

@@ -1,0 +1,61 @@
+{
+  "status": "pass",
+  "stages": {
+    "historical": {
+      "fits": 160,
+      "successful": 160,
+      "failed": 0,
+      "nonfinite_kl": 0,
+      "paired_comparisons": 13
+    },
+    "develop": {
+      "fits": 420,
+      "successful": 420,
+      "failed": 0,
+      "nonfinite_kl": 0,
+      "paired_comparisons": 0
+    },
+    "confirm": {
+      "fits": 840,
+      "successful": 840,
+      "failed": 0,
+      "nonfinite_kl": 0,
+      "paired_comparisons": 11
+    }
+  },
+  "checkpoint_files": 1420,
+  "unique_paired_seeds": 150,
+  "max_absolute_errors": {
+    "probabilities": 0.0,
+    "kl": 0.0,
+    "validation_nll": 0.0,
+    "raw_loss": 1.0658141036401503e-14,
+    "scaled_loss": 2.842170943040401e-14,
+    "initial_gradient_norm": 6.938893903907228e-18,
+    "scaled_gradient_norm": 0.0,
+    "summary": 4.440892098500626e-16
+  },
+  "source_hashes": {
+    "core.py": "5deea5a126999d2766a8d17d9988fa3ec99ed30ac21d9481c024a0b4240219fe",
+    "loss_search.py": "9a960cd6a4f76cdc05209806073a8b0f1d95e06a969c7fabffb8198bd00ee568",
+    "objective_losses.py": "2bda529f8e3928de18dd563b6d564efa2f2206d5db2ec0dec17105660d80d2de",
+    "study.py": "2607074f2ff82d4ddd69d673bf575749099105e8e86f50ca058e1bc90dabe9b3",
+    "objective_comparison.py": "96eca3dddb3fdbd36e53e370275e24b58c069a1313cc885768978e9fc5c0df27"
+  },
+  "protocol_sha256": "f3db44b0854761aa108ea6bc15d167a24d12ab44de5745250ef13e0d85086322",
+  "locked_protocol_sha256": "122ba44ca7a978bff3ceea321ee1e5624cdca559fd6f97e50437a925f5c21774",
+  "evidence_sha256": {
+    "lock.json": "a5ebfa60eff1d7dda26a8c509060abd379402467244e732dba4dd91d4ffaa24b",
+    "develop/selection.json": "ac7a7ded4131273b786680be5ab10a9b365fe05763fbf79b3e2ffd3f89dbbb1e",
+    "confirm/seal.json": "c7028f248e26e4f5b6079a6b38bc37e0407a36cc601108612cf2351eb4f137cc",
+    "historical/metrics.csv": "4f81d3dc5e63dbbe9d529e9b80f3ca36ba0fc7068a511579e3ac5b7a8dd9085d",
+    "historical/summary.json": "637ac375d987ec9d3288b8802790ab2121d344958d658ad968644e7349107577",
+    "develop/metrics.csv": "a5f80c0cc822deeb6ec4484654ee2c77338d4f70b1c8826819e16792b2d7fa63",
+    "develop/summary.json": "b4ce5e4d418c6c34f65a6fc727057a41cc28f9e4d3eb622f98a7fa13058d6dce",
+    "confirm/metrics.csv": "dfeab70c1978e749a88b7fdd6e04aa8bbc2932506a06ea27543b29cde339e890",
+    "confirm/summary.json": "af12c7c19d012ce9112b61c0682c1d186da1522f4b68c616c26c224e17db8594"
+  },
+  "checkpoint_manifest_sha256": "e5076a95537886fa07ee83b9cd96727056806f84358c7799705b468c26132faa",
+  "auditor_sha256": "e375428ed3ee6583e388bc7f177cb857382a3d57d0f3a8a2ead3ce5aa05cc338",
+  "limits": "No retraining. Endpoint circuit gradients use the tested frozen objective kernels; scalar losses, RNG reconstruction, selection and paired inference are independently computed. Hash consistency does not prove historical freeze timing."
+}

@@ -1,0 +1,31 @@
+{
+  "base_commit": "df7de69dd09f05d97979afcf7962c7064a549cc3",
+  "study": "objective-comparison",
+  "fits": 1420,
+  "optimizer_updates": 852000,
+  "checkpoint_storage": "Generated under runs/objective-comparison/checkpoints; binary files are distributed separately, not committed.",
+  "tests": {
+    "tests": 210,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "command": "python -m pytest -q --disable-warnings",
+    "scope": "Complete repository suite including objective kernels, runner and independent audit tests"
+  },
+  "artifacts": {
+    "results/objective-comparison/confirm/execution.json": "23b3a4beda0e0bc721e86e4d8f71a3f73a58bb2c2a52b591c47b4bd1e70282b3",
+    "results/objective-comparison/confirm/metrics.csv": "dfeab70c1978e749a88b7fdd6e04aa8bbc2932506a06ea27543b29cde339e890",
+    "results/objective-comparison/confirm/seal.json": "c7028f248e26e4f5b6079a6b38bc37e0407a36cc601108612cf2351eb4f137cc",
+    "results/objective-comparison/confirm/summary.json": "af12c7c19d012ce9112b61c0682c1d186da1522f4b68c616c26c224e17db8594",
+    "results/objective-comparison/develop/execution.json": "68bc18d385e0c131a8c91655e4cb4d81724d36799d3b472b8c8a4476ce9aadfc",
+    "results/objective-comparison/develop/metrics.csv": "a5f80c0cc822deeb6ec4484654ee2c77338d4f70b1c8826819e16792b2d7fa63",
+    "results/objective-comparison/develop/selection.json": "ac7a7ded4131273b786680be5ab10a9b365fe05763fbf79b3e2ffd3f89dbbb1e",
+    "results/objective-comparison/develop/summary.json": "b4ce5e4d418c6c34f65a6fc727057a41cc28f9e4d3eb622f98a7fa13058d6dce",
+    "results/objective-comparison/historical/execution.json": "cf77c55a2865a7afcaddd6d77862f93c74fe0678a67b3a7a8e8b9f4c39bb34e0",
+    "results/objective-comparison/historical/metrics.csv": "4f81d3dc5e63dbbe9d529e9b80f3ca36ba0fc7068a511579e3ac5b7a8dd9085d",
+    "results/objective-comparison/historical/summary.json": "637ac375d987ec9d3288b8802790ab2121d344958d658ad968644e7349107577",
+    "results/objective-comparison/lock.json": "a5ebfa60eff1d7dda26a8c509060abd379402467244e732dba4dd91d4ffaa24b",
+    "results/objective-comparison/tests.json": "c6a73771fc2661f27f761923672ba768c090cd93dcaa36b6689d3c3cfef20beb",
+    "results/objective-comparison/validation.json": "9dc725a681bcf107334ca44552b7dbcc8b1d5e946c075a0db344783ae6b68edd"
+  }
+}

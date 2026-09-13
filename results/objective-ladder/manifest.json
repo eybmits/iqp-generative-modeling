@@ -1,0 +1,33 @@
+{
+  "base_commit": "df7de69dd09f05d97979afcf7962c7064a549cc3",
+  "study": "objective-ladder",
+  "fits": 5040,
+  "optimizer_updates": 3024000,
+  "development_datasets": 10,
+  "confirmation_datasets": 120,
+  "architectures": 4,
+  "planned_comparisons": 24,
+  "tests": {
+    "tests": 254,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "command": "python -m pytest -q --disable-warnings",
+    "scope": "Complete repository suite including architecture extension, gradient compatibility and auditor tampering checks"
+  },
+  "checkpoint_storage": "runs/objective-ladder/checkpoints; generated or provided in the separate architecture-ablation archive",
+  "artifacts": {
+    "results/objective-ladder/confirm/execution.json": "a85b6d98da06f0db981dd5f5c55e77ddef7dedff17f243e448664960972c901a",
+    "results/objective-ladder/confirm/metrics.csv": "e828bd384d6ddd15e9476d44a6f5fe95720a074f6219b11c5e79f374acd6eb4e",
+    "results/objective-ladder/confirm/seal.json": "60703952cfea455b7cb9db1f2ca50a59191f310489babd2a0fc5ab3ce5aeeb49",
+    "results/objective-ladder/confirm/summary.json": "d19a6e9473d5a5aac4fa5b5f7cc1a2abd6330b146a95ba23713debd2b9372e3a",
+    "results/objective-ladder/develop/execution.json": "54c981528cff192023ded25494108c463daeb9ca08a970fa7e5f697b54d220da",
+    "results/objective-ladder/develop/metrics.csv": "4a06a8a4359fa4478cf5737d4b37572cb04026f83a25cc6e2d579ebc927c8d56",
+    "results/objective-ladder/develop/selection.json": "02a1f8aab6600fc708968b2fab8fd4f5a837dde204e48ab8559762db568774e7",
+    "results/objective-ladder/develop/summary.json": "e06051a220ad7607a02c0b59b5d2a4ff73f9a6763dbd481bc707580707f266a1",
+    "results/objective-ladder/development-equivalence.json": "d311272605532ff7848f91486710a3b36d1a3dd307191d48709bd1c27440b7e2",
+    "results/objective-ladder/lock.json": "64d21ba01e841f42795b6a653d7b548b6265056d28b606a21ae25d2410edeab8",
+    "results/objective-ladder/tests.json": "ec78b3975028add0ca4655e6ba2f00120bf5e6871e8a1a6c31666a7d08f68f9e",
+    "results/objective-ladder/validation.json": "303e448c5bdfa7254ed8e2be4a9766f789eb3e813fda4007db0e68cebefb3d84"
+  }
+}

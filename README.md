@@ -73,6 +73,34 @@ zero for parity minus MSE. The 36-parameter parity model has the lowest mean KL.
 [Full architecture results](docs/parameter-ladder.md) include the 12- and
 24-parameter circuits and controls with matched learning rates.
 
+### Seven-objective ablation
+
+**Parity outperforms MSE across all four tested IQP architectures and all six
+alternative objectives at 36, 48 and 66 parameters, after correction for 24 paired
+comparisons.**
+
+120 new paired datasets; 12 qubits, beta = 0.9, 200 training observations and
+600 updates, with matched initial gradient norms and equal learning-rate searches.
+Lower mean exact KL is better.
+
+| Loss | 36 parameters | 48 parameters | 60 parameters | 66 parameters |
+|---|---:|---:|---:|---:|
+| Parity | **0.3468** | **0.3639** | 0.4662 | **0.4157** |
+| MSE / Brier | 0.3774 | 0.4420 | 0.5663 | 0.7782 |
+| NLL | 0.4068 | 0.4640 | 0.5232 | 0.5186 |
+| Spherical | 0.4296 | 0.4468 | **0.4578** | 0.4516 |
+| Hellinger² | 1.0704 | 1.0527 | 1.0614 | 1.0290 |
+| Jensen–Shannon | 1.2571 | 1.1770 | 1.1360 | 1.1152 |
+| Total variation | 1.9271 | 1.6858 | 1.5638 | 1.5178 |
+
+At 60 parameters, spherical has the lowest mean KL and parity has seven runs with
+KL > 1; superiority over NLL and spherical is unresolved there. At 36, 48 and
+66 parameters, parity also has the lowest observed standard deviation and 95th-percentile KL.
+
+[Per-seed results](results/objective-ladder/confirm/metrics.csv) ·
+[Paired statistics](results/objective-ladder/confirm/summary.json) ·
+[Reproduction](docs/reproduce.md#seven-objective-architecture-extension)
+
 ### Comparison with classical baselines
 
 The 36-parameter IQP-parity model has lower KL than each of these four baselines
@@ -106,6 +134,7 @@ already enforce the same support.
   Ising and the prefix Transformer achieve lower KL than IQP-parity; see
   [models with explicit parity support](docs/supplementary-controls.md).
 - Training uses exact classical simulation. These results do not establish a
-  computational speedup, finite-shot training performance or performance on real-world data.
+  computational speedup, finite-shot training performance or performance on
+  real-world data.
 
 [Corrections](docs/corrections.md) · [Citation](CITATION.cff) · [MIT license](LICENSE)

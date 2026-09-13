@@ -1,0 +1,35 @@
+{
+  "configurations": [
+    {
+      "objective": "parity",
+      "lr": 0.1
+    },
+    {
+      "objective": "mse",
+      "lr": 0.1
+    },
+    {
+      "objective": "nll",
+      "lr": 0.1
+    },
+    {
+      "objective": "spherical",
+      "lr": 0.02
+    },
+    {
+      "objective": "hellinger",
+      "lr": 0.02
+    },
+    {
+      "objective": "js",
+      "lr": 0.01
+    },
+    {
+      "objective": "tv",
+      "lr": 0.2
+    }
+  ],
+  "lock_sha256": "a5ebfa60eff1d7dda26a8c509060abd379402467244e732dba4dd91d4ffaa24b",
+  "metrics_sha256": "a5f80c0cc822deeb6ec4484654ee2c77338d4f70b1c8826819e16792b2d7fa63",
+  "selection_metric": "mean independent validation NLL; exact KL never selects"
+}
