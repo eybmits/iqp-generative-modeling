@@ -75,9 +75,13 @@ zero for parity minus MSE. The 36-parameter parity model has the lowest mean KL.
 
 ### Seven-objective ablation
 
-**Parity outperforms MSE across all four tested IQP architectures and all six
-alternative objectives at 36, 48 and 66 parameters, after correction for 24 paired
-comparisons.**
+**Our seven-objective ablation demonstrates a robust generalization advantage for
+parity loss across multiple IQP architectures. At 36, 48 and 66 parameters, parity
+is the best-performing of all seven tested losses: it significantly outperforms
+every alternative after correction for 24 paired comparisons and achieves the
+lowest observed standard deviation and 95th-percentile KL across 120 paired
+datasets. Parity also significantly outperforms MSE in all four tested
+architectures.**
 
 120 new paired datasets; 12 qubits, beta = 0.9, 200 training observations and
 600 updates, with matched initial gradient norms and equal learning-rate searches.
@@ -93,9 +97,9 @@ Lower mean exact KL is better.
 | Jensen–Shannon | 1.2571 | 1.1770 | 1.1360 | 1.1152 |
 | Total variation | 1.9271 | 1.6858 | 1.5638 | 1.5178 |
 
-At 60 parameters, spherical has the lowest mean KL and parity has seven runs with
-KL > 1; superiority over NLL and spherical is unresolved there. At 36, 48 and
-66 parameters, parity also has the lowest observed standard deviation and 95th-percentile KL.
+These findings apply to the tested target and training protocol. At 60 parameters,
+spherical has the lowest mean KL and parity has seven runs with KL > 1;
+parity's superiority over NLL and spherical remains unresolved there.
 
 [Per-seed results](results/objective-ladder/confirm/metrics.csv) ·
 [Paired statistics](results/objective-ladder/confirm/summary.json) ·
